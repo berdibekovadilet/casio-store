@@ -1,0 +1,36 @@
+.button {
+   display: flex;
+   box-sizing: border-box;
+   padding: 8px 16px;
+   cursor: pointer;
+   text-align: center;
+   border: none;
+   border-radius: 6px;
+   font-size: 14px;
+   font-weight: 600;
+   transition: all 0.3s ease;
+}
+
+.primary {
+   color: var(--dark);
+   background-color: var(--lemon);
+   transition: all 0.2s ease;
+}
+
+.secondary {
+   color: var(--white);
+   background-color: var(--blue);
+   font-size: 18px;
+   transition: all 0.2s ease;
+}
+
+.primary:hover,
+.secondary:hover {
+   transform: scale(1.1);
+}
+
+.icon {
+   width: 16px;
+   height: 16px;
+   margin-left: 10px;
+}
