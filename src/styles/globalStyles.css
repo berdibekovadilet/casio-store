@@ -6,3 +6,52 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --white: #fff;
+  --dark: #000;
+  --darkgray: #c1c1c1;
+  --ligthgray: #f7f8fa;
+  --blue: #403cfe;
+  --lemon: #ecfe3c;
+  --lemonhover: #d4e722;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 58px;
+  font-weight: 400;
+  color: var(--dark);
+  margin: 0;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 500;
+  color: var(--dark);
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--dark);
+  margin: 0;
+}
+
+h4 {
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 400;
+  color: var(--dark);
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: var(--dark);
+  margin: 0;
+}
