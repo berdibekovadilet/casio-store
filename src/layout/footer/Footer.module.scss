@@ -1,0 +1,20 @@
+.container {
+   margin-top: 80px;
+   background-color: var(--dark);
+   color: var(--white);
+   width: 100vw;
+   margin-left: calc(50% - 50vw);
+   .row {
+      width: 1280px;
+      margin: 0 auto;
+      padding: 62px 16px;
+      .column {
+         display: flex;
+         justify-content: space-between;
+         p {
+            color: var(--white);
+            margin-bottom: 16px;
+         }
+      }
+   }
+}
