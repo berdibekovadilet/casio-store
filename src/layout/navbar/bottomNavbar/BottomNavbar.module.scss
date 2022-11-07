@@ -1,0 +1,31 @@
+.container {
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   .logo {
+      text-transform: uppercase;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      &:hover {
+         transform: scale(1.1);
+      }
+   }
+   .links {
+      display: flex;
+      justify-content: flex-end;
+
+      .menu_item {
+         text-decoration: none;
+         color: var(--dark);
+         margin-right: 16px;
+         font-size: 14px;
+         transition: all 0.1s ease;
+         cursor: pointer;
+         &:hover {
+            transform: scale(1.1);
+         }
+      }
+   }
+}

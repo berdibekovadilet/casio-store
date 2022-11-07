@@ -1,0 +1,26 @@
+.container {
+   background-color: var(--lemon);
+   width: 100vw;
+   margin-left: calc(50% - 50vw);
+   height: 40px;
+   display: flex;
+   align-items: center;
+   .links {
+      width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: flex-end;
+
+      .menu_item {
+         text-decoration: none;
+         color: var(--dark);
+         margin-right: 16px;
+         cursor: pointer;
+         font-size: 14px;
+         transition: all 0.1s ease;
+         &:hover {
+            transform: scale(1.1);
+         }
+      }
+   }
+}

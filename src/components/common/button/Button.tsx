@@ -23,13 +23,13 @@ export const Button = ({
   return (
     <button
       className={cn(styles.button, className, {
-        [styles.primary]: appearance == "primary",
-        [styles.secondary]: appearance == "secondary",
+        [styles.primary]: appearance === "primary",
+        [styles.secondary]: appearance === "secondary",
       })}
       {...props}
     >
       {children}
-      {icon != "none" && (
+      {icon !== "none" && (
         <img src={ArrowIcon} className={styles.icon} alt="icon" />
       )}
     </button>
