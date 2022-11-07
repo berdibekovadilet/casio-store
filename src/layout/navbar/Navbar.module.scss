@@ -1,0 +1,16 @@
+.wrapper {
+   margin-bottom: 40px;
+}
+
+.mobile_nav {
+   display: none;
+}
+
+@media screen and (max-width: 768px) {
+   .desktop_nav {
+      display: none;
+   }
+   .mobile_nav {
+      display: block;
+   }
+}
