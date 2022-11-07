@@ -1,5 +1,6 @@
 import styles from "./BottomNavbar.module.scss";
 import { links } from "./links";
+import ShoppingCart from "assets/icons/ShoppingCart.svg";
 
 const BottomNavbar = () => {
   return (
@@ -11,6 +12,18 @@ const BottomNavbar = () => {
             {link.label}
           </a>
         ))}
+        <div className={styles.cart_container}>
+          <a href="#/" className={styles.cart_link}>
+            <span>0 $</span>
+            <div className={styles.separator}></div>
+            <img
+              src={ShoppingCart}
+              className={styles.icon}
+              alt="shopCartIcon"
+            />
+            <span>0</span>
+          </a>
+        </div>
       </nav>
     </div>
   );
