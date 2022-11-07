@@ -5,20 +5,27 @@
    width: 100vw;
    margin-left: calc(50% - 50vw);
    .row {
-      width: 1280px;
+      max-width: 1280px;
       margin: 0 auto;
       padding: 62px 16px;
       .column {
          display: flex;
          justify-content: space-between;
+         flex-wrap: wrap;
          p {
             color: var(--white);
             margin-bottom: 16px;
             transition: all 0.1s ease;
             &:hover {
-               transform: scale(1.1);
+               opacity: 0.6;
             }
          }
       }
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .column {
+      flex-direction: column;
    }
 }
