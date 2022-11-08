@@ -9,7 +9,7 @@
       transition: all 0.2s ease;
       cursor: pointer;
       &:hover {
-         transform: scale(1.1);
+         transform: scale(1.04);
       }
    }
    .links {
@@ -22,7 +22,7 @@
          transition: all 0.1s ease;
          cursor: pointer;
          &:hover {
-            transform: scale(1.1);
+            transform: scale(1.06);
          }
       }
 
@@ -34,7 +34,7 @@
             transition: all 0.1s ease;
             cursor: pointer;
             &:hover {
-               transform: scale(1.1);
+               transform: scale(1.06);
             }
             img {
                margin-right: 4px;
