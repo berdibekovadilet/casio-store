@@ -11,14 +11,8 @@ function App() {
   return (
     <div className="container">
       <Layout>
-        <BannerGroup
-          banners={bigBannersData1}
-          smaBanners={smallBannersData1}
-        />
-        <BannerGroup
-          banners={bigBannersData2}
-          smaBanners={smallBannersData2}
-        />
+        <BannerGroup banners={bigBannersData1} smaBanners={smallBannersData1} />
+        <BannerGroup banners={bigBannersData2} smaBanners={smallBannersData2} />
       </Layout>
     </div>
   );

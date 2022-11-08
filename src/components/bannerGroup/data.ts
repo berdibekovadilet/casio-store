@@ -7,7 +7,7 @@ import bgBanner6 from "assets/banners/bga-310.webp";
 
 import smBanner1 from "assets/banners/gmb2100.webp";
 import smBanner2 from "assets/banners/gma-s2100ba.webp";
-import smBanner3 from "assets/banners/bga-3102.webp";
+import smBanner3 from "assets/banners/bga-310.png";
 import smBanner4 from "assets/banners/she-4543.webp";
 
 export interface IBanner {
@@ -53,7 +53,7 @@ export const bigBannersData2: IBanner[] = [
   },
   {
     id: 3,
-    title: "Edifice EQW-A2000HR",
+    title: "Baby-G BGA-310",
     href: "/",
     img: bgBanner6,
   },
