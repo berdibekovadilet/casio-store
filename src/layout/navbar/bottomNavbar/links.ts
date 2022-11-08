@@ -1,4 +1,4 @@
-export const links = [
+export const bottomLinks = [
   {
     label: "All Watches",
     href: "/shop",

@@ -7,6 +7,10 @@
 }
 
 @media screen and (max-width: 768px) {
+   .wrapper {
+      margin-bottom: 100px;
+   }
+
    .desktop_nav {
       display: none;
    }
