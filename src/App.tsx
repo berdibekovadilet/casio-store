@@ -1,9 +1,12 @@
+import { BannerGroup } from "components";
 import Layout from "layout/Layout";
 
 function App() {
   return (
     <div className="container">
-      <Layout>content</Layout>
+      <Layout>
+        <BannerGroup />
+      </Layout>
     </div>
   );
 }
