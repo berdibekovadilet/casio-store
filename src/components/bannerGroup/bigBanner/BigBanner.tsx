@@ -8,6 +8,7 @@ const BigBanner = () => {
   const moveDot = (index: number) => {
     setSlideIndex(index);
   };
+
   return (
     <div className={styles.container}>
       {data.map((item, index) => (
