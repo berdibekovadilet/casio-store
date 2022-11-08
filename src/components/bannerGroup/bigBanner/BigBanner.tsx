@@ -1,8 +1,7 @@
 import { useState } from "react";
 import styles from "./BigBanner.module.scss";
-import { data } from "./data";
 
-const BigBanner = () => {
+const BigBanner = ({ banners }: any) => {
   const [slideIndex, setSlideIndex] = useState(1);
 
   const moveDot = (index: number) => {
@@ -11,7 +10,7 @@ const BigBanner = () => {
 
   return (
     <div className={styles.container}>
-      {data.map((item, index) => (
+      {banners.map((item: any, index: number) => (
         <div
           key={item.id}
           className={
@@ -25,8 +24,9 @@ const BigBanner = () => {
         </div>
       ))}
       <div className={styles.containerDots}>
-        {Array.from({ length: 3 }).map((item, index) => (
+        {Array.from({ length: 3 }).map((_, index) => (
           <div
+            key={index}
             onClick={() => moveDot(index + 1)}
             className={slideIndex === index + 1 ? styles.dotActive : styles.dot}
           ></div>
