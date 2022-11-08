@@ -27,5 +27,11 @@
 @media screen and (max-width: 768px) {
    .column {
       flex-direction: column;
+      h5 {
+         font-size: 22px;
+      }
+   }
+   p {
+      font-size: 18px;
    }
 }
