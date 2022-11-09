@@ -6,7 +6,7 @@ import {
   smallBannersData2,
 } from "components/bannerGroup/data";
 
-const Home = () => {
+export const Home = () => {
   return (
     <>
       <BannerGroup banners={bigBannersData1} smBanners={smallBannersData1} />
@@ -17,5 +17,3 @@ const Home = () => {
     </>
   );
 };
-
-export default Home;

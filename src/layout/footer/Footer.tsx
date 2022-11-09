@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styles from "./Footer.module.scss";
 import { links } from "./links";
 
@@ -12,7 +11,7 @@ const Footer = () => {
               {arr.map((item, index) => (
                 <div key={index}>
                   <h5>{item.title}</h5>
-                  <a href={item.href}>
+                  <a href={item.href} target="_blank" rel="noreferrer">
                     <p>{item.label}</p>
                   </a>
                 </div>
