@@ -1,19 +1,22 @@
+import { Link } from "react-router-dom";
 import styles from "./BottomNavbar.module.scss";
-import { bottomLinks } from "./links";
 import ShoppingCart from "assets/icons/ShoppingCart.svg";
+import { bottomLinks } from "./links";
 
 const BottomNavbar = () => {
   return (
     <div className={styles.container}>
-      <h3 className={styles.logo}>Casio store</h3>
+      <h3 className={styles.logo}>
+        <Link to="/">Casio store</Link>
+      </h3>
       <nav className={styles.links}>
         {bottomLinks.map((link) => (
-          <a className={styles.menu_item} href={link.href} key={link.label}>
+          <Link className={styles.menu_item} to={link.href} key={link.label}>
             {link.label}
-          </a>
+          </Link>
         ))}
         <div className={styles.cart_container}>
-          <a href="#/" className={styles.cart_link}>
+          <Link to="cart" className={styles.cart_link}>
             <span>0 $</span>
             <div className={styles.separator}></div>
             <img
@@ -22,7 +25,7 @@ const BottomNavbar = () => {
               alt="shopCartIcon"
             />
             <span>0</span>
-          </a>
+          </Link>
         </div>
       </nav>
     </div>

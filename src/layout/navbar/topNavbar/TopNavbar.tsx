@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { links } from "./links";
 import styles from "./TopNavbar.module.scss";
 
@@ -6,9 +7,9 @@ const TopNavbar = () => {
     <div className={styles.container}>
       <nav className={styles.links}>
         {links.map((link) => (
-          <a className={styles.menu_item} href={link.href} key={link.label}>
+          <Link className={styles.menu_item} to={link.href} key={link.label}>
             {link.label}
-          </a>
+          </Link>
         ))}
       </nav>
     </div>
