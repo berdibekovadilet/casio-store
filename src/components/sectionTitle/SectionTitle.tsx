@@ -1,7 +1,11 @@
 import { Button } from "components/common/button/Button";
 import styles from "./SectionTitle.module.scss";
 
-export const SectionTitle = ({ title }: any): JSX.Element => {
+type Props = {
+  title: string;
+};
+
+export const SectionTitle: React.FC<Props> = ({ title }) => {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>{title}</h2>

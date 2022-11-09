@@ -1,7 +1,7 @@
 import styles from "./WhyWe.module.scss";
 import { data } from "./data";
 
-const WhyWe = () => {
+export const WhyWe = () => {
   return (
     <div className={styles.container}>
       <div className={styles.row}>
@@ -18,5 +18,3 @@ const WhyWe = () => {
     </div>
   );
 };
-
-export default WhyWe;

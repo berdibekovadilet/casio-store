@@ -10,12 +10,12 @@ import smBanner2 from "assets/banners/gma-s2100ba.webp";
 import smBanner3 from "assets/banners/bga-310.png";
 import smBanner4 from "assets/banners/she-4543.webp";
 
-export interface IBanner {
+export type IBanner = {
   id: number;
   title: string;
   href: string;
   img: string;
-}
+};
 
 export const bigBannersData1: IBanner[] = [
   {

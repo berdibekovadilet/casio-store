@@ -1,9 +1,9 @@
 import styles from "./SmallBanner.module.scss";
 
-const SmallBanner = ({ smaBanners }: any) => {
+const SmallBanner = ({ smBanners }: any) => {
   return (
     <div className={styles.container}>
-      {smaBanners.map((item: any) => (
+      {smBanners.map((item: any) => (
         <div className={styles.wrapper} key={item.id}>
           <a href={item.href}>
             <h3>{item.title}</h3>
