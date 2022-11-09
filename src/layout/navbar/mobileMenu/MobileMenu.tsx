@@ -52,6 +52,7 @@ const MobileMenu = () => {
                     className={styles.menu_item}
                     to={link.href}
                     key={link.label}
+                    onClick={menuToggler}
                   >
                     {link.label}
                   </Link>
@@ -59,13 +60,14 @@ const MobileMenu = () => {
               </nav>
               <nav className={styles.links}>
                 {bottomLinks.map((link) => (
-                  <a
+                  <Link
                     className={styles.menu_item}
-                    href={link.href}
+                    to={link.href}
                     key={link.label}
+                    onClick={menuToggler}
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 ))}
               </nav>
             </div>
