@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import ShoppingCart from "assets/icons/ShoppingCart.svg";
 import BurgerMenu from "assets/icons/BurgerMenu.svg";
 import Close from "assets/icons/Close.svg";
@@ -23,10 +24,12 @@ const MobileMenu = () => {
                   alt="burgerMenuIcon"
                 />
               </div>
-              <h3 className={styles.logo}>Casio store</h3>
+              <h3 className={styles.logo}>
+                <Link to="/">Casio store</Link>
+              </h3>
             </div>
             <div className={styles.nav_right}>
-              <a href="#/" className={styles.cart_link}>
+              <Link to="cart" className={styles.cart_link}>
                 <span>0 $</span>
                 <div className={styles.separator}></div>
                 <img
@@ -35,7 +38,7 @@ const MobileMenu = () => {
                   alt="shopCartIcon"
                 />
                 <span>0</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -45,13 +48,13 @@ const MobileMenu = () => {
             <div className={styles.wrapper_close}>
               <nav className={styles.links}>
                 {links.map((link) => (
-                  <a
+                  <Link
                     className={styles.menu_item}
-                    href={link.href}
+                    to={link.href}
                     key={link.label}
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 ))}
               </nav>
               <nav className={styles.links}>
