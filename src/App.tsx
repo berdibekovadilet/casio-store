@@ -1,4 +1,4 @@
-import { BannerGroup } from "components";
+import { BannerGroup, SectionTitle } from "components";
 import Layout from "layout/Layout";
 import {
   bigBannersData1,
@@ -13,8 +13,10 @@ function App() {
     <div className="container">
       <Layout>
         <BannerGroup banners={bigBannersData1} smaBanners={smallBannersData1} />
+        <SectionTitle title="Popular" />
         <WhyWe />
         <BannerGroup banners={bigBannersData2} smaBanners={smallBannersData2} />
+        <SectionTitle title="Trend" />
       </Layout>
     </div>
   );
