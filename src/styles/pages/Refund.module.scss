@@ -1,0 +1,21 @@
+.container {
+   h2 {
+      text-align: center;
+      text-transform: uppercase;
+      margin: 32px 0;
+   }
+   h3 {
+      margin-top: 24px;
+   }
+   h4 {
+      margin-top: 16px;
+      line-height: 28px;
+   }
+   a {
+      margin: 0 4px;
+      transition: all 0.2s ease;
+      &:hover {
+         color: coral;
+      }
+   }
+}
