@@ -1,0 +1,18 @@
+.container {
+   margin-top: 40px;
+   h3 {
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 16px;
+   }
+   .wrapper {
+      display: flex;
+      max-width: 500px;
+      margin: 0 auto;
+   }
+   p {
+      margin-top: 12px;
+      text-align: center;
+      line-height: 24px;
+   }
+}
