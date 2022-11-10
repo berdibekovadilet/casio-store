@@ -8,7 +8,7 @@ export const links = [
       href: "/about",
     },
     {
-      label: "Policy",
+      label: "Privacy Policy",
       href: "/policy",
     },
     {
