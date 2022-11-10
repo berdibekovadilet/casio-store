@@ -1,5 +1,5 @@
 import bgBanner1 from "assets/banners/msg-w200.webp";
-import bgBanner2 from "assets/banners/gwg-2040fr.jpg";
+import bgBanner2 from "assets/banners/gwg-2040fr.webp";
 import bgBanner3 from "assets/banners/eqw-a2000hr.webp";
 import bgBanner4 from "assets/banners/eqs-940.webp";
 import bgBanner5 from "assets/banners/msg-w350.webp";
@@ -7,7 +7,7 @@ import bgBanner6 from "assets/banners/bga-310.webp";
 
 import smBanner1 from "assets/banners/gmb2100.webp";
 import smBanner2 from "assets/banners/gma-s2100ba.webp";
-import smBanner3 from "assets/banners/bga-310.png";
+import smBanner3 from "assets/banners/bga-311.webp";
 import smBanner4 from "assets/banners/she-4543.webp";
 
 export type IBanner = {

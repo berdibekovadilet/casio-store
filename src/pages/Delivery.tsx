@@ -1,5 +1,4 @@
 import styles from "../styles/pages/Delivery.module.scss";
-import ServiceImg from "assets/images/service-header.jpg";
 import { Newsletter } from "components";
 
 export const Delivery = () => {

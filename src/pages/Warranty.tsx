@@ -1,5 +1,5 @@
 import styles from "../styles/pages/Warranty.module.scss";
-import ServiceImg from "assets/images/service-header.jpg";
+import HeroImg from "assets/images/service.webp";
 import { Newsletter } from "components";
 
 export const Warranty = () => {
@@ -11,7 +11,7 @@ export const Warranty = () => {
         equipment, and are provided with an official guarantee from the
         manufacturers.
       </h3>
-      <img src={ServiceImg} alt="warranty" />
+      <img src={HeroImg} alt="warranty" />
       <h4>
         All products are covered by the warranty of the corresponding service
         centers specified in the warranty card (service booklet) - from 1 year
