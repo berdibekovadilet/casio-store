@@ -4,7 +4,7 @@ export const links = [
       title: "THE COMPANY",
     },
     {
-      label: "About us",
+      label: "About Us",
       href: "/about",
     },
     {
