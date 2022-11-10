@@ -5,15 +5,16 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 32px;
-      padding: 7px 15px 7px 0;
+      height: 24px;
+      padding: 8px 16px 0 0;
       transition: all 0.3s ease;
-      margin-bottom: 16px;
+      margin-bottom: 8px;
       &:hover {
          cursor: pointer;
       }
       .title {
          text-transform: uppercase;
+         font-weight: 600;
       }
 
       .icon {
@@ -33,5 +34,12 @@
          overflow: hidden;
          transition: all 0.3s;
       }
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .header {
+      min-height: 32px !important;
+      margin-bottom: 24px !important;
    }
 }

@@ -30,7 +30,7 @@ export const Accordion: React.FC<IAccordionProps> = ({
       })}
     >
       <div className={styles.header} onClick={handleToggleAccordion}>
-        <h3 className={styles.title}>{title}</h3>
+        <div className={styles.title}>{title}</div>
         {isOpen ? (
           <h2 className={styles.iconActive}>+</h2>
         ) : (
