@@ -10,7 +10,6 @@ import {
   Home,
   Login,
   NoMatch,
-  Order,
   Policy,
   Refund,
   Shop,
@@ -38,7 +37,6 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="faq" element={<FAQ />} />
 
-          <Route path="orders" element={<Order />} />
           <Route path="delivery" element={<Delivery />} />
           <Route path="warranty" element={<Warranty />} />
           <Route path="refund" element={<Refund />} />

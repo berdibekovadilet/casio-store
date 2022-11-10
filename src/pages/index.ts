@@ -8,7 +8,6 @@ export * from "./FAQ";
 export * from "./Home";
 export * from "./Login";
 export * from "./NoMatch";
-export * from "./Order";
 export * from "./Policy";
 export * from "./Refund";
 export * from "./Shop";

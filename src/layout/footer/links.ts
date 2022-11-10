@@ -38,10 +38,6 @@ export const links = [
       title: "HOW WE WORK",
     },
     {
-      label: "Orders",
-      href: "/orders",
-    },
-    {
       label: "Delivery",
       href: "/delivery",
     },
