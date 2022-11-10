@@ -1,0 +1,37 @@
+.container {
+   margin-top: 16px;
+   border-bottom: 1px solid lightgray;
+   .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 32px;
+      padding: 7px 15px 7px 0;
+      transition: all 0.3s ease;
+      margin-bottom: 16px;
+      &:hover {
+         cursor: pointer;
+      }
+      .title {
+         text-transform: uppercase;
+      }
+
+      .icon {
+         transition: all 0.3s ease;
+         font-size: 36px;
+      }
+      .iconActive {
+         transition: all 0.3s ease;
+         font-size: 36px;
+         transform: rotate(135deg);
+      }
+   }
+
+   .slideDown {
+      .content {
+         padding: 16px 0px;
+         overflow: hidden;
+         transition: all 0.3s;
+      }
+   }
+}
