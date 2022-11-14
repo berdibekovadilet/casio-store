@@ -8,3 +8,4 @@ export * from "./newsletter/Newsletter";
 export * from "./card/Card";
 export * from "./popular/Popular";
 export * from "./trend/Trend";
+export * from "./about/About";

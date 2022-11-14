@@ -1,4 +1,5 @@
 import {
+  About,
   BannerGroup,
   Newsletter,
   Popular,
@@ -20,6 +21,7 @@ export const Home = () => {
       <WhyWe />
       <BannerGroup banners={bigBannersData2} smBanners={smallBannersData2} />
       <Trend />
+      <About />
       <Newsletter />
     </>
   );
