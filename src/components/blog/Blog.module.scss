@@ -1,0 +1,11 @@
+.container {
+   margin: 40px 0;
+   .titleWrapper {
+      margin-bottom: 8px;
+   }
+   .cardWrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+   }
+}

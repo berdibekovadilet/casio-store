@@ -9,3 +9,5 @@ export * from "./card/Card";
 export * from "./popular/Popular";
 export * from "./trend/Trend";
 export * from "./about/About";
+export * from "./blog/Blog";
+export * from "./blog/blogCard/BlogCard";
