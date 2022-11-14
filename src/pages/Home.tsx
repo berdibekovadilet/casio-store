@@ -1,4 +1,10 @@
-import { BannerGroup, Newsletter, SectionTitle, WhyWe } from "components";
+import {
+  BannerGroup,
+  Newsletter,
+  Popular,
+  SectionTitle,
+  WhyWe,
+} from "components";
 import {
   bigBannersData1,
   bigBannersData2,
@@ -10,7 +16,7 @@ export const Home = () => {
   return (
     <>
       <BannerGroup banners={bigBannersData1} smBanners={smallBannersData1} />
-      <SectionTitle title="Popular" />
+      <Popular />
       <WhyWe />
       <BannerGroup banners={bigBannersData2} smBanners={smallBannersData2} />
       <SectionTitle title="Trend" />
