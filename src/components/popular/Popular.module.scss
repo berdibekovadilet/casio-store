@@ -1,9 +1,11 @@
 .container {
+   margin: 24px 0;
+   .titleWrapper {
+      margin-bottom: 8px;
+   }
    .cardWrapper {
       display: flex;
+      justify-content: space-between;
       flex-wrap: wrap;
-      > * {
-         margin-right: 20px;
-      }
    }
 }
