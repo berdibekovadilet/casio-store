@@ -10,7 +10,7 @@ export const Blog = () => {
         <SectionTitle title="Blog" />
       </div>
       <div className={styles.cardWrapper}>
-        <BlogCard />
+        <BlogCard data={data} />
       </div>
     </div>
   );

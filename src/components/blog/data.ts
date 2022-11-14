@@ -2,7 +2,15 @@ import img1 from "assets/blog/msg-w350-7a.webp";
 import img2 from "assets/blog/ecb-30.webp";
 import img3 from "assets/blog/gwg-2040fr.webp";
 
-export const data = [
+export interface BlogProps {
+  id: number;
+  postData: string;
+  title: string;
+  img: string;
+  link: string;
+}
+
+export const data: BlogProps[] = [
   {
     id: 1,
     postData: "12.12.2022",
