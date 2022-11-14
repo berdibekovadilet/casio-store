@@ -16,7 +16,7 @@ export const bottomLinks = [
     href: "/babyg",
   },
   {
-    label: "Sheen",
-    href: "/sheen",
+    label: "Pro Trek",
+    href: "/protrek",
   },
 ];
