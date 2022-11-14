@@ -2,7 +2,7 @@ import {
   BannerGroup,
   Newsletter,
   Popular,
-  SectionTitle,
+  Trend,
   WhyWe,
 } from "components";
 import {
@@ -19,7 +19,7 @@ export const Home = () => {
       <Popular />
       <WhyWe />
       <BannerGroup banners={bigBannersData2} smBanners={smallBannersData2} />
-      <SectionTitle title="Trend" />
+      <Trend />
       <Newsletter />
     </>
   );

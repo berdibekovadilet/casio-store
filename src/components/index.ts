@@ -7,3 +7,4 @@ export * from "./whyWe/WhyWe";
 export * from "./newsletter/Newsletter";
 export * from "./card/Card";
 export * from "./popular/Popular";
+export * from "./trend/Trend";

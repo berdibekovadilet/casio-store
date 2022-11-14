@@ -20,7 +20,7 @@
    .infoWrapper {
       margin-top: 16px;
       .title {
-         max-width: 300px;
+         // max-width: 300px;
       }
       .priceWrapper {
          display: flex;
@@ -48,9 +48,12 @@
             height: 120px;
          }
       }
-
-      .title {
+      .infoWrapper {
          width: 159px;
+         h4 {
+            width: 159px;
+            word-wrap: break-word;
+         }
       }
    }
 }
