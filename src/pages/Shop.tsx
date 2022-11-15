@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Card } from "components";
+import styles from "../styles/pages/Shop.module.scss";
 
 const baseUrl = "https://63734623348e947299079d45.mockapi.io/products";
 
@@ -16,5 +17,10 @@ export const Shop = () => {
 
   const products = items.map((obj: any) => <Card key={obj.id} {...obj} />);
 
-  return <>{products}</>;
+  return (
+    <div className={styles.container}>
+      <div className={styles.topWrapper}></div>
+      <div className={styles.productsWrapper}>{products}</div>
+    </div>
+  );
 };

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "cover": "assets/products/gshock/gae2100we3a/GAE-2100WE-3A.webp",
+    "cover": "products/gshock/gae2100we3a/GAE-2100WE-3A.webp",
     "title": "G-SHOCK GAE2100WE-3A",
     "price": 210,
     "oldPrice": 290,
@@ -9,19 +9,71 @@
     "rating": 7,
     "description": "From the toughness-driven G-SHOCK, a design inspired by adventurers whose love of the wilderness knows no bounds. Switch between interchangeable bands and bezels for a thin octagonal GAE-2100 with an even wilder spirit. Green nature-inspired camouflage and vibrant outdoor-fashion orange take you from fashionable urban streets to wilderness exploration in cool, casual style.",
     "images": [
-      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A.webp",
-      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A_package.webp",
-      "assets/products/gshock/gae2100we3a/GAE2100WE-3A_BACK.webp",
-      "assets/products/gshock/gae2100we3a/GAE2100WE-3A_SIDE.webp",
-      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A_N.webp",
-      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A_belt.webp",
-      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A_SIDE2.webp",
-      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A_BACK2.webp"
+      "products/gshock/gae2100we3a/GAE-2100WE-3A.webp",
+      "products/gshock/gae2100we3a/GAE-2100WE-3A_package.webp",
+      "products/gshock/gae2100we3a/GAE2100WE-3A_BACK.webp",
+      "products/gshock/gae2100we3a/GAE2100WE-3A_SIDE.webp",
+      "products/gshock/gae2100we3a/GAE-2100WE-3A_N.webp",
+      "products/gshock/gae2100we3a/GAE-2100WE-3A_belt.webp",
+      "products/gshock/gae2100we3a/GAE-2100WE-3A_SIDE2.webp",
+      "products/gshock/gae2100we3a/GAE-2100WE-3A_BACK2.webp"
     ]
   },
   {
     "id": 2,
-    "cover": "assets/products/gshock/gm2100ss1a/GM-2100SS-1A.webp",
+    "cover": "products/edifice/ecb2000dc1a/ECB-2000DC-1A.webp",
+    "title": "EDIFICE ECB-2000DC-1A",
+    "price": 300,
+    "oldPrice": 370,
+    "brand": "edifice",
+    "rating": 9,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": [
+      "products/edifice/ecb2000dc1a/ECB-2000DC-1A.webp",
+      "products/edifice/ecb2000dc1a/ECB-2000DC-1A_front.webp",
+      "products/edifice/ecb2000dc1a/ECB-2000DC-1A_SIDE.webp",
+      "products/edifice/ecb2000dc1a/ECB2000DC-1A_BACK.webp"
+    ]
+  },
+  {
+    "id": 3,
+    "cover": "products/babyg/ba110xpm6a/BA-110XPM-6A.webp",
+    "title": "Baby-G BA110XPM-6A",
+    "price": 130,
+    "oldPrice": 190,
+    "brand": "babyg",
+    "rating": 6,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": [
+      "products/babyg/ba110xpm6a/BA-110XPM-6A.webp",
+      "products/babyg/ba110xpm6a/BA-110XPM-6A.webp",
+      "products/babyg/ba110xpm6a/BA-110XPM-6A.webp",
+      "products/babyg/ba110xpm6a/BA-110XPM-6A.webp",
+      "products/babyg/ba110xpm6a/BA-110XPM-6A.webp"
+    ]
+  },
+  {
+    "id": 4,
+    "cover": "products/protrek/prg3401/PRG-340-1.webp",
+    "title": "Pro Trek PRG340-1",
+    "price": 280,
+    "oldPrice": 380,
+    "brand": "protrek",
+    "rating": 9,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prg3401/PRG-340-1.webp",
+      "products/protrek/prg3401/PRG-340_KV.jpg",
+      "products/protrek/prg3401/PRG-340-1_04.webp",
+      "products/protrek/prg3401/PRG-340-1_02.webp",
+      "products/protrek/prg3401/PRG-340-1_03.webp",
+      "products/protrek/prg3401/PRG-340-1_06.webp",
+      "products/protrek/prg3401/PRG-340-1_LS03.webp"
+    ]
+  },
+  {
+    "id": 5,
+    "cover": "products/gshock/gm2100ss1a/GM-2100SS-1A.webp",
     "title": "G-SHOCK GM2100SS-1A",
     "price": 310,
     "oldPrice": 380,
@@ -29,10 +81,10 @@
     "rating": 9,
     "description": "Take it to the streets with original graffiti art for your wrist. Introducing the Street Spirit line of watches that takes the G-SHOCK form as its canvas. Splashed boldly across the bezel and band, these street-savvy designs deliver original graffiti art that crushes in any fashion scene. Your choice — the iconic case of the DW-5000, the metallic bezel of the GM-5600 and GM-2100, or the oversized case of the GA-110 and GX-56. Multicolored, cool accents for whatever look you choose.",
     "images": [
-      "assets/products/gshock/gm2100ss1a/GM-2100SS-1A.webp",
-      "assets/products/gshock/gm2100ss1a/GM-2100SS_package.webp",
-      "assets/products/gshock/gm2100ss1a/GM-2100SS-1A_N.webp",
-      "assets/products/gshock/gm2100ss1a/StreetSpirit_kv.webp"
+      "products/gshock/gm2100ss1a/GM-2100SS-1A.webp",
+      "products/gshock/gm2100ss1a/GM-2100SS_package.webp",
+      "products/gshock/gm2100ss1a/GM-2100SS-1A_N.webp",
+      "products/gshock/gm2100ss1a/StreetSpirit_kv.webp"
     ]
   }
 ]

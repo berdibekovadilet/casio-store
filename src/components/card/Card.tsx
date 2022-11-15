@@ -1,6 +1,6 @@
 import styles from "./Card.module.scss";
-import productImage from "assets/products/gshock/gae2100we3a/GAE-2100WE-3A.webp";
 import { Button } from "components/common/button/Button";
+import { Link } from "react-router-dom";
 
 type CardProps = {
   id: number;
@@ -21,14 +21,17 @@ export const Card: React.FC<CardProps> = ({
   price,
   oldPrice,
 }) => {
-
   return (
     <div className={styles.container}>
-      <div className={styles.imgWrapper}>
-        <img src={require(cover)} alt="product" />
-      </div>
+      <Link to={`/shop/${id}`}>
+        <div className={styles.imgWrapper}>
+          <img src={require(`assets/${cover}`)} alt="product" />
+        </div>
+      </Link>
       <div className={styles.infoWrapper}>
-        <h4 className={styles.title}>{title}</h4>
+        <Link to={`/shop/${id}`}>
+          <h4 className={styles.title}>{title}</h4>
+        </Link>
         <div className={styles.priceWrapper}>
           <h3 className={styles.price}>{price} $</h3>
           <p className={styles.oldPrice}>{oldPrice} $</p>
