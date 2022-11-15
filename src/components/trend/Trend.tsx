@@ -8,18 +8,7 @@ export const Trend = () => {
       <div className={styles.titleWrapper}>
         <SectionTitle title="Trend" />
       </div>
-      <div className={styles.cardWrapper}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
+      <div className={styles.cardWrapper}>{/* <Card /> */}</div>
     </div>
   );
 };
-
-

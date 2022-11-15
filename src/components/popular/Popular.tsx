@@ -9,14 +9,7 @@ export const Popular = () => {
         <SectionTitle title="Popular" />
       </div>
       <div className={styles.cardWrapper}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {/* <Card /> */}
       </div>
     </div>
   );

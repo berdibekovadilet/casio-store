@@ -17,6 +17,7 @@ import {
   Warranty,
 } from "pages";
 import Layout from "layout/Layout";
+import BlogDetailPage from "pages/BlogDetailPage";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
 
           <Route path="discounts" element={<Discounts />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="blog/:id" element={<BlogDetailPage />} />
           <Route path="faq" element={<FAQ />} />
 
           <Route path="delivery" element={<Delivery />} />

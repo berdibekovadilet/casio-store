@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "cover": "assets/products/gshock/gae2100we3a/GAE-2100WE-3A.webp",
+    "title": "G-SHOCK GAE2100WE-3A",
+    "price": 210,
+    "oldPrice": 290,
+    "brand": "gshock",
+    "rating": 7,
+    "description": "From the toughness-driven G-SHOCK, a design inspired by adventurers whose love of the wilderness knows no bounds. Switch between interchangeable bands and bezels for a thin octagonal GAE-2100 with an even wilder spirit. Green nature-inspired camouflage and vibrant outdoor-fashion orange take you from fashionable urban streets to wilderness exploration in cool, casual style.",
+    "images": [
+      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A.webp",
+      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A_package.webp",
+      "assets/products/gshock/gae2100we3a/GAE2100WE-3A_BACK.webp",
+      "assets/products/gshock/gae2100we3a/GAE2100WE-3A_SIDE.webp",
+      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A_N.webp",
+      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A_belt.webp",
+      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A_SIDE2.webp",
+      "assets/products/gshock/gae2100we3a/GAE-2100WE-3A_BACK2.webp"
+    ]
+  },
+  {
+    "id": 2,
+    "cover": "assets/products/gshock/gm2100ss1a/GM-2100SS-1A.webp",
+    "title": "G-SHOCK GM2100SS-1A",
+    "price": 310,
+    "oldPrice": 380,
+    "brand": "gshock",
+    "rating": 9,
+    "description": "Take it to the streets with original graffiti art for your wrist. Introducing the Street Spirit line of watches that takes the G-SHOCK form as its canvas. Splashed boldly across the bezel and band, these street-savvy designs deliver original graffiti art that crushes in any fashion scene. Your choice — the iconic case of the DW-5000, the metallic bezel of the GM-5600 and GM-2100, or the oversized case of the GA-110 and GX-56. Multicolored, cool accents for whatever look you choose.",
+    "images": [
+      "assets/products/gshock/gm2100ss1a/GM-2100SS-1A.webp",
+      "assets/products/gshock/gm2100ss1a/GM-2100SS_package.webp",
+      "assets/products/gshock/gm2100ss1a/GM-2100SS-1A_N.webp",
+      "assets/products/gshock/gm2100ss1a/StreetSpirit_kv.webp"
+    ]
+  }
+]

@@ -1,13 +1,12 @@
-import { SectionTitle } from "components/sectionTitle/SectionTitle";
 import { BlogCard } from "./blogCard/BlogCard";
 import styles from "./Blog.module.scss";
 import { data } from "./data";
 
-export const Blog = () => {
+export const BlogSection = () => {
   return (
     <div className={styles.container}>
       <div className={styles.titleWrapper}>
-        <SectionTitle title="Blog" />
+        <h2>BLOG</h2>
       </div>
       <div className={styles.cardWrapper}>
         <BlogCard data={data} />

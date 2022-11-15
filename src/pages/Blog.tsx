@@ -1,5 +1,9 @@
-import React from "react";
+import { BlogSection } from "components";
 
 export const Blog = () => {
-  return <div>Blog</div>;
+  return (
+    <>
+      <BlogSection />
+    </>
+  );
 };
