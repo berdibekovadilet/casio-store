@@ -6,7 +6,7 @@ import Close from "assets/icons/Close.svg";
 import styles from "./MobileMenu.module.scss";
 
 import { links } from "../topNavbar/links";
-import { bottomLinks } from "../bottomNavbar/links";
+import Brands from "components/brands/Brands";
 
 const MobileMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -59,16 +59,7 @@ const MobileMenu = () => {
                 ))}
               </nav>
               <nav className={styles.links}>
-                {bottomLinks.map((link) => (
-                  <Link
-                    className={styles.menu_item}
-                    to={link.href}
-                    key={link.label}
-                    onClick={menuToggler}
-                  >
-                    {link.label}
-                  </Link>
-                ))}
+                <Brands />
               </nav>
             </div>
             <div className={styles.wrapper_close}>

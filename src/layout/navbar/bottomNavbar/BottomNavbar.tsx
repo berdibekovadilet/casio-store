@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./BottomNavbar.module.scss";
 import ShoppingCart from "assets/icons/ShoppingCart.svg";
-import { bottomLinks } from "./links";
+import Brands from "components/brands/Brands";
 
 const BottomNavbar = () => {
   return (
@@ -10,11 +10,7 @@ const BottomNavbar = () => {
         <Link to="/">Casio store</Link>
       </h3>
       <nav className={styles.links}>
-        {bottomLinks.map((link) => (
-          <Link className={styles.menu_item} to={link.href} key={link.label}>
-            {link.label}
-          </Link>
-        ))}
+        <Brands />
         <div className={styles.cart_container}>
           <Link to="cart" className={styles.cart_link}>
             <span>0 $</span>
