@@ -13,3 +13,4 @@ export * from "./blog/BlogSection";
 export * from "./blog/blogCard/BlogCard";
 export * from "./sort/Sort"
 export * from "./search/Search"
+export * from "./pagination/Pagination"

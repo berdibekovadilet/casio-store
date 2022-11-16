@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Card, Search, Sort } from "components";
+import { Card, Pagination, Search, Sort } from "components";
 import styles from "../styles/pages/Shop.module.scss";
 
 const baseUrl = "https://63734623348e947299079d45.mockapi.io/products";
@@ -24,6 +24,7 @@ export const Shop = () => {
         <Search />
       </div>
       <div className={styles.productsWrapper}>{products}</div>
+      <Pagination />
     </div>
   );
 };

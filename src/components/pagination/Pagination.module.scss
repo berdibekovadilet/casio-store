@@ -1,0 +1,19 @@
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 40px;
+   > * {
+      margin-right: 16px;
+      cursor: pointer;
+   }
+   h4 {
+      background-color: var(--ligthgray);
+      padding: 4px 12px;
+      border-radius: 4px;
+   }
+   .active {
+      background-color: var(--blue);
+      color: white;
+   }
+}
