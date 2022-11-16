@@ -5,11 +5,12 @@ import ProductService from "API/ProductService";
 
 export const Shop = () => {
   const [items, setItems] = useState([]);
-  let loading = false;
+  const [isLoading, setIsLoading] = useState(true);
 
   async function fetchProducts() {
     const products = await ProductService.getAll();
     setItems(products);
+    setIsLoading(false);
   }
 
   useEffect(() => {
@@ -28,7 +29,7 @@ export const Shop = () => {
         <Search />
       </div>
       <div className={styles.productsWrapper}>
-        {loading ? skeletons : products}
+        {isLoading ? skeletons : products}
       </div>
       <Pagination />
     </div>
