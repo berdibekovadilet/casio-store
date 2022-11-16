@@ -4,7 +4,7 @@ import { brands } from "./data";
 import { useState } from "react";
 
 const Brands = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState<number>();
 
   const onClickBrand = (index: number) => {
     setActiveIndex(index);

@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import { useEffect, useState } from "react";
 import { Card, Pagination, Search, Sort } from "components";
 import styles from "../styles/pages/Shop.module.scss";
-
-const baseUrl = "https://63734623348e947299079d45.mockapi.io/products";
+import ProductService from "API/ProductService";
 
 export const Shop = () => {
   const [items, setItems] = useState([]);
 
+  async function fetchProducts() {
+    const products = await ProductService.getAll();
+    setItems(products);
+  }
+
   useEffect(() => {
-    axios.get(baseUrl).then((resp) => {
-      console.log(resp.data);
-      setItems(resp.data);
-    });
+    fetchProducts();
   }, []);
 
   const products = items.map((obj: any) => <Card key={obj.id} {...obj} />);
