@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import { Card, Pagination, Search, Sort } from "components";
+import { Card, CardSkeleton, Pagination, Search, Sort } from "components";
 import styles from "../styles/pages/Shop.module.scss";
 import ProductService from "API/ProductService";
 
 export const Shop = () => {
   const [items, setItems] = useState([]);
+  let loading = false;
 
   async function fetchProducts() {
     const products = await ProductService.getAll();
@@ -16,6 +17,9 @@ export const Shop = () => {
   }, []);
 
   const products = items.map((obj: any) => <Card key={obj.id} {...obj} />);
+  const skeletons = [...new Array(8)].map((_, index) => (
+    <CardSkeleton key={index} />
+  ));
 
   return (
     <div className={styles.container}>
@@ -23,7 +27,9 @@ export const Shop = () => {
         <Sort />
         <Search />
       </div>
-      <div className={styles.productsWrapper}>{products}</div>
+      <div className={styles.productsWrapper}>
+        {loading ? skeletons : products}
+      </div>
       <Pagination />
     </div>
   );

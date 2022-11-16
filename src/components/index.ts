@@ -6,6 +6,7 @@ export * from "./bannerGroup/BannerGroup";
 export * from "./whyWe/WhyWe";
 export * from "./newsletter/Newsletter";
 export * from "./card/Card";
+export * from "./card/cardSkeleton/CardSkeleton";
 export * from "./popular/Popular";
 export * from "./trend/Trend";
 export * from "./about/About";
