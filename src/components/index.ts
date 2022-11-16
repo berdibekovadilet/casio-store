@@ -12,3 +12,4 @@ export * from "./about/About";
 export * from "./blog/BlogSection";
 export * from "./blog/blogCard/BlogCard";
 export * from "./sort/Sort"
+export * from "./search/Search"

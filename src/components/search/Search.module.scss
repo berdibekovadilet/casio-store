@@ -1,0 +1,29 @@
+.container {
+   display: flex;
+   align-items: center;
+   border: 1px solid #d2d2d2;
+   padding: 4px;
+   border-radius: 6px;
+   width: 23rem;
+   transition: all 0.3s ease;
+   &:focus-within {
+      border: 1px solid var(--dark);
+      width: 25rem;
+   }
+   .wrapper {
+      display: flex;
+      align-items: center;
+      width: 100%;
+
+      .input {
+         outline: 2px solid transparent;
+         border: transparent;
+         width: 100%;
+         font-size: 14px;
+      }
+
+      .icon {
+         margin: 0 0.4rem;
+      }
+   }
+}

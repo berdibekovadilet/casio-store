@@ -1,4 +1,12 @@
 .container {
+   .topWrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 24px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+   }
    .productsWrapper {
       display: flex;
       justify-content: space-between;
