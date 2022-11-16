@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Card } from "components";
+import { Card, Sort } from "components";
 import styles from "../styles/pages/Shop.module.scss";
 
 const baseUrl = "https://63734623348e947299079d45.mockapi.io/products";
@@ -19,7 +19,9 @@ export const Shop = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.topWrapper}></div>
+      <div className={styles.topWrapper}>
+        <Sort />
+      </div>
       <div className={styles.productsWrapper}>{products}</div>
     </div>
   );

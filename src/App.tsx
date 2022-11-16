@@ -18,6 +18,7 @@ import {
 } from "pages";
 import Layout from "layout/Layout";
 import BlogDetailPage from "pages/BlogDetailPage";
+import ProductDetailPage from "pages/ProductDetailPage";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="shop" element={<Shop />} />
+          <Route path="shop/:id" element={<ProductDetailPage />} />
           <Route path="cart" element={<Cart />} />
           <Route path="login" element={<Login />} />
           <Route path="*" element={<NoMatch />} />
