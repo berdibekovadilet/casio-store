@@ -10,18 +10,21 @@ import { brands } from "./data";
 // const brands = ["All Watches", "G-Shock", "Edifice", "Baby-G", "Pro Trek"];
 
 const Brands = () => {
-  const filter = useSelector((state: RootState) => state.filter.brandId);
+  const brandId = useSelector((state: RootState) => state.filter.brandId);
   const dispatch = useDispatch();
 
   const onChangeCategory = React.useCallback((idx: number) => {
     dispatch(setbrandId(idx));
   }, []);
 
+  console.log(brandId);
+  
+
   return (
     <>
       {brands.map((link, index) => (
         <Link
-          className={filter === index ? styles.active : styles.menu_item}
+          className={brandId === index ? styles.active : styles.menu_item}
           to={link.href}
           key={link.label}
           onClick={() => onChangeCategory(index)}

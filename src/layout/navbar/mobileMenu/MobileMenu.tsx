@@ -58,7 +58,7 @@ const MobileMenu = () => {
                   </Link>
                 ))}
               </nav>
-              <nav className={styles.links}>
+              <nav className={styles.links} onClick={menuToggler}>
                 <Brands />
               </nav>
             </div>

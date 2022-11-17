@@ -40,3 +40,4 @@ export const filterSlice = createSlice({
 export const { setbrandId } = filterSlice.actions;
 
 export default filterSlice.reducer;
+

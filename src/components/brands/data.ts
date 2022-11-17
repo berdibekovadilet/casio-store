@@ -5,18 +5,18 @@ export const brands = [
   },
   {
     label: "G-Shock",
-    href: "/gshock",
+    href: "/shop",
   },
   {
     label: "Edifice",
-    href: "/edifice",
+    href: "/shop",
   },
   {
     label: "Baby-G",
-    href: "/babyg",
+    href: "/shop",
   },
   {
     label: "Pro Trek",
-    href: "/protrek",
+    href: "/shop",
   },
 ];
