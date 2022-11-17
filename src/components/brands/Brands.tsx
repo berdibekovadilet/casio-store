@@ -1,22 +1,30 @@
-import styles from "./Brands.module.scss";
+import React from "react";
 import { Link } from "react-router-dom";
+import type { RootState } from "store/store";
+import { useSelector, useDispatch } from "react-redux";
+import { setbrandId } from "store/filter/slice";
+
+import styles from "./Brands.module.scss";
 import { brands } from "./data";
-import { useState } from "react";
+
+// const brands = ["All Watches", "G-Shock", "Edifice", "Baby-G", "Pro Trek"];
 
 const Brands = () => {
-  const [activeIndex, setActiveIndex] = useState<number>();
+  const filter = useSelector((state: RootState) => state.filter.brandId);
+  const dispatch = useDispatch();
 
-  const onClickBrand = (index: number) => {
-    setActiveIndex(index);
-  };
+  const onChangeCategory = React.useCallback((idx: number) => {
+    dispatch(setbrandId(idx));
+  }, []);
+
   return (
     <>
       {brands.map((link, index) => (
         <Link
-          className={activeIndex === index ? styles.active : styles.menu_item}
+          className={filter === index ? styles.active : styles.menu_item}
           to={link.href}
           key={link.label}
-          onClick={() => onClickBrand(index)}
+          onClick={() => onChangeCategory(index)}
         >
           {link.label}
         </Link>
