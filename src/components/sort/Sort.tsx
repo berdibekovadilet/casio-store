@@ -14,12 +14,12 @@ export const sortList: SortItem[] = [
   { name: "More Popular", sortProperty: SortPropertyEnum.RATING_DESC },
   { name: "Less Popular", sortProperty: SortPropertyEnum.RATING_ASC },
   {
-    name: "Price: high to low",
-    sortProperty: SortPropertyEnum.PRICE_DESC,
-  },
-  {
     name: "Price: low to high",
     sortProperty: SortPropertyEnum.PRICE_ASC,
+  },
+  {
+    name: "Price: high to low",
+    sortProperty: SortPropertyEnum.PRICE_DESC,
   },
   { name: "Alphabetical (A-Z)", sortProperty: SortPropertyEnum.TITLE_ASC },
   { name: "Alphabetical (Z-A)", sortProperty: SortPropertyEnum.TITLE_DESC },

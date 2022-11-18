@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
-import { Card, CardSkeleton, Pagination, Search, Sort } from "components";
-import styles from "../styles/pages/Shop.module.scss";
 import axios from "axios";
+import { Card, CardSkeleton, Pagination, Search, Sort } from "components";
 import { useSelector } from "react-redux";
 import { RootState } from "store/store";
+import styles from "../styles/pages/Shop.module.scss";
 
 export const Shop = () => {
-  const brandId = useSelector((state: RootState) => state.filter.brandId);
-  const sort = useSelector((state: RootState) => state.filter.sort);
+  const { brandId, sort, searchValue } = useSelector(
+    (state: RootState) => state.filter
+  );
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -18,9 +19,19 @@ export const Shop = () => {
     const brand = brandId > 0 ? String(brandId) : "";
     const sortBy = sort.sortProperty.replace("-", "");
     const order = sort.sortProperty.includes("-") ? "asc" : "desc";
+    const search = searchValue;
+
     const response = await axios.get(
-      baseUrl + brand + "&sortBy=" + sortBy + "&order=" + order
+      baseUrl +
+        brand +
+        "&sortBy=" +
+        sortBy +
+        "&order=" +
+        order +
+        "&search=" +
+        search
     );
+
     setItems(response.data);
     setIsLoading(false);
     window.scrollTo(0, 0);
@@ -28,7 +39,7 @@ export const Shop = () => {
 
   useEffect(() => {
     fetchProducts();
-  }, [brandId, sort.sortProperty]);
+  }, [brandId, sort.sortProperty, searchValue]);
 
   const products = items.map((obj: any) => <Card key={obj.id} {...obj} />);
   const skeletons = [...new Array(8)].map((_, index) => (
