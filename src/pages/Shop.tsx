@@ -7,6 +7,7 @@ import { RootState } from "store/store";
 
 export const Shop = () => {
   const brandId = useSelector((state: RootState) => state.filter.brandId);
+  const sort = useSelector((state: RootState) => state.filter.sort);
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -14,8 +15,12 @@ export const Shop = () => {
 
   async function fetchProducts() {
     setIsLoading(true);
-    const brandChoose = brandId > 0 ? String(brandId) : '';
-    const response = await axios.get(baseUrl + brandChoose);
+    const brand = brandId > 0 ? String(brandId) : "";
+    const sortBy = sort.sortProperty.replace("-", "");
+    const order = sort.sortProperty.includes("-") ? "asc" : "desc";
+    const response = await axios.get(
+      baseUrl + brand + "&sortBy=" + sortBy + "&order=" + order
+    );
     setItems(response.data);
     setIsLoading(false);
     window.scrollTo(0, 0);
@@ -23,7 +28,7 @@ export const Shop = () => {
 
   useEffect(() => {
     fetchProducts();
-  }, [brandId]);
+  }, [brandId, sort.sortProperty]);
 
   const products = items.map((obj: any) => <Card key={obj.id} {...obj} />);
   const skeletons = [...new Array(8)].map((_, index) => (

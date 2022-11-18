@@ -7,18 +7,16 @@ import { setbrandId } from "store/filter/slice";
 import styles from "./Brands.module.scss";
 import { brands } from "./data";
 
-// const brands = ["All Watches", "G-Shock", "Edifice", "Baby-G", "Pro Trek"];
-
 const Brands = () => {
   const brandId = useSelector((state: RootState) => state.filter.brandId);
   const dispatch = useDispatch();
 
-  const onChangeCategory = React.useCallback((idx: number) => {
-    dispatch(setbrandId(idx));
-  }, []);
-
-  console.log(brandId);
-  
+  const onChangeCategory = React.useCallback(
+    (idx: number) => {
+      dispatch(setbrandId(idx));
+    },
+    [dispatch]
+  );
 
   return (
     <>
