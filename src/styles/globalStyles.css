@@ -65,3 +65,7 @@ a {
   margin: 0 auto;
   padding: 0 16px;
 }
+
+.disabled {
+  opacity: 0.2;
+}

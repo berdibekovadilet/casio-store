@@ -24,7 +24,7 @@ export const Shop = () => {
     const response = await axios.get(
       `${baseUrl + brand}&sortBy=${sortBy}&order=${
         order + search
-      }&page=${currentPage}&limit=1`
+      }&page=${currentPage}&limit=12`
     );
 
     setItems(response.data);

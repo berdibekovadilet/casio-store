@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "store/store";
 import { useCallback } from "react";
 import { setCurrentPage } from "store/filter/slice";
+import { current } from "@reduxjs/toolkit";
 
 export const Pagination = () => {
   const currentPage = useSelector(
@@ -27,11 +28,15 @@ export const Pagination = () => {
     dispatch(setCurrentPage(currentPage + 1));
   };
 
-  const pageArray = [1, 2, 3];
+  const pageArray = [1, 2, 3, 4];
 
   return (
     <div className={styles.container}>
-      <img src={ArrowLeft} alt="leftIcon" onClick={prevPage} />
+      {currentPage === 1 ? (
+        <img src={ArrowLeft} alt="leftIcon" className="disabled" />
+      ) : (
+        <img src={ArrowLeft} alt="leftIcon" onClick={prevPage} />
+      )}
       {pageArray.map((page) => (
         <h4
           key={page}
@@ -41,7 +46,11 @@ export const Pagination = () => {
           {page}
         </h4>
       ))}
-      <img src={ArrowRight} alt="leftIcon" onClick={nextPage} />
+      {currentPage === 4 ? (
+        <img src={ArrowRight} alt="leftIcon" className="disabled" />
+      ) : (
+        <img src={ArrowRight} alt="leftIcon" onClick={nextPage} />
+      )}
     </div>
   );
 };
