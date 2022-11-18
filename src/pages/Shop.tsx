@@ -6,7 +6,7 @@ import { RootState } from "store/store";
 import styles from "../styles/pages/Shop.module.scss";
 
 export const Shop = () => {
-  const { brandId, sort, searchValue } = useSelector(
+  const { brandId, sort, searchValue, currentPage } = useSelector(
     (state: RootState) => state.filter
   );
   const [items, setItems] = useState([]);
@@ -19,17 +19,12 @@ export const Shop = () => {
     const brand = brandId > 0 ? String(brandId) : "";
     const sortBy = sort.sortProperty.replace("-", "");
     const order = sort.sortProperty.includes("-") ? "asc" : "desc";
-    const search = searchValue;
+    const search = searchValue ? `$search=${searchValue}` : "";
 
     const response = await axios.get(
-      baseUrl +
-        brand +
-        "&sortBy=" +
-        sortBy +
-        "&order=" +
-        order +
-        "&search=" +
-        search
+      `${baseUrl + brand}&sortBy=${sortBy}&order=${
+        order + search
+      }&page=${currentPage}&limit=1`
     );
 
     setItems(response.data);
@@ -39,7 +34,7 @@ export const Shop = () => {
 
   useEffect(() => {
     fetchProducts();
-  }, [brandId, sort.sortProperty, searchValue]);
+  }, [brandId, sort.sortProperty, searchValue, currentPage]);
 
   const products = items.map((obj: any) => <Card key={obj.id} {...obj} />);
   const skeletons = [...new Array(8)].map((_, index) => (
