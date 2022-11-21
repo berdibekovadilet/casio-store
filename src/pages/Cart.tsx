@@ -1,4 +1,4 @@
-import { ShoppingCart } from "components";
+import { ShoppingCart, ShoppingForm } from "components";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "styles/pages/Cart.module.scss";
 
@@ -13,9 +13,7 @@ export const Cart = () => {
         </Link>
       </div>
       <ShoppingCart />
-      <form className={styles.formWrapper}>
-        <h3>1. Contact information</h3>
-      </form>
+      <ShoppingForm />
     </>
   );
 };

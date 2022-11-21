@@ -3,8 +3,8 @@ import CloseIcon from "assets/icons/Close.svg";
 
 export const ShoppingCart = () => {
   return (
-    <div className={styles.cartWrapper}>
-      <div className={styles.productRow}>
+    <div className={styles.container}>
+      <div className={styles.row}>
         <div className={styles.imgWrapper}>
           <img
             src={require("assets/products/gshock/gwg2040fr1a/GWG-2040FR-1A.webp")}
@@ -25,7 +25,7 @@ export const ShoppingCart = () => {
         </div>
         <img src={CloseIcon} alt="closeIcon" />
       </div>
-      <div className={styles.productRow}>
+      <div className={styles.row}>
         <div className={styles.imgWrapper}>
           <img
             src={require("assets/products/gshock/gwg2040fr1a/GWG-2040FR-1A.webp")}

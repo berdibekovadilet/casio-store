@@ -1,9 +1,9 @@
-.cartWrapper {
+.container {
    background-color: var(--ligthgray);
    margin: 40px 0;
    padding: 56px 48px 36px 48px;
    border-radius: 20px;
-   .productRow {
+   .row {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
@@ -44,9 +44,9 @@
 }
 
 @media screen and (max-width: 768px) {
-   .cartWrapper {
+   .container {
       padding: 16px;
-      .productRow {
+      .row {
          .imgWrapper {
             width: 100px;
          }
