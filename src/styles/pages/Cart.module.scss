@@ -1,0 +1,20 @@
+.titleWrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   a {
+      font-size: 16px;
+      color: var(--darkgray);
+      transition: all 0.2s ease;
+      &:hover {
+         color: black;
+      }
+   }
+}
+
+.formWrapper {
+   background-color: var(--ligthgray);
+   margin: 40px 0;
+   padding: 56px 48px;
+   border-radius: 20px;
+}
