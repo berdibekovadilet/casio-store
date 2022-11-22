@@ -1,0 +1,28 @@
+.container {
+   margin-top: 32px;
+   display: flex;
+   flex-wrap: wrap;
+   .wrapper {
+      max-width: 185px;
+      text-align: center;
+      background-color: var(--ligthgray);
+      padding: 16px;
+      margin-right: 24px;
+      img {
+         width: 100%;
+      }
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .container {
+      .wrapper {
+         max-width: 120px;
+         margin-bottom: 24px;
+         margin-right: 16px;
+         img {
+            width: 100%;
+         }
+      }
+   }
+}

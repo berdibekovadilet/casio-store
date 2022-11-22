@@ -12,9 +12,10 @@ export * from "./trend/Trend";
 export * from "./about/About";
 export * from "./blog/BlogSection";
 export * from "./blog/blogCard/BlogCard";
-export * from "./sort/Sort"
-export * from "./search/Search"
-export * from "./pagination/Pagination"
-export * from "./brands/Brands"
-export * from "./shoppingCart/ShoppingCart"
-export * from "./shoppingForm/ShoppingForm"
+export * from "./sort/Sort";
+export * from "./search/Search";
+export * from "./pagination/Pagination";
+export * from "./brands/Brands";
+export * from "./shoppingCart/ShoppingCart";
+export * from "./shoppingForm/ShoppingForm";
+export * from "./advantages/Advantages";
