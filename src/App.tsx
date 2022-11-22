@@ -17,8 +17,8 @@ import {
   Warranty,
 } from "pages";
 import Layout from "layout/Layout";
-import BlogDetailPage from "pages/BlogDetailPage";
 import ProductDetailPage from "pages/ProductDetailPage";
+import { BlogDetailPage1, BlogDetailPage2, BlogDetailPage3 } from "pages/BlogDetailPage";
 
 function App() {
   return (
@@ -38,7 +38,10 @@ function App() {
 
           <Route path="discounts" element={<Discounts />} />
           <Route path="blog" element={<Blog />} />
-          <Route path="blog/:id" element={<BlogDetailPage />} />
+          <Route path="blog/1" element={<BlogDetailPage1 />} />
+          <Route path="blog/2" element={<BlogDetailPage2 />} />
+          <Route path="blog/3" element={<BlogDetailPage3 />} />
+
           <Route path="faq" element={<FAQ />} />
 
           <Route path="delivery" element={<Delivery />} />

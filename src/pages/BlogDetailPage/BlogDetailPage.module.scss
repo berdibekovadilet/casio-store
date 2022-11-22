@@ -1,0 +1,13 @@
+.container {
+   > * {
+      margin-bottom: 24px;
+   }
+   img {
+      width: 100%;
+   }
+
+   .heroImg {
+      height: 380px;
+      object-fit: cover;
+   }
+}
