@@ -18,7 +18,11 @@ import {
 } from "pages";
 import Layout from "layout/Layout";
 import ProductDetailPage from "pages/ProductDetailPage";
-import { BlogDetailPage1, BlogDetailPage2, BlogDetailPage3 } from "pages/BlogDetailPage";
+import {
+  BlogDetailPage1,
+  BlogDetailPage2,
+  BlogDetailPage3,
+} from "pages/BlogDetailPage";
 
 function App() {
   return (

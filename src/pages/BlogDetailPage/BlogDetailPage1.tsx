@@ -1,49 +1,96 @@
+import { Newsletter, Trend } from "components";
 import styles from "./BlogDetailPage.module.scss";
 
 export const BlogDetailPage1 = () => {
   return (
     <div className={styles.container}>
-      <h2>[BABY-G 2022] MSG-W350-7A and MSG-W200-7A - white femininity</h2>
+      <h2>
+        Two cultural icons straight out of Japan meet in this SUPER MARIO BROS.
+        themed G-SHOCK.
+      </h2>
       <img
         src={require("assets/blog/blog1/1.webp")}
-        className={styles.heroImg}
-        alt="gwg-2040fr"
+        alt="mario"
       />
+      <h3>
+        The action game that continues even today to captivate fans around the
+        world comes to life with familiar colours and a whimsical design.
+      </h3>
       <h4>
-        We just couldn't pass by the new MSG-W200-7A2 and MSG-W350-7A for girls.
-        The MSG series has always stood out among the Baby-G line, primarily
-        because of its steel case [sometimes also called the women's G-Steel]
-        and sophisticated design. Yes, the MSG is clearly not about sports -
-        here the positioning is more sophisticated and businesslike.
+        When Nintendo Co., Ltd. released the SUPER MARIO BROS. for the Nintendo©
+        Family Computer™ in 1985, the game sparked a series that would captivate
+        countless fans — children and adults alike — for 35 years and counting.
+        The SUPER MARIO series of games has sold over 400 million copies
+        worldwide, with Mario and the rest of its cast of colourful characters
+        winning the hearts of fans not only in Japan, but all over the globe.
       </h4>
-      <h4>
-        The feature of the models is the narrow white strap, which perfectly
-        suits the image of a "businesswoman". In other words, for girls who are
-        confident in themselves and their image. Despite their innocuous
-        appearance, the MSG-W200 and MSG-W350 remain shatterproof and can
-        withstand bumps and drops along with their "big brother" G-Shock.
-      </h4>
-      <h4>
-        The pale blue and purple dial symbolizes the purity of the sky and
-        emphasizes the elegance of the case. The multidirectional "roughness" of
-        the case and bezel creates a quality metal feel, plus the surface is
-        less susceptible to minor scratches.
-      </h4>
-      <img
-        src={require("assets/blog/blog1/2.webp")}
-        className={styles.heroImg}
-        alt="gwg-2040fr package"
-      />
-      <h4>
-        The presence of solar power and radio synchronization causes delight and
-        pride in the Japanese manufacturer. In the case of the MSG-W300, the
-        basic features are smaller due to the analog indication - here there is
-        only a calendar and a date window. The electronic "base" of MSG-W200 is
-        presented by the world time, stop-watch, timer, alarm clock and LED
-        backlight. Nevertheless, the 350's price tag is even higher [$260 vs.
-        $240] - you'll have to pay extra for an arrow classic with an octagonal
-        case.
-      </h4>
+
+      <img src={require("assets/blog/blog1/package.jpg")} alt="package" />
+
+      <div className={styles.columnWrapper}>
+        <div className={styles.column}>
+          <img
+            src={require("assets/blog/blog1/details-01.webp")}
+            alt="banner"
+          />
+          <div className={styles.infoWrapper}>
+            <h3>Band</h3>
+            <p>
+              Mario gets back up after every defeat and tackles each adventure
+              to the very end, without ever giving up. This spirit of challenge
+              aligns perfectly with the G-SHOCK brand. The band features a
+              multi-angle pattern print of everybody’s favourite plucky plumber.
+            </p>
+          </div>
+        </div>
+        <div className={styles.column}>
+          <img
+            src={require("assets/blog/blog1/details-02.webp")}
+            alt="banner"
+          />
+          <div className={styles.infoWrapper}>
+            <h3>Bezel and dial</h3>
+            <p>
+              The bezel and dial are finished in the key Mario colour red and
+              the background blue of the game’s overworld stages, with gold
+              accents that recall the coins Mario collects. A Koopa Troopa shell
+              is glass printed at the bottom of the dial.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.columnWrapper}>
+        <div className={styles.column}>
+          <img
+            src={require("assets/blog/blog1/details-03.webp")}
+            alt="banner"
+          />
+          <div className={styles.infoWrapper}>
+            <h3>EL backlight</h3>
+            <p>
+              Activate the light and Mario appears on the LCD, scoring a 1-UP.
+              When combined with the Koopa Troopa shell on the dial, an iconic
+              game move is always there to enjoy.
+            </p>
+          </div>
+        </div>
+        <div className={styles.column}>
+          <img
+            src={require("assets/blog/blog1/details-04.webp")}
+            alt="banner"
+          />
+          <div className={styles.infoWrapper}>
+            <h3>Special packaging</h3>
+            <p>
+              The packaging in vivid red features the game world in an all-over
+              design. One of Mario’s signature phrases, “Here we go!,” is
+              embellished in a pixelated font.
+            </p>
+          </div>
+        </div>
+      </div>
+      <Trend />
+      <Newsletter />
     </div>
   );
 };

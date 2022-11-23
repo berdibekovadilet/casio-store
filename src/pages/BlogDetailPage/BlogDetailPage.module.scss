@@ -5,9 +5,62 @@
    img {
       width: 100%;
    }
-
+   h2 {
+      text-transform: uppercase;
+   }
    .heroImg {
       height: 380px;
       object-fit: cover;
+   }
+   .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+         margin-right: 24px;
+      }
+      .infoWrapper {
+         h3 {
+            margin-bottom: 32px;
+         }
+         p {
+            line-height: 1.7;
+         }
+      }
+   }
+
+   .columnWrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 40px;
+      .column {
+         display: flex;
+         flex-direction: column;
+         width: 50%;
+         margin-right: 24px;
+         img,
+         h3 {
+            margin-bottom: 24px;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .container {
+      .row {
+         flex-wrap: wrap;
+         img {
+            margin-bottom: 24px;
+         }
+      }
+
+      .columnWrapper {
+         flex-wrap: wrap;
+         .column {
+            width: 100%;
+         }
+      }
    }
 }

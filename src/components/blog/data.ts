@@ -10,15 +10,15 @@ export const data: BlogProps[] = [
   {
     id: 1,
     postData: "12.12.2022",
-    title: "SNOW WHITE FEMININITY",
-    img: require("assets/blog/msg-w350-7a.webp"),
+    title: "super mario collaborations",
+    img: require("assets/blog/nintendo.webp"),
     link: "1",
   },
   {
     id: 2,
     postData: "10.15.2022",
-    title: "Car miracle with Bluetooth",
-    img: require("assets/blog/ecb-30.webp"),
+    title: "sailor moon collaborations",
+    img: require("assets/blog/sailorMoon.jpeg"),
     link: "2",
   },
   {

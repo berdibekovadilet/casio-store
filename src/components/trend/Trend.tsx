@@ -29,10 +29,9 @@ export const Trend = () => {
   return (
     <div className={styles.container}>
       <div className={styles.titleWrapper}>
-        <SectionTitle title="Trend" />
+        <SectionTitle title="You May Also Like" />
       </div>
       <div className={styles.cardWrapper}>
-        {" "}
         {isLoading ? skeletons : products}
       </div>
     </div>
