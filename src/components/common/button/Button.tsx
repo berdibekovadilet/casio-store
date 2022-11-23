@@ -3,7 +3,7 @@ import cn from "classnames";
 import styles from "./Button.module.scss";
 import ArrowIcon from "assets/icons/ArrowRight.svg";
 
-interface ButtonProps
+export interface ButtonProps
   extends DetailedHTMLProps<
     ButtonHTMLAttributes<HTMLButtonElement>,
     HTMLButtonElement
@@ -11,6 +11,7 @@ interface ButtonProps
   children: React.ReactNode;
   appearance: "primary" | "secondary";
   icon?: "right" | "none";
+  disabled?: boolean;
 }
 
 export const Button = ({
@@ -18,6 +19,7 @@ export const Button = ({
   icon = "none",
   appearance = "primary",
   className,
+  disabled = false,
   ...props
 }: ButtonProps): JSX.Element => {
   return (
@@ -25,7 +27,9 @@ export const Button = ({
       className={cn(styles.button, className, {
         [styles.primary]: appearance === "primary",
         [styles.secondary]: appearance === "secondary",
+        [styles.disabled]: disabled,
       })}
+      disabled={disabled}
       {...props}
     >
       {children}
