@@ -1,8 +1,7 @@
 import styles from "./Card.module.scss";
 import { Button } from "components/common/button/Button";
 import { Link } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "store/store";
+import { useDispatch } from "react-redux";
 import { addItem } from "store/cart/slice";
 
 type CardProps = {
@@ -24,7 +23,6 @@ export const Card: React.FC<CardProps> = ({
   price,
   oldPrice,
 }) => {
-  const { items } = useSelector((state: RootState) => state.cart);
   const dispatch = useDispatch();
 
   const onClickAdd = () => {
