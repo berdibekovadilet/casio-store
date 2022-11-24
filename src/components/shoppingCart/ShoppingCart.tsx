@@ -8,10 +8,13 @@ export const ShoppingCart = () => {
   const { items, totalPrice } = useSelector((state: RootState) => state.cart);
   const dispatch = useDispatch();
 
+  const totalCount = items.reduce(
+    (sum: number, item: any) => sum + item.count,
+    0
+  );
+
   const onClickRemove = (id: any) => {
-    if (window.confirm("Do you really want to remove the product?")) {
-      dispatch(removeItem(id));
-    }
+    dispatch(removeItem(id));
   };
   return (
     <div className={styles.container}>
@@ -31,7 +34,7 @@ export const ShoppingCart = () => {
 
           <div className={styles.column}>
             <h4>Total</h4>
-            <h3>{item.price} $</h3>
+            <h3>{item.price * item.count} $</h3>
           </div>
           <img
             onClick={() => onClickRemove(item.id)}
@@ -43,7 +46,7 @@ export const ShoppingCart = () => {
       <hr />
       <div className={styles.totalWrapper}>
         <h4>Total:</h4>
-        <h4>{items.length} pcs.</h4>
+        <h4>{totalCount} pcs.</h4>
         <h4>{totalPrice} $</h4>
         <div></div>
       </div>

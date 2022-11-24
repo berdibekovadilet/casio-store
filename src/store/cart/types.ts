@@ -3,7 +3,7 @@ export type CartItem = {
   title: string;
   price: number;
   cover: string;
-  count?: number;
+  count: number;
 };
 
 export interface CartSliceState {

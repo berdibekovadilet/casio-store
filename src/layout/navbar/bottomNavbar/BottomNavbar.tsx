@@ -7,6 +7,8 @@ import { RootState } from "store/store";
 
 const BottomNavbar = () => {
   const { items, totalPrice } = useSelector((state: RootState) => state.cart);
+  const totalCount = items.reduce((sum: number, item: any) => sum + item.count, 0);
+
   return (
     <div className={styles.container}>
       <h3 className={styles.logo}>
@@ -23,7 +25,7 @@ const BottomNavbar = () => {
               className={styles.icon}
               alt="shopCartIcon"
             />
-            <span>{items.length}</span>
+            <span>{totalCount}</span>
           </Link>
         </div>
       </nav>

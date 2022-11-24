@@ -14,6 +14,7 @@ type CardProps = {
   rating: number;
   description: string;
   images: string[];
+  count: number;
 };
 
 export const Card: React.FC<CardProps> = ({
@@ -22,6 +23,7 @@ export const Card: React.FC<CardProps> = ({
   title,
   price,
   oldPrice,
+  count = 1,
 }) => {
   const dispatch = useDispatch();
 
@@ -31,6 +33,7 @@ export const Card: React.FC<CardProps> = ({
       title,
       price,
       cover,
+      count,
     };
 
     dispatch(addItem(item));
