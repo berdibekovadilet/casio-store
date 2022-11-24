@@ -1,4 +1,3 @@
-import { Button } from "../button/Button";
 import styles from "./Modal.module.scss";
 
 export const Modal = ({ active, setActive, children }: any) => {

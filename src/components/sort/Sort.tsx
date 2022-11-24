@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { setSort } from "store/filter/slice";
 import { SortPropertyEnum } from "store/filter/types";
@@ -8,6 +8,10 @@ import styles from "./Sort.module.scss";
 type SortItem = {
   name: string;
   sortProperty: SortPropertyEnum;
+};
+
+type PopupClick = MouseEvent & {
+  path: Node[];
 };
 
 export const sortList: SortItem[] = [
@@ -28,14 +32,28 @@ export const sortList: SortItem[] = [
 export const Sort = () => {
   const sort = useSelector((state: RootState) => state.filter.sort);
   const dispatch = useDispatch();
+  const sortRef = useRef<HTMLDivElement>(null);
   const [modal, setModal] = useState(false);
 
   const onClickListItem = (item: any) => {
     dispatch(setSort(item));
     setModal(false);
   };
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const _event = event as PopupClick;
+
+      if (sortRef.current && !_event.path.includes(sortRef.current)) {
+        setModal(false);
+      }
+    };
+
+    document.body.addEventListener('click', handleClickOutside);
+
+    return () => document.body.removeEventListener('click', handleClickOutside);
+  }, []);
   return (
-    <div className={styles.container}>
+    <div className={styles.container} ref={sortRef}>
       <div className={styles.label}>
         <b>Sort by:</b>
         <span onClick={() => setModal(!modal)}>{sort.name}</span>
