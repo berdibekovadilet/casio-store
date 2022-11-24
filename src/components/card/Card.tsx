@@ -1,6 +1,9 @@
 import styles from "./Card.module.scss";
 import { Button } from "components/common/button/Button";
 import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "store/store";
+import { addItem } from "store/cart/slice";
 
 type CardProps = {
   id: number;
@@ -21,6 +24,19 @@ export const Card: React.FC<CardProps> = ({
   price,
   oldPrice,
 }) => {
+  const { items } = useSelector((state: RootState) => state.cart);
+  const dispatch = useDispatch();
+
+  const onClickAdd = () => {
+    const item = {
+      id,
+      title,
+      price,
+      cover,
+    };
+
+    dispatch(addItem(item));
+  };
   return (
     <div className={styles.container}>
       <Link to={`/shop/${id}`}>
@@ -36,7 +52,9 @@ export const Card: React.FC<CardProps> = ({
           <h3 className={styles.price}>{price} $</h3>
           <p className={styles.oldPrice}>{oldPrice} $</p>
         </div>
-        <Button appearance="primary">Add to cart</Button>
+        <Button appearance="primary" onClick={onClickAdd}>
+          Add to cart
+        </Button>
       </div>
     </div>
   );

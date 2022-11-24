@@ -48,8 +48,8 @@ export const ShoppingCart = () => {
       </div>
       <hr />
       <div className={styles.totalWrapper}>
-        <div></div>
         <h4>Total:</h4>
+        <h4>2 pcs.</h4>
         <h4>760 $</h4>
         <div></div>
       </div>

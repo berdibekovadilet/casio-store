@@ -2,8 +2,11 @@ import { Link } from "react-router-dom";
 import styles from "./BottomNavbar.module.scss";
 import ShoppingCart from "assets/icons/ShoppingCart.svg";
 import Brands from "components/brands/Brands";
+import { useSelector } from "react-redux";
+import { RootState } from "store/store";
 
 const BottomNavbar = () => {
+  const { items, totalPrice } = useSelector((state: RootState) => state.cart);
   return (
     <div className={styles.container}>
       <h3 className={styles.logo}>
@@ -13,14 +16,14 @@ const BottomNavbar = () => {
         <Brands />
         <div className={styles.cart_container}>
           <Link to="cart" className={styles.cart_link}>
-            <span>0 $</span>
+            <span>{totalPrice} $</span>
             <div className={styles.separator}></div>
             <img
               src={ShoppingCart}
               className={styles.icon}
               alt="shopCartIcon"
             />
-            <span>0</span>
+            <span>{items.length}</span>
           </Link>
         </div>
       </nav>
