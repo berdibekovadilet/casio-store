@@ -4,11 +4,12 @@ import { SectionTitle } from "components/sectionTitle/SectionTitle";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { fetchPopularProducts } from "store/product/asyncActions";
-import { RootState, useAppDispatch } from "store/store";
+import { selectProductData } from "store/product/selectors";
+import { useAppDispatch } from "store/store";
 import styles from "./Trend.module.scss";
 
 export const Trend = () => {
-  const { items, status } = useSelector((state: RootState) => state.product);
+  const { items, status } = useSelector(selectProductData);
   const dispatch = useAppDispatch();
 
   useEffect(() => {

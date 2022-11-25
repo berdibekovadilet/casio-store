@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { selectSort } from "store/filter/selectors";
 import { setSort } from "store/filter/slice";
 import { SortPropertyEnum } from "store/filter/types";
-import { RootState } from "store/store";
 import styles from "./Sort.module.scss";
 
 type SortItem = {
@@ -30,7 +30,7 @@ export const sortList: SortItem[] = [
 ];
 
 export const Sort = () => {
-  const sort = useSelector((state: RootState) => state.filter.sort);
+  const sort = useSelector(selectSort);
   const dispatch = useDispatch();
   const sortRef = useRef<HTMLDivElement>(null);
   const [modal, setModal] = useState(false);

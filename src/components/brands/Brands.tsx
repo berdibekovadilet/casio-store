@@ -1,14 +1,13 @@
 import { useCallback } from "react";
 import { Link } from "react-router-dom";
-import type { RootState } from "store/store";
 import { useSelector, useDispatch } from "react-redux";
 import { setbrandId } from "store/filter/slice";
-
 import styles from "./Brands.module.scss";
 import { brands } from "./data";
+import { selectFilter } from "store/filter/selectors";
 
 const Brands = () => {
-  const brandId = useSelector((state: RootState) => state.filter.brandId);
+  const { brandId } = useSelector(selectFilter);
   const dispatch = useDispatch();
 
   const onChangeCategory = useCallback(

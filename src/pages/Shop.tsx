@@ -1,39 +1,39 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Card, CardSkeleton, Pagination, Search, Sort } from "components";
 import { useSelector } from "react-redux";
-import { RootState, useAppDispatch } from "store/store";
+import { useAppDispatch } from "store/store";
 import styles from "../styles/pages/Shop.module.scss";
 import { fetchProducts } from "store/product/asyncActions";
+import { selectProductData } from "store/product/selectors";
+import { selectFilter } from "store/filter/selectors";
 
 export const Shop = () => {
-  const { brandId, sort, searchValue, currentPage } = useSelector(
-    (state: RootState) => state.filter
-  );
-  const { items, status } = useSelector((state: RootState) => state.product);
+  const { brandId, sort, searchValue, currentPage } = useSelector(selectFilter);
+  const { items, status } = useSelector(selectProductData);
   const dispatch = useAppDispatch();
 
-  const getProducts = async () => {
-    const brand = brandId > 0 ? String(brandId) : "";
-    const sortBy = sort.sortProperty.replace("-", "");
-    const order = sort.sortProperty.includes("-") ? "asc" : "desc";
-    const search = searchValue ? `$search=${searchValue}` : "";
-
-    dispatch(
-      fetchProducts({
-        brand,
-        sortBy,
-        order,
-        search,
-        currentPage: String(currentPage),
-      })
-    );
-
-    window.scrollTo(0, 0);
-  };
-
   useEffect(() => {
+    const getProducts = async () => {
+      const brand = brandId > 0 ? String(brandId) : "";
+      const sortBy = sort.sortProperty.replace("-", "");
+      const order = sort.sortProperty.includes("-") ? "asc" : "desc";
+      const search = searchValue ? `$search=${searchValue}` : "";
+
+      dispatch(
+        fetchProducts({
+          brand,
+          sortBy,
+          order,
+          search,
+          currentPage: String(currentPage),
+        })
+      );
+
+      window.scrollTo(0, 0);
+    };
+
     getProducts();
-  }, [brandId, sort.sortProperty, searchValue, currentPage]);
+  }, [brandId, sort.sortProperty, searchValue, currentPage, dispatch]);
 
   const products = items.map((obj: any) => <Card key={obj.id} {...obj} />);
   const skeletons = [...new Array(8)].map((_, index) => (

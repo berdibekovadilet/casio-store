@@ -3,20 +3,21 @@ import { useParams } from "react-router-dom";
 import { Advantages, Button } from "components";
 import styles from "styles/pages/ProductDetailPage.module.scss";
 import { useSelector } from "react-redux";
-import { RootState, useAppDispatch } from "store/store";
+import { useAppDispatch } from "store/store";
 import { fetchOneProduct } from "store/product/asyncActions";
+import { selectProductData } from "store/product/selectors";
 
 const ProductDetailPage = () => {
   const { id } = useParams();
-  const { items, status } = useSelector((state: RootState) => state.product);
+  const { items, status } = useSelector(selectProductData);
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    async function fetchProducts(id: any) {
+    async function fetchProducts(id: string) {
       dispatch(fetchOneProduct(id));
       window.scrollTo(0, 0);
     }
-    fetchProducts(id);
+    fetchProducts(String(id));
   }, [dispatch, id]);
 
   return (
