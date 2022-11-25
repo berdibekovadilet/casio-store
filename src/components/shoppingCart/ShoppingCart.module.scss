@@ -1,7 +1,7 @@
 .container {
    background-color: var(--ligthgray);
    margin: 40px 0;
-   padding: 56px 48px 36px 48px;
+   padding: 56px 48px;
    border-radius: 20px;
    .row {
       display: flex;
@@ -31,8 +31,11 @@
          p {
             font-size: 18px;
          }
-         h2 {
+         button {
             cursor: pointer;
+            border: none;
+            background-color: var(--ligthgray);
+            font-size: 22px;
          }
       }
    }

@@ -4,6 +4,7 @@ import styles from "styles/pages/Cart.module.scss";
 
 export const Cart = () => {
   const navigate = useNavigate();
+
   return (
     <>
       <div className={styles.titleWrapper}>
