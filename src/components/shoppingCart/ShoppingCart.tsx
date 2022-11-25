@@ -2,7 +2,8 @@ import styles from "./ShoppingCart.module.scss";
 import CloseIcon from "assets/icons/Close.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "store/store";
-import { removeItem } from "store/cart/slice";
+import { addItem, removeItem, minusItem } from "store/cart/slice";
+import { CartItem } from "store/cart/types";
 
 export const ShoppingCart = () => {
   const { items, totalPrice } = useSelector((state: RootState) => state.cart);
@@ -13,9 +14,22 @@ export const ShoppingCart = () => {
     0
   );
 
+  const onClickPlus = (id: any) => {
+    dispatch(
+      addItem({
+        id,
+      } as CartItem)
+    );
+  };
+
+  const onClickMinus = (id: any) => {
+    dispatch(minusItem(id));
+  };
+
   const onClickRemove = (id: any) => {
     dispatch(removeItem(id));
   };
+
   return (
     <div className={styles.container}>
       {items.map((item) => (
@@ -26,9 +40,9 @@ export const ShoppingCart = () => {
           <div className={styles.column}>
             <h4>Quantity</h4>
             <div className={styles.quantityWrapper}>
-              <h2>-</h2>
+              <h2 onClick={() => onClickMinus(item.id)}>-</h2>
               <p>{item.count}</p>
-              <h2>+</h2>
+              <h2 onClick={() => onClickPlus(item.id)}>+</h2>
             </div>
           </div>
 
