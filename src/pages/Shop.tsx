@@ -1,39 +1,38 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
 import { Card, CardSkeleton, Pagination, Search, Sort } from "components";
 import { useSelector } from "react-redux";
-import { RootState } from "store/store";
+import { RootState, useAppDispatch } from "store/store";
 import styles from "../styles/pages/Shop.module.scss";
+import { fetchProducts } from "store/product/asyncActions";
 
 export const Shop = () => {
   const { brandId, sort, searchValue, currentPage } = useSelector(
     (state: RootState) => state.filter
   );
-  const [items, setItems] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const { items, status } = useSelector((state: RootState) => state.product);
+  const dispatch = useAppDispatch();
 
-  const baseUrl = "https://63734623348e947299079d45.mockapi.io/products?brand=";
-
-  async function fetchProducts() {
-    setIsLoading(true);
+  const getProducts = async () => {
     const brand = brandId > 0 ? String(brandId) : "";
     const sortBy = sort.sortProperty.replace("-", "");
     const order = sort.sortProperty.includes("-") ? "asc" : "desc";
     const search = searchValue ? `$search=${searchValue}` : "";
 
-    const response = await axios.get(
-      `${baseUrl + brand}&sortBy=${sortBy}&order=${
-        order + search
-      }&page=${currentPage}&limit=12`
+    dispatch(
+      fetchProducts({
+        brand,
+        sortBy,
+        order,
+        search,
+        currentPage: String(currentPage),
+      })
     );
 
-    setItems(response.data);
-    setIsLoading(false);
     window.scrollTo(0, 0);
-  }
+  };
 
   useEffect(() => {
-    fetchProducts();
+    getProducts();
   }, [brandId, sort.sortProperty, searchValue, currentPage]);
 
   const products = items.map((obj: any) => <Card key={obj.id} {...obj} />);
@@ -47,9 +46,20 @@ export const Shop = () => {
         <Sort />
         <Search />
       </div>
-      <div className={styles.productsWrapper}>
-        {isLoading ? skeletons : products}
-      </div>
+      <>
+        {status === "error" ? (
+          <div>
+            <h2>An error has occurred 😕</h2>
+            <p>
+              Unfortunately, the data could not be retrieved. Try again later.
+            </p>
+          </div>
+        ) : (
+          <div className={styles.productsWrapper}>
+            {status === "loading" ? skeletons : products}
+          </div>
+        )}
+      </>
       <Pagination />
     </div>
   );

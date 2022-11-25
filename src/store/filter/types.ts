@@ -13,8 +13,8 @@ export type Sort = {
 };
 
 export interface FilterState {
-  searchValue: string,
+  searchValue: string;
   brandId: number;
-  currentPage: number,
+  currentPage: number;
   sort: Sort;
 }
