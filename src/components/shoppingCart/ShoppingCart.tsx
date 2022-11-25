@@ -1,12 +1,12 @@
 import styles from "./ShoppingCart.module.scss";
 import CloseIcon from "assets/icons/Close.svg";
 import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "store/store";
 import { addItem, removeItem, minusItem } from "store/cart/slice";
 import { CartItem } from "store/cart/types";
+import { selectCart } from "store/cart/selectors";
 
 export const ShoppingCart = () => {
-  const { items, totalPrice } = useSelector((state: RootState) => state.cart);
+  const { items, totalPrice } = useSelector(selectCart);
   const dispatch = useDispatch();
 
   const totalCount = items.reduce(
