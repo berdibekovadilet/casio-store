@@ -1,5 +1,9 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { fetchProducts } from "./asyncActions";
+import {
+  fetchOneProduct,
+  fetchPopularProducts,
+  fetchProducts,
+} from "./asyncActions";
 import { Product, ProductSliceState, Status } from "./types";
 
 const initialState: ProductSliceState = {
@@ -16,7 +20,7 @@ const productSlice = createSlice({
     },
   },
   extraReducers: (builder) => {
-    builder.addCase(fetchProducts.pending, (state, action) => {
+    builder.addCase(fetchProducts.pending, (state) => {
       state.status = Status.LOADING;
       state.items = [];
     });
@@ -24,9 +28,35 @@ const productSlice = createSlice({
     builder.addCase(fetchProducts.fulfilled, (state, action) => {
       state.items = action.payload;
       state.status = Status.SUCCESS;
-      console.log(state.status);
     });
-    builder.addCase(fetchProducts.rejected, (state, action) => {
+    builder.addCase(fetchProducts.rejected, (state) => {
+      state.status = Status.ERROR;
+      state.items = [];
+    });
+    builder.addCase(fetchOneProduct.pending, (state) => {
+      state.status = Status.LOADING;
+      state.items = [];
+    });
+
+    builder.addCase(fetchOneProduct.fulfilled, (state, action) => {
+      state.items = action.payload;
+      state.status = Status.SUCCESS;
+    });
+    builder.addCase(fetchOneProduct.rejected, (state) => {
+      state.status = Status.ERROR;
+      state.items = [];
+    });
+
+    builder.addCase(fetchPopularProducts.pending, (state) => {
+      state.status = Status.LOADING;
+      state.items = [];
+    });
+
+    builder.addCase(fetchPopularProducts.fulfilled, (state, action) => {
+      state.items = action.payload;
+      state.status = Status.SUCCESS;
+    });
+    builder.addCase(fetchPopularProducts.rejected, (state) => {
       state.status = Status.ERROR;
       state.items = [];
     });

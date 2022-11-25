@@ -22,3 +22,19 @@ export const fetchProducts = createAsyncThunk<Product[], SearchParams>(
     return data;
   }
 );
+
+export const fetchOneProduct = createAsyncThunk<Product[], string>(
+  "product/fetchOneProduct",
+  async (id) => {
+    const { data } = await axios.get<Product[]>(urlById + id);
+    return data;
+  }
+);
+
+export const fetchPopularProducts = createAsyncThunk<Product[]>(
+  "product/fetchPopularProduct",
+  async () => {
+    const { data } = await axios.get<Product[]>(baseUrl);
+    return data;
+  }
+);

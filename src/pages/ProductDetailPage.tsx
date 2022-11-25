@@ -3,16 +3,17 @@ import { useParams } from "react-router-dom";
 import ProductService from "API/ProductService";
 import { Advantages, Button } from "components";
 import styles from "styles/pages/ProductDetailPage.module.scss";
+import { useSelector } from "react-redux";
+import { RootState, useAppDispatch } from "store/store";
+import { fetchOneProduct } from "store/product/asyncActions";
 
 const ProductDetailPage = () => {
   const { id } = useParams();
-  const [items, setItems] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const { items, status } = useSelector((state: RootState) => state.product);
+  const dispatch = useAppDispatch();
 
   async function fetchProducts(id: any) {
-    const products = await ProductService.getOne(id);
-    setItems(products);
-    setIsLoading(false);
+    dispatch(fetchOneProduct(id));
     window.scrollTo(0, 0);
   }
 
@@ -22,7 +23,7 @@ const ProductDetailPage = () => {
 
   return (
     <>
-      {isLoading ? (
+      {status === "loading" ? (
         <h2>Загрузка страницы</h2>
       ) : (
         <>

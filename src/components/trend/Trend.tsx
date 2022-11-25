@@ -1,22 +1,22 @@
-import ProductService from "API/ProductService";
 import { Card } from "components/card/Card";
 import { CardSkeleton } from "components/card/cardSkeleton/CardSkeleton";
 import { SectionTitle } from "components/sectionTitle/SectionTitle";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { fetchPopularProducts } from "store/product/asyncActions";
+import { RootState, useAppDispatch } from "store/store";
 import styles from "./Trend.module.scss";
 
 export const Trend = () => {
-  const [items, setItems] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const { items, status } = useSelector((state: RootState) => state.product);
+  const dispatch = useAppDispatch();
 
-  async function fetchProducts() {
-    const products = await ProductService.getAll();
-    setItems(products);
-    setIsLoading(false);
+  async function getProducts() {
+    dispatch(fetchPopularProducts());
   }
 
   useEffect(() => {
-    fetchProducts();
+    getProducts();
   }, []);
 
   const products = items
@@ -32,7 +32,7 @@ export const Trend = () => {
         <SectionTitle title="You May Also Like" />
       </div>
       <div className={styles.cardWrapper}>
-        {isLoading ? skeletons : products}
+        {status === "loading" ? skeletons : products}
       </div>
     </div>
   );
