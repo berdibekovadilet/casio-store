@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import ProductService from "API/ProductService";
 import { Advantages, Button } from "components";
 import styles from "styles/pages/ProductDetailPage.module.scss";
 import { useSelector } from "react-redux";
@@ -12,14 +11,13 @@ const ProductDetailPage = () => {
   const { items, status } = useSelector((state: RootState) => state.product);
   const dispatch = useAppDispatch();
 
-  async function fetchProducts(id: any) {
-    dispatch(fetchOneProduct(id));
-    window.scrollTo(0, 0);
-  }
-
   useEffect(() => {
+    async function fetchProducts(id: any) {
+      dispatch(fetchOneProduct(id));
+      window.scrollTo(0, 0);
+    }
     fetchProducts(id);
-  }, []);
+  }, [dispatch, id]);
 
   return (
     <>

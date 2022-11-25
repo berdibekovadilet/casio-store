@@ -1,4 +1,3 @@
-import ProductService from "API/ProductService";
 import { Card } from "components/card/Card";
 import { CardSkeleton } from "components/card/cardSkeleton/CardSkeleton";
 import { SectionTitle } from "components/sectionTitle/SectionTitle";
@@ -12,13 +11,12 @@ export const Popular = () => {
   const { items, status } = useSelector((state: RootState) => state.product);
   const dispatch = useAppDispatch();
 
-  async function getProducts() {
-    dispatch(fetchPopularProducts());
-  }
-
   useEffect(() => {
+    async function getProducts() {
+      dispatch(fetchPopularProducts());
+    }
     getProducts();
-  }, []);
+  }, [dispatch]);
 
   const products = items
     .slice(0, 8)
