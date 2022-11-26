@@ -1,13 +1,13 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Advantages, Button } from "components";
-import styles from "styles/pages/ProductDetailPage.module.scss";
 import { useSelector } from "react-redux";
 import { useAppDispatch } from "store/store";
 import { fetchOneProduct } from "store/product/asyncActions";
 import { selectProductData } from "store/product/selectors";
+import styles from "styles/pages/ProductDetailPage.module.scss";
 
-const ProductDetailPage = () => {
+const ProductDetailPage: React.FC = () => {
   const { id } = useParams();
   const { items, status } = useSelector(selectProductData);
   const dispatch = useAppDispatch();

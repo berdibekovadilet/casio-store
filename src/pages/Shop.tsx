@@ -7,7 +7,7 @@ import { fetchProducts } from "store/product/asyncActions";
 import { selectProductData } from "store/product/selectors";
 import { selectFilter } from "store/filter/selectors";
 
-export const Shop = () => {
+export const Shop: React.FC = () => {
   const { brandId, sort, searchValue, currentPage } = useSelector(selectFilter);
   const { items, status } = useSelector(selectProductData);
   const dispatch = useAppDispatch();

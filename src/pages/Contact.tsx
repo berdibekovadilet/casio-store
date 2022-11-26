@@ -1,7 +1,7 @@
 import { Newsletter } from "components";
 import styles from "../styles/pages/Contact.module.scss";
 
-export const Contact = () => {
+export const Contact: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2>Contact Us</h2>

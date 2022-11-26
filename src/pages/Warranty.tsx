@@ -2,7 +2,7 @@ import styles from "../styles/pages/Warranty.module.scss";
 import HeroImg from "assets/images/service.webp";
 import { Newsletter } from "components";
 
-export const Warranty = () => {
+export const Warranty: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2>Warranty</h2>

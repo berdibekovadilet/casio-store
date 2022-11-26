@@ -1,7 +1,7 @@
 import { Accordion, Newsletter } from "components";
 import styles from "../styles/pages/Discounts.module.scss";
 
-export const Discounts = () => {
+export const Discounts: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2>Discounts</h2>

@@ -1,7 +1,7 @@
 import styles from "../styles/pages/Delivery.module.scss";
 import { Newsletter } from "components";
 
-export const Delivery = () => {
+export const Delivery: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2>Delivery</h2>

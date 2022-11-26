@@ -1,7 +1,7 @@
 import { Accordion, Newsletter } from "components";
 import styles from "../styles/pages/FAQ.module.scss";
 
-export const FAQ = () => {
+export const FAQ: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2>Frequently Asked Questions</h2>

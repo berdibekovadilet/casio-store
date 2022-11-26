@@ -2,7 +2,7 @@ import styles from "../styles/pages/About.module.scss";
 import HeroImg from "assets/images/about.webp";
 import { Newsletter } from "components";
 
-export const About = () => {
+export const About: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2>About Company</h2>

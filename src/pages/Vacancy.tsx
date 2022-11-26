@@ -1,7 +1,7 @@
 import { Accordion, Newsletter } from "components";
 import styles from "../styles/pages/Vacancy.module.scss";
 
-export const Vacancy = () => {
+export const Vacancy: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2>Vacancy</h2>

@@ -1,7 +1,7 @@
 import { Newsletter } from "components";
 import styles from "../styles/pages/Refund.module.scss";
 
-export const Refund = () => {
+export const Refund: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2>Refund</h2>

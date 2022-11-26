@@ -14,7 +14,7 @@ import {
   smallBannersData2,
 } from "components/bannerGroup/data";
 
-export const Home = () => {
+export const Home: React.FC = () => {
   return (
     <>
       <BannerGroup banners={bigBannersData1} smBanners={smallBannersData1} />

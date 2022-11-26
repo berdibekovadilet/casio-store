@@ -1,6 +1,6 @@
 import { BlogSection } from "components";
 
-export const Blog = () => {
+export const Blog: React.FC = () => {
   return (
     <>
       <BlogSection />

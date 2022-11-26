@@ -1,7 +1,7 @@
 import { Newsletter } from "components";
 import styles from "../styles/pages/Policy.module.scss";
 
-export const Policy = () => {
+export const Policy: React.FC = () => {
   return (
     <div className={styles.container}>
       <h2>Privacy Policy</h2>
