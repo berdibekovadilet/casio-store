@@ -12,6 +12,7 @@ export interface ButtonProps
   appearance: "primary" | "secondary";
   icon?: "right" | "none";
   disabled?: boolean;
+  onClick?: (event: React.MouseEvent) => void;
 }
 
 export const Button = ({
@@ -20,6 +21,7 @@ export const Button = ({
   appearance = "primary",
   className,
   disabled = false,
+  onClick,
   ...props
 }: ButtonProps): JSX.Element => {
   return (
@@ -30,6 +32,7 @@ export const Button = ({
         [styles.disabled]: disabled,
       })}
       disabled={disabled}
+      onClick={onClick}
       {...props}
     >
       {children}

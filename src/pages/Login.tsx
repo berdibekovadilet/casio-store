@@ -61,7 +61,8 @@ const useInput = (initialValue: string, validations: any) => {
 
 export const Login = () => {
   const email = useInput("", { isEmpty: true, minLength: 3, isEmail: true });
-  const password = useInput("", { isEmpty: true, minLength: 8 });
+  const password = useInput("", { isEmpty: true, minLength: 6 });
+
   return (
     <div>
       <h2>Sign in to your profile</h2>
