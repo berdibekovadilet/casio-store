@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styles from "styles/pages/Login.module.scss";
 
-const useValidations = (value: any, validations: any) => {
+const useValidations = (value: string, validations: any) => {
   const [isEmpty, setIsEmpty] = useState(true);
   const [minLengthError, setMinLengthError] = useState(false);
   const [emailError, setEmailError] = useState(false);
@@ -31,7 +31,7 @@ const useValidations = (value: any, validations: any) => {
           break;
       }
     }
-  }, [value]);
+  }, [value, validations]);
 
   useEffect(() => {
     if (isEmpty || minLengthError || emailError) {
@@ -44,7 +44,7 @@ const useValidations = (value: any, validations: any) => {
   return { isEmpty, minLengthError, emailError, inputValidation };
 };
 
-const useInput = (initialValue: any, validations: any) => {
+const useInput = (initialValue: string, validations: any) => {
   const [value, setValue] = useState(initialValue);
   const [isDirty, setIsDirty] = useState(false);
   const valid = useValidations(value, validations);

@@ -8,15 +8,6 @@ import { selectProductData } from "store/product/selectors";
 import { useAppDispatch } from "store/store";
 import styles from "./Popular.module.scss";
 
-interface IProduct {
-  id: number;
-  cover: string;
-  title: string;
-  price: number;
-  oldPrice: number;
-  count: number;
-}
-
 export const Popular = () => {
   const { items, status } = useSelector(selectProductData);
   const dispatch = useAppDispatch();
