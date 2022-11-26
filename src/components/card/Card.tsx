@@ -37,7 +37,7 @@ export const Card: React.FC<CardProps> = ({
     };
 
     dispatch(addItem(item));
-    toast.success("Product added to cart!", {
+    toast.success("Added to cart! 🤩", {
       position: toast.POSITION.TOP_RIGHT,
     });
   };

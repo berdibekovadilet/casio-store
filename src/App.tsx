@@ -23,7 +23,6 @@ import {
   BlogDetailPage2,
   BlogDetailPage3,
 } from "pages/BlogDetailPage";
-import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (

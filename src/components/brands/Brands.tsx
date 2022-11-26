@@ -21,7 +21,7 @@ const Brands = () => {
     <>
       {brands.map((link, index) => (
         <Link
-          className={brandId === index ? styles.active : styles.menu_item}
+          className={styles.menu_item}
           to={link.href}
           key={link.label}
           onClick={() => onChangeCategory(index)}
