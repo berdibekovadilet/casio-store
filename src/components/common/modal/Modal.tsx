@@ -1,6 +1,12 @@
 import styles from "./Modal.module.scss";
 
-export const Modal = ({ active, setActive, children }: any) => {
+type ModalProps = {
+  children?: React.ReactNode;
+  active: boolean;
+  setActive: any;
+};
+
+export const Modal = ({ active, setActive, children }: ModalProps) => {
   return (
     <div
       className={

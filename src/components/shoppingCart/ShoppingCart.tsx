@@ -14,7 +14,7 @@ export const ShoppingCart = () => {
     0
   );
 
-  const onClickPlus = (id: any) => {
+  const onClickPlus = (id: string | any) => {
     dispatch(
       addItem({
         id,
@@ -22,11 +22,11 @@ export const ShoppingCart = () => {
     );
   };
 
-  const onClickMinus = (id: any) => {
+  const onClickMinus = (id: string | any) => {
     dispatch(minusItem(id));
   };
 
-  const onClickRemove = (id: any) => {
+  const onClickRemove = (id: string | any) => {
     dispatch(removeItem(id));
   };
 

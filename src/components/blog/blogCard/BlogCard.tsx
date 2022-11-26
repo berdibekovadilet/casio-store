@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
+import { BlogProps } from "../data";
 import styles from "./BlogCard.module.scss";
 
-export const BlogCard = ({ data }: any) => {
+type Props = {
+  data: BlogProps[];
+};
+
+export const BlogCard = ({ data }: Props) => {
   return (
     <>
       {data.map(
