@@ -4,15 +4,7 @@ import { selectSort } from "store/filter/selectors";
 import { setSort } from "store/filter/slice";
 import { SortPropertyEnum } from "store/filter/types";
 import styles from "./Sort.module.scss";
-
-type SortItem = {
-  name: string;
-  sortProperty: SortPropertyEnum;
-};
-
-type PopupClick = MouseEvent & {
-  path: Node[];
-};
+import { PopupClick, SortItem } from "./types";
 
 export const sortList: SortItem[] = [
   { name: "More Popular", sortProperty: SortPropertyEnum.RATING_DESC },

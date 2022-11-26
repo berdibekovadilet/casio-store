@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "store/store";
 import { useCallback } from "react";
 import { setCurrentPage } from "store/filter/slice";
-import { current } from "@reduxjs/toolkit";
 
 export const Pagination = () => {
   const currentPage = useSelector(

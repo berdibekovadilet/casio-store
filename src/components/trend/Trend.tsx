@@ -21,7 +21,7 @@ export const Trend = () => {
 
   const products = items
     .slice(0, 8)
-    .map((obj: any) => <Card key={obj.id} {...obj} />);
+    .map((obj) => <Card key={obj.id} {...obj} />);
   const skeletons = [...new Array(8)].map((_, index) => (
     <CardSkeleton key={index} />
   ));
