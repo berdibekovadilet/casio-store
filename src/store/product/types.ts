@@ -7,6 +7,7 @@ export type Product = {
   cover: string;
   images: string[];
   rating: number;
+  count: number;
 };
 
 export enum Status {
