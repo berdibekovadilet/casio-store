@@ -3,7 +3,7 @@ import styles from "./Modal.module.scss";
 type ModalProps = {
   children?: React.ReactNode;
   active: boolean;
-  setActive: any;
+  setActive: (active: boolean) => void;
 };
 
 export const Modal = ({ active, setActive, children }: ModalProps) => {
