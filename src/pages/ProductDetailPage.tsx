@@ -5,7 +5,9 @@ import { useSelector } from "react-redux";
 import { useAppDispatch } from "store/store";
 import { fetchOneProduct } from "store/product/asyncActions";
 import { selectProductData } from "store/product/selectors";
+import { ToastContainer, toast } from "react-toastify";
 import styles from "styles/pages/ProductDetailPage.module.scss";
+import { addItem } from "store/cart/slice";
 
 const ProductDetailPage: React.FC = () => {
   const { id } = useParams();
@@ -19,6 +21,23 @@ const ProductDetailPage: React.FC = () => {
     }
     fetchProducts(String(id));
   }, [dispatch, id]);
+
+  const onClickAdd = () => {
+    const [{ id, title, price, cover, count }] = items;
+
+    const item = {
+      id,
+      title,
+      price,
+      cover,
+      count,
+    };
+
+    dispatch(addItem(item));
+    toast.success("Added to cart! 🤩", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
+  };
 
   return (
     <>
@@ -45,7 +64,10 @@ const ProductDetailPage: React.FC = () => {
                   <div className={styles.titleWrapper}>
                     <h2>{item.title}</h2>
                     <h2>{item.price} $</h2>
-                    <Button appearance="primary">Add to cart</Button>
+                    <Button appearance="primary" onClick={onClickAdd}>
+                      Add to cart
+                    </Button>
+                    <ToastContainer />
                     <p>
                       Tell about the publication and we will refund 2$ from your
                       purchase
