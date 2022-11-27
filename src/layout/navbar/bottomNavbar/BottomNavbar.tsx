@@ -1,13 +1,26 @@
+import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import styles from "./BottomNavbar.module.scss";
-import ShoppingCart from "assets/icons/ShoppingCart.svg";
-import Brands from "components/brands/Brands";
 import { useSelector } from "react-redux";
 import { RootState } from "store/store";
+import Brands from "components/brands/Brands";
+import ShoppingCart from "assets/icons/ShoppingCart.svg";
+import styles from "./BottomNavbar.module.scss";
 
 const BottomNavbar = () => {
   const { items, totalPrice } = useSelector((state: RootState) => state.cart);
-  const totalCount = items.reduce((sum: number, item: any) => sum + item.count, 0);
+  const totalCount = items.reduce(
+    (sum: number, item: any) => sum + item.count,
+    0
+  );
+  const isMounted = useRef(false);
+
+  useEffect(() => {
+    if (isMounted.current) {
+      const json = JSON.stringify(items);
+      localStorage.setItem("cart", json);
+    }
+    isMounted.current = true;
+  }, [items]);
 
   return (
     <div className={styles.container}>
