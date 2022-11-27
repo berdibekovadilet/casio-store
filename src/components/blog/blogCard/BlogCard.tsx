@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import { BlogProps } from "../data";
 import styles from "./BlogCard.module.scss";
 
-type Props = {
+type BlogCardProps = {
   data: BlogProps[];
 };
 
-export const BlogCard = ({ data }: Props) => {
+export const BlogCard: React.FC<BlogCardProps> = ({ data }) => {
   return (
     <>
       {data.map(

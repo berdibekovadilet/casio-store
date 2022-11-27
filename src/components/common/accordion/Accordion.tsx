@@ -4,14 +4,14 @@ import styles from "./Accordion.module.scss";
 import "react-slidedown/lib/slidedown.css";
 import { useState } from "react";
 
-export interface IAccordionProps {
+export type AccordionProps = {
   className?: string;
   title?: string;
   isActive?: boolean;
   children?: React.ReactNode;
-}
+};
 
-export const Accordion: React.FC<IAccordionProps> = ({
+export const Accordion: React.FC<AccordionProps> = ({
   className,
   title = " ",
   isActive = false,

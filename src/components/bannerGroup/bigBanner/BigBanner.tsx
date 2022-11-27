@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BannerBig } from "../types";
 import styles from "./BigBanner.module.scss";
 
-const BigBanner = ({ banners }: BannerBig) => {
+const BigBanner: React.FC<BannerBig> = ({ banners }) => {
   const [slideIndex, setSlideIndex] = useState(1);
 
   const moveDot = (index: number) => {

@@ -1,7 +1,7 @@
 import { BannerSm } from "../types";
 import styles from "./SmallBanner.module.scss";
 
-const SmallBanner = ({ smBanners }: BannerSm) => {
+const SmallBanner: React.FC<BannerSm> = ({ smBanners }) => {
   return (
     <div className={styles.container}>
       {smBanners.map((item) => (

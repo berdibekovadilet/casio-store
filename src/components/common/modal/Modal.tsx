@@ -6,7 +6,11 @@ type ModalProps = {
   setActive: (active: boolean) => void;
 };
 
-export const Modal = ({ active, setActive, children }: ModalProps) => {
+export const Modal: React.FC<ModalProps> = ({
+  active,
+  setActive,
+  children,
+}) => {
   return (
     <div
       className={

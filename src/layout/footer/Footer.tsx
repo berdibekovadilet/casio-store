@@ -11,7 +11,7 @@ const Footer = () => {
               {arr.map((item, index) => (
                 <div key={index}>
                   <h5>{item.title}</h5>
-                  <a href={item.href} target="_blank" rel="noreferrer">
+                  <a href={item.href}>
                     <p>{item.label}</p>
                   </a>
                 </div>
