@@ -8,6 +8,7 @@ import { selectProductData } from "store/product/selectors";
 import { ToastContainer, toast } from "react-toastify";
 import styles from "styles/pages/ProductDetailPage.module.scss";
 import { addItem } from "store/cart/slice";
+import SwipeImages from "components/swipeImages/SwipeImages";
 
 const ProductDetailPage: React.FC = () => {
   const { id } = useParams();
@@ -45,22 +46,11 @@ const ProductDetailPage: React.FC = () => {
         <h2>Загрузка страницы</h2>
       ) : (
         <>
-          {items.map((item: any) => (
+          {items.map((item) => (
             <div key={item.id}>
               <div className={styles.container}>
                 <div className={styles.topWrapper}>
-                  <div className={styles.imageWrapper}>
-                    <div className={styles.carouselWrapper}>
-                      {item.images.map((image: any) => (
-                        <img
-                          key={image}
-                          src={require(`assets/${image}`)}
-                          alt="product"
-                        />
-                      ))}
-                    </div>
-                    <img src={require(`assets/${item.cover}`)} alt="cover" />
-                  </div>
+                  <SwipeImages item={item} />
                   <div className={styles.titleWrapper}>
                     <h2>{item.title}</h2>
                     <h2>{item.price} $</h2>
