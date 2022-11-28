@@ -1,13 +1,13 @@
-import { getTouchEventData } from "helpers/dom";
-import { getRefValue, useStateRef } from "helpers/hooks";
 import React, { useRef, useState } from "react";
-import SwiperItem from "./swiperItem/SwiperItem";
-import { SwiperProps } from "./types";
-import styles from "./Swiper.module.scss";
+import { getRefValue, useStateRef } from "helpers/hooks";
+import { BannerBig } from "../types";
+import styles from "./SwipeBanner.module.scss";
+import { getTouchEventData } from "helpers/dom";
+import SwiperBannerItem from "./swiperBannerItem/SwiperBannerItem";
 
 const MIN_SWIPE_REQUIRED = 40;
 
-export const Swiper: React.FC<SwiperProps> = ({ items }) => {
+const SwipeBanner: React.FC<BannerBig> = ({ banners }) => {
   const containerRef = useRef<HTMLUListElement>(null);
   const containerWidthRef = useRef(0);
   const minOffsetXRef = useRef(0);
@@ -89,7 +89,6 @@ export const Swiper: React.FC<SwiperProps> = ({ items }) => {
     setCurrentIdx(idx);
     setOffsetX(-(containerWidth * idx));
   };
-
   return (
     <div
       className={styles.container}
@@ -101,12 +100,12 @@ export const Swiper: React.FC<SwiperProps> = ({ items }) => {
         className={`${styles.list} ${isSwiping ? styles.isSwiping : ""}`}
         style={{ transform: `translate3d(${offsetX}px, 0, 0)` }}
       >
-        {items.map((item, idx) => (
-          <SwiperItem key={idx} {...item} />
+        {banners.map((item, idx) => (
+          <SwiperBannerItem key={idx} {...item} />
         ))}
       </ul>
       <ul className={styles.indicator}>
-        {items.map((_item, idx) => (
+        {banners.map((_item, idx) => (
           <li
             key={idx}
             className={`${styles.indicatorItem} ${
@@ -120,3 +119,5 @@ export const Swiper: React.FC<SwiperProps> = ({ items }) => {
     </div>
   );
 };
+
+export default SwipeBanner;

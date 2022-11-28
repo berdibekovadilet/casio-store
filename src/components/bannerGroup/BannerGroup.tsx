@@ -1,7 +1,8 @@
-import BigBanner from "./bigBanner/BigBanner";
+// import BigBanner from "./bigBanner/BigBanner";
 import SmallBanner from "./smallBanner/SmallBanner";
 import styles from "./BannerGroup.module.scss";
 import { BannerGroupType } from "./types";
+import SwipeBanner from "./swipeBanner/SwipeBanner";
 
 export const BannerGroup: React.FC<BannerGroupType> = ({
   banners,
@@ -9,7 +10,7 @@ export const BannerGroup: React.FC<BannerGroupType> = ({
 }) => {
   return (
     <div className={styles.container}>
-      <BigBanner banners={banners} />
+      <SwipeBanner banners={banners} />
       <SmallBanner smBanners={smBanners} />
     </div>
   );
