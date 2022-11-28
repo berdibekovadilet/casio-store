@@ -3,7 +3,6 @@ import { getRefValue, useStateRef } from "helpers/hooks";
 import { BannerBig } from "../types";
 import styles from "./SwipeBanner.module.scss";
 import { getTouchEventData } from "helpers/dom";
-import SwiperBannerItem from "./swiperBannerItem/SwiperBannerItem";
 
 const MIN_SWIPE_REQUIRED = 40;
 
@@ -101,7 +100,17 @@ const SwipeBanner: React.FC<BannerBig> = ({ banners }) => {
         style={{ transform: `translate3d(${offsetX}px, 0, 0)` }}
       >
         {banners.map((item, idx) => (
-          <SwiperBannerItem key={idx} {...item} />
+          <li className={styles.swiperItem} key={idx}>
+            <h3>
+              <a href={item.href}>{item.title} </a>
+            </h3>
+            <img
+              src={item.img}
+              alt="banner"
+              className={styles.swiperImg}
+              draggable={false}
+            />
+          </li>
         ))}
       </ul>
       <ul className={styles.indicator}>
