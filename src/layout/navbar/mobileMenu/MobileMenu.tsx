@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import ShoppingCart from "assets/icons/ShoppingCart.svg";
 import BurgerMenu from "assets/icons/BurgerMenu.svg";
@@ -7,9 +7,26 @@ import styles from "./MobileMenu.module.scss";
 
 import { links } from "../topNavbar/links";
 import Brands from "components/brands/Brands";
+import { useSelector } from "react-redux";
+import { RootState } from "store/store";
 
 const MobileMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { items, totalPrice } = useSelector((state: RootState) => state.cart);
+  const totalCount = items.reduce(
+    (sum: number, item: any) => sum + item.count,
+    0
+  );
+  const isMounted = useRef(false);
+
+  useEffect(() => {
+    if (isMounted.current) {
+      const json = JSON.stringify(items);
+      localStorage.setItem("cart", json);
+    }
+    isMounted.current = true;
+  }, [items]);
+
   const menuToggler = () => setMenuOpen(!menuOpen);
   return (
     <>
@@ -30,14 +47,14 @@ const MobileMenu = () => {
             </div>
             <div className={styles.nav_right}>
               <Link to="cart" className={styles.cart_link}>
-                <span>0 $</span>
+                <span>{totalPrice} $</span>
                 <div className={styles.separator}></div>
                 <img
                   src={ShoppingCart}
                   className={styles.icon}
                   alt="shopCartIcon"
                 />
-                <span>0</span>
+                <span>{totalCount}</span>
               </Link>
             </div>
           </div>
