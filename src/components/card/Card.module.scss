@@ -11,6 +11,7 @@
       img {
          width: 220px;
          height: 220px;
+         object-fit: contain;
          transition: all 0.2s ease;
          &:hover {
             transform: scale(1.04);
@@ -20,7 +21,7 @@
    .infoWrapper {
       margin-top: 16px;
       .title {
-        text-transform: uppercase;
+         text-transform: uppercase;
       }
       .priceWrapper {
          display: flex;

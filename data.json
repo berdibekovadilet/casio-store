@@ -6,17 +6,14 @@
     "price": 210,
     "oldPrice": 290,
     "brand": 1,
-    "rating": 7,
+    "rating": 4,
     "description": "From the toughness-driven G-SHOCK, a design inspired by adventurers whose love of the wilderness knows no bounds. Switch between interchangeable bands and bezels for a thin octagonal GAE-2100 with an even wilder spirit. Green nature-inspired camouflage and vibrant outdoor-fashion orange take you from fashionable urban streets to wilderness exploration in cool, casual style.",
     "images": [
       "products/gshock/gae2100we3a/GAE-2100WE-3A.webp",
       "products/gshock/gae2100we3a/GAE-2100WE-3A_package.webp",
       "products/gshock/gae2100we3a/GAE2100WE-3A_BACK.webp",
       "products/gshock/gae2100we3a/GAE2100WE-3A_SIDE.webp",
-      "products/gshock/gae2100we3a/GAE-2100WE-3A_N.webp",
-      "products/gshock/gae2100we3a/GAE-2100WE-3A_belt.webp",
-      "products/gshock/gae2100we3a/GAE-2100WE-3A_SIDE2.webp",
-      "products/gshock/gae2100we3a/GAE-2100WE-3A_BACK2.webp"
+      "products/gshock/gae2100we3a/GAE-2100WE-3A_N.webp"
     ]
   },
   {
@@ -26,7 +23,7 @@
     "price": 300,
     "oldPrice": 370,
     "brand": 2,
-    "rating": 9,
+    "rating": 7,
     "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
     "images": [
       "products/edifice/ecb2000dc1a/ECB-2000DC-1A.webp",
@@ -42,7 +39,7 @@
     "price": 130,
     "oldPrice": 190,
     "brand": 3,
-    "rating": 6,
+    "rating": 5,
     "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
     "images": [
       "products/babyg/ba110xpm6a/BA-110XPM-6A.webp",
@@ -59,7 +56,7 @@
     "price": 280,
     "oldPrice": 380,
     "brand": 4,
-    "rating": 9,
+    "rating": 8,
     "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
     "images": [
       "products/protrek/prg3401/PRG-340-1.webp",
@@ -78,7 +75,7 @@
     "price": 310,
     "oldPrice": 380,
     "brand": 1,
-    "rating": 9,
+    "rating": 8,
     "description": "Take it to the streets with original graffiti art for your wrist. Introducing the Street Spirit line of watches that takes the G-SHOCK form as its canvas. Splashed boldly across the bezel and band, these street-savvy designs deliver original graffiti art that crushes in any fashion scene. Your choice — the iconic case of the DW-5000, the metallic bezel of the GM-5600 and GM-2100, or the oversized case of the GA-110 and GX-56. Multicolored, cool accents for whatever look you choose.",
     "images": [
       "products/gshock/gm2100ss1a/GM-2100SS-1A.webp",
@@ -94,14 +91,13 @@
     "price": 300,
     "oldPrice": 370,
     "brand": 2,
-    "rating": 7,
+    "rating": 6,
     "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
     "images": [
       "products/edifice/ecb2000pb1a/ECB-2000PB-1A.webp",
       "products/edifice/ecb2000pb1a/ECB-2000_kv_en.webp",
       "products/edifice/ecb2000pb1a/ECB-2000PB-1A_front.webp",
       "products/edifice/ecb2000pb1a/ECB-2000PB-1A_side.webp",
-      "products/edifice/ecb2000pb1a/ECB-2000_solar.webp",
       "products/edifice/ecb2000pb1a/ECB-2000PB-1A_Lifestyle03.webp",
       "products/edifice/ecb2000pb1a/ECB-2000PB-1A_Lifestyle06.webp"
     ]
@@ -113,7 +109,7 @@
     "price": 130,
     "oldPrice": 190,
     "brand": 3,
-    "rating": 7,
+    "rating": 2,
     "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
     "images": [
       "products/babyg/ba130pm4a/BA-130PM-4A.webp",
@@ -131,7 +127,7 @@
     "price": 280,
     "oldPrice": 380,
     "brand": 4,
-    "rating": 7,
+    "rating": 6,
     "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
     "images": [
       "products/protrek/prg3403/PRG-340-3.webp",
@@ -149,7 +145,7 @@
     "price": 120,
     "oldPrice": 190,
     "brand": 1,
-    "rating": 8,
+    "rating": 5,
     "description": "Slip on a splash of clear metallic pleasure with the ever-popular analog-digital combination GA-2100 in a slimmer, more compact profile. Metallic translucent designs in a choice of colors for versatile watches that pair with any outfit, all year round. Index markings treated with a half-matte vapor deposition finish bring to life the clear metallic look.",
     "images": [
       "products/gshock/gmas2100sk1a/GMA-S2100SK-1A.webp",
@@ -159,6 +155,653 @@
       "products/gshock/gmas2100sk1a/GMA-S2100SK-1A_02.webp",
       "products/gshock/gmas2100sk1a/GMA-S2100SK_kv.webp",
       "products/gshock/gmas2100sk1a/GMA-S2100SK-1A_GMA.webp"
+    ]
+  },
+  {
+    "id": 10,
+    "cover": "products/edifice/eqs940dc1av/EQS-940DC-1AVU.webp",
+    "title": "Edifice EQS-940DC-1AVU",
+    "price": 195,
+    "oldPrice": 260,
+    "brand": 2,
+    "rating": 6,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": [
+      "products/edifice/eqs940dc1av/EQS-940DC-1AVU.webp",
+      "products/edifice/eqs940dc1av/EQS-940DC-1AV_SIDE.webp",
+      "products/edifice/eqs940dc1av/EQS-940DC-1AV_BACK.webp",
+      "products/edifice/eqs940dc1av/EQS-940DC-1AV_02.webp",
+      "products/edifice/eqs940dc1av/EQS-940DC-1AV_01.webp"
+    ]
+  },
+  {
+    "id": 11,
+    "cover": "products/babyg/ba110xsm2a/BA-110XSM-2A.webp",
+    "title": "Baby-G BA-110XSM-2A",
+    "price": 160,
+    "oldPrice": 220,
+    "brand": 3,
+    "rating": 4,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": [
+      "products/babyg/ba110xsm2a/BA-110XSM-2A.webp",
+      "products/babyg/ba110xsm2a/BA-110XSM-2A_01.webp",
+      "products/babyg/ba110xsm2a/BA-110XSM-2A_02.webp",
+      "products/babyg/ba110xsm2a/BA-110XSM-2A_03.webp",
+      "products/babyg/ba110xsm2a/BA-110XSM-2A_06.webp"
+    ]
+  },
+  {
+    "id": 12,
+    "cover": "products/protrek/prg340t7/PRG-340T-7.webp",
+    "title": "Pro Trek PRG340T-7",
+    "price": 330,
+    "oldPrice": 390,
+    "brand": 4,
+    "rating": 6,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prg340t7/PRG-340T-7.webp",
+      "products/protrek/prg340t7/PRG-340T-7_04.webp",
+      "products/protrek/prg340t7/PRG-340T-7_03.webp",
+      "products/protrek/prg340t7/PRG-340T-7_05.webp",
+      "products/protrek/prg340t7/PRG-340T-7_02.webp"
+    ]
+  },
+  {
+    "id": 13,
+    "cover": "products/gshock/gmwb5000eh1/GMW-B5000EH-1.webp",
+    "title": "G-SHOCK GMW-B5000EH-1",
+    "price": 720,
+    "oldPrice": 1090,
+    "brand": 1,
+    "rating": 6,
+    "description": "Slip on a splash of clear metallic pleasure with the ever-popular analog-digital combination GA-2100 in a slimmer, more compact profile. Metallic translucent designs in a choice of colors for versatile watches that pair with any outfit, all year round. Index markings treated with a half-matte vapor deposition finish bring to life the clear metallic look.",
+    "images": [
+      "products/gshock/gmwb5000eh1/GMW-B5000EH-1.webp",
+      "products/gshock/gmwb5000eh1/GMW-B5000EH-1_04.webp",
+      "products/gshock/gmwb5000eh1/GMW-B5000EH-1_03.webp",
+      "products/gshock/gmwb5000eh1/GMW-B5000EH-1_05.webp",
+      "products/gshock/gmwb5000eh1/GMW-B5000EH-1_06.webp",
+      "products/gshock/gmwb5000eh1/GMW-B5000EH-1_08.webp"
+    ]
+  },
+  {
+    "id": 14,
+    "cover": "products/edifice/eqs940db1av/EQS-940DB-1AVU.webp",
+    "title": "Edifice EQS-940DB-1AVU",
+    "price": 195,
+    "oldPrice": 260,
+    "brand": 2,
+    "rating": 6,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": [
+      "products/edifice/eqs940db1av/EQS-940DB-1AVU.webp",
+      "products/edifice/eqs940db1av/EQS-940DB-1AV_SIDE.webp",
+      "products/edifice/eqs940db1av/EQS-940DB-1AV_BACK.webp",
+      "products/edifice/eqs940db1av/EQS-940DB-1AV_01.webp"
+    ]
+  },
+  {
+    "id": 15,
+    "cover": "products/babyg/bgd5651/BGD-565-1.webp",
+    "title": "Baby-G BGD-565-1",
+    "price": 89,
+    "oldPrice": 120,
+    "brand": 3,
+    "rating": 4,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": [
+      "products/babyg/bgd5651/BGD-565-1.webp",
+      "products/babyg/bgd5651/BGD-565-1_front.webp",
+      "products/babyg/bgd5651/BGD565-1V_SIDE.webp",
+      "products/babyg/bgd5651/BGD565-1V_BACK.webp",
+      "products/babyg/bgd5651/BGD-565-1_theme.webp",
+      "products/babyg/bgd5651/BGD-565_02.webp",
+      "products/babyg/bgd5651/BGD-565_01.webp"
+    ]
+  },
+  {
+    "id": 16,
+    "cover": "products/protrek/prw6630na1a3/PRW-6630NA-1A3.webp",
+    "title": "Pro Trek PRW-6630NA-1A3",
+    "price": 490,
+    "oldPrice": 590,
+    "brand": 4,
+    "rating": 8,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prw6630na1a3/PRW-6630NA-1A3.webp",
+      "products/protrek/prw6630na1a3/PRW-6630NA-1A3_09.webp",
+      "products/protrek/prw6630na1a3/PRW-6630NA-1A3_04.webp",
+      "products/protrek/prw6630na1a3/PRW-6630NA-1A3_05.webp",
+      "products/protrek/prw6630na1a3/PRW-6630NA-1A3_06.webp",
+      "products/protrek/prw6630na1a3/PRW-6630NA-1A3_03.webp"
+    ]
+  },
+  {
+    "id": 17,
+    "cover": "products/gshock/gwg2040fr1a/GWG-2040FR-1A.webp",
+    "title": "G-SHOCK GWG-2040FR-1A",
+    "price": 1100,
+    "oldPrice": 1290,
+    "brand": 1,
+    "rating": 8,
+    "description": "Slip on a splash of clear metallic pleasure with the ever-popular analog-digital combination GA-2100 in a slimmer, more compact profile. Metallic translucent designs in a choice of colors for versatile watches that pair with any outfit, all year round. Index markings treated with a half-matte vapor deposition finish bring to life the clear metallic look.",
+    "images": [
+      "products/gshock/gwg2040fr1a/GWG-2040FR-1A.webp",
+      "products/gshock/gwg2040fr1a/GWG-2040FR-1A_front.webp",
+      "products/gshock/gwg2040fr1a/GWG-2040FR-1A_side.webp",
+      "products/gshock/gwg2040fr1a/GWG-2040FR-1A_urabuta.webp",
+      "products/gshock/gwg2040fr1a/GWG-2040FR-1A_luminous.webp",
+      "products/gshock/gwg2040fr1a/GWG-2040FR_MTG-B3000FR_package.webp"
+    ]
+  },
+  {
+    "id": 18,
+    "cover": "products/edifice/efr573hg1av/EFR-573HG-1AVU.webp",
+    "title": "Edifice EFR-573HG-1AVU",
+    "price": 150,
+    "oldPrice": 200,
+    "brand": 2,
+    "rating": 4,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": [
+      "products/edifice/efr573hg1av/EFR-573HG-1AVU.webp",
+      "products/edifice/efr573hg1av/EFR-573HG-1AV_front.webp",
+      "products/edifice/efr573hg1av/EFR-573HG-1AVU_SIDE.webp",
+      "products/edifice/efr573hg1av/EFR-573HG-1AVF_BACK.webp"
+    ]
+  },
+  {
+    "id": 19,
+    "cover": "products/babyg/bgd5654/BGD-565-4.webp",
+    "title": "Baby-G BGD-565-4",
+    "price": 89,
+    "oldPrice": 120,
+    "brand": 3,
+    "rating": 4,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": [
+      "products/babyg/bgd5654/BGD-565-4.webp",
+      "products/babyg/bgd5654/BGD-565-4_SIDE.webp",
+      "products/babyg/bgd5654/BGD-565-4_BACK.webp",
+      "products/babyg/bgd5654/BGD-565-4_theme.webp",
+      "products/babyg/bgd5654/BGD-565_02.webp",
+      "products/babyg/bgd5654/BGD-565_01.webp"
+    ]
+  },
+  {
+    "id": 20,
+    "cover": "products/protrek/prw6611y1/PRW-6611Y-1.webp",
+    "title": "Pro Trek PRW-6611Y-1",
+    "price": 490,
+    "oldPrice": 590,
+    "brand": 4,
+    "rating": 6,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prw6611y1/PRW-6611Y-1.webp",
+      "products/protrek/prw6611y1/PRW-6611Y-1_theme_4.webp",
+      "products/protrek/prw6611y1/PRW-6611Y-1_theme_5.webp",
+      "products/protrek/prw6611y1/PRW6611Y-1_BACK.webp",
+      "products/protrek/prw6611y1/PRW6611Y-1_SIDE.webp",
+      "products/protrek/prw6611y1/PRW-6611Y-1_theme_3.webp",
+      "products/protrek/prw6611y1/PRW-6611Y-1_theme_2.webp"
+    ]
+  },
+  {
+    "id": 21,
+    "cover": "products/gshock/gab001g2a/GA-B001G-2A.webp",
+    "title": "G-SHOCK GA-B001G-2A",
+    "price": 150,
+    "oldPrice": 220,
+    "brand": 1,
+    "rating": 7,
+    "description": "Slip on a splash of clear metallic pleasure with the ever-popular analog-digital combination GA-2100 in a slimmer, more compact profile. Metallic translucent designs in a choice of colors for versatile watches that pair with any outfit, all year round. Index markings treated with a half-matte vapor deposition finish bring to life the clear metallic look.",
+    "images": [
+      "products/gshock/gab001g2a/GA-B001G-2A.webp",
+      "products/gshock/gab001g2a/GA-B001G-2A_04.webp",
+      "products/gshock/gab001g2a/GA-B001G-2A_05.webp",
+      "products/gshock/gab001g2a/GA-B001G-2A_06.webp",
+      "products/gshock/gab001g2a/GA-B001G-2A_03.webp",
+      "products/gshock/gab001g2a/GA-B001G-2A_07.webp"
+    ]
+  },
+  {
+    "id": 22,
+    "cover": "products/edifice/efb680d1av/EFB-680D-1AV_1.webp",
+    "title": "Edifice EFB-680D-1AV_1",
+    "price": 135,
+    "oldPrice": 180,
+    "brand": 2,
+    "rating": 5,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": [
+      "products/edifice/efb680d1av/EFB-680D-1AV_1.webp",
+      "products/edifice/efb680d1av/EFB680_BACK.webp",
+      "products/edifice/efb680d1av/EFB680_SIDE.webp"
+    ]
+  },
+  {
+    "id": 23,
+    "cover": "products/babyg/bgd565s7/BGD-565S-7.webp",
+    "title": "Baby-G BGD-565S-7",
+    "price": 89,
+    "oldPrice": 120,
+    "brand": 3,
+    "rating": 5,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": [
+      "products/babyg/bgd565s7/BGD-565S-7.webp",
+      "products/babyg/bgd565s7/BGD565S-7_SIDE.webp",
+      "products/babyg/bgd565s7/BGD565S-7_BACK.webp",
+      "products/babyg/bgd565s7/BGD-565S-7_N.webp",
+      "products/babyg/bgd565s7/BGD-565_02.webp",
+      "products/babyg/bgd565s7/BGD-565_01.webp"
+    ]
+  },
+  {
+    "id": 24,
+    "cover": "products/protrek/prw611a/PRW-61-1A.webp",
+    "title": "Pro Trek PRW-61-1A",
+    "price": 420,
+    "oldPrice": 570,
+    "brand": 4,
+    "rating": 3,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prw611a/PRW-61-1A.webp",
+      "products/protrek/prw611a/PRW-61-1A_04.webp",
+      "products/protrek/prw611a/PRW61-1A_SIDE.webp",
+      "products/protrek/prw611a/PRW61-1A_BACK.webp",
+      "products/protrek/prw611a/PRW-61-1A_03.webp",
+      "products/protrek/prw611a/PRW-61-1A_LS02.webp"
+    ]
+  },
+  {
+    "id": 25,
+    "cover": "products/gshock/gms110b8a/GM-S110B-8A.avif",
+    "title": "G-SHOCK GM-S110B-8A",
+    "price": 200,
+    "oldPrice": 280,
+    "brand": 1,
+    "rating": 5,
+    "description": "Slip on a splash of clear metallic pleasure with the ever-popular analog-digital combination GA-2100 in a slimmer, more compact profile. Metallic translucent designs in a choice of colors for versatile watches that pair with any outfit, all year round. Index markings treated with a half-matte vapor deposition finish bring to life the clear metallic look.",
+    "images": [
+      "products/gshock/gms110b8a/GM-S110B-8A.avif",
+      "products/gshock/gms110b8a/GM-S110B-8A_front.webp",
+      "products/gshock/gms110b8a/GM-S110B-8A_theme1.webp",
+      "products/gshock/gms110b8a/GM-S110B-8A_theme.webp",
+      "products/gshock/gms110b8a/GM-S110_4colors.webp"
+    ]
+  },
+  {
+    "id": 26,
+    "cover": "products/gshock/gm5600ss1/GM-5600SS-1.webp",
+    "title": "G-SHOCK GM-5600SS-1",
+    "price": 270,
+    "oldPrice": 360,
+    "brand": 1,
+    "rating": 7,
+    "description": "Slip on a splash of clear metallic pleasure with the ever-popular analog-digital combination GA-2100 in a slimmer, more compact profile. Metallic translucent designs in a choice of colors for versatile watches that pair with any outfit, all year round. Index markings treated with a half-matte vapor deposition finish bring to life the clear metallic look.",
+    "images": [
+      "products/gshock/gm5600ss1/GM-5600SS-1.webp",
+      "products/gshock/gm5600ss1/GM-5600SS-1_N.webp",
+      "products/gshock/gm5600ss1/GM-5600SS_package.webp",
+      "products/gshock/gm5600ss1/GM-5600SS-1_08.webp",
+      "products/gshock/gm5600ss1/StreetSpirit_kv.webp"
+    ]
+  },
+  {
+    "id": 27,
+    "cover": "products/gshock/ga110ss1a/GA-110SS-1A.webp",
+    "title": "G-SHOCK GA-110SS-1A",
+    "price": 190,
+    "oldPrice": 280,
+    "brand": 1,
+    "rating": 3,
+    "description": "Slip on a splash of clear metallic pleasure with the ever-popular analog-digital combination GA-2100 in a slimmer, more compact profile. Metallic translucent designs in a choice of colors for versatile watches that pair with any outfit, all year round. Index markings treated with a half-matte vapor deposition finish bring to life the clear metallic look.",
+    "images": [
+      "products/gshock/ga110ss1a/GA-110SS-1A.webp",
+      "products/gshock/ga110ss1a/GA-110SS-1A_N.webp",
+      "products/gshock/ga110ss1a/GA-110SS_package.webp",
+      "products/gshock/ga110ss1a/GA-110SS-1A_08.webp",
+      "products/gshock/ga110ss1a/StreetSpirit_kv.webp"
+    ]
+  },
+  {
+    "id": 28,
+    "cover": "products/gshock/gmb2100bd1a/GM-B2100BD-1A.webp",
+    "title": "G-SHOCK GM-B2100BD-1A",
+    "price": 600,
+    "oldPrice": 790,
+    "brand": 1,
+    "rating": 9,
+    "description": "Slip on a splash of clear metallic pleasure with the ever-popular analog-digital combination GA-2100 in a slimmer, more compact profile. Metallic translucent designs in a choice of colors for versatile watches that pair with any outfit, all year round. Index markings treated with a half-matte vapor deposition finish bring to life the clear metallic look.",
+    "images": [
+      "products/gshock/gmb2100bd1a/GM-B2100BD-1A.webp",
+      "products/gshock/gmb2100bd1a/GM-B2100BD-1A_front.webp",
+      "products/gshock/gmb2100bd1a/GM-B2100BD-1A_02.webp",
+      "products/gshock/gmb2100bd1a/GM-B2100BD-1A_03.webp",
+      "products/gshock/gmb2100bd1a/GM-B2100BD-1A_04.webp",
+      "products/gshock/gmb2100bd1a/GM-B2100BD-1A_05.webp",
+      "products/gshock/gmb2100bd1a/GM-B2100BD-1A_06.webp"
+    ]
+  },
+  {
+    "id": 29,
+    "cover": "products/gshock/dw5600gu7/DW-5600GU-7.webp",
+    "title": "G-SHOCK DW-5600GU-7",
+    "price": 140,
+    "oldPrice": 230,
+    "brand": 1,
+    "rating": 4,
+    "description": "Slip on a splash of clear metallic pleasure with the ever-popular analog-digital combination GA-2100 in a slimmer, more compact profile. Metallic translucent designs in a choice of colors for versatile watches that pair with any outfit, all year round. Index markings treated with a half-matte vapor deposition finish bring to life the clear metallic look.",
+    "images": [
+      "products/gshock/dw5600gu7/DW-5600GU-7.webp",
+      "products/gshock/dw5600gu7/DW-5600GU-7_N.webp",
+      "products/gshock/dw5600gu7/DW-5600GU-7_package.webp",
+      "products/gshock/dw5600gu7/universe_2000_1400.webp"
+    ]
+  },
+  {
+    "id": 30,
+    "cover": "products/gshock/ga100skc1a/GA-100SKC-1A.webp",
+    "title": "G-SHOCK GA-100SKC-1A",
+    "price": 120,
+    "oldPrice": 190,
+    "brand": 1,
+    "rating": 2,
+    "description": "Slip on a splash of clear metallic pleasure with the ever-popular analog-digital combination GA-2100 in a slimmer, more compact profile. Metallic translucent designs in a choice of colors for versatile watches that pair with any outfit, all year round. Index markings treated with a half-matte vapor deposition finish bring to life the clear metallic look.",
+    "images": [
+      "products/gshock/ga100skc1a/GA-100SKC-1A.webp",
+      "products/gshock/ga100skc1a/GA-100SKC-1A_front.webp",
+      "products/gshock/ga100skc1a/GA-100SKC-1A_02.webp",
+      "products/gshock/ga100skc1a/GA-100SKC-1A_03.webp",
+      "products/gshock/ga100skc1a/GA-100SKC-1A_04.webp",
+      "products/gshock/ga100skc1a/GA-100SKC-1A_05.webp",
+      "products/gshock/ga100skc1a/NeoUtility_square.webp"
+    ]
+  },
+  {
+    "id": 31,
+    "cover": "products/babyg/ba130sp7a/BA-130SP-7A_1.webp",
+    "title": "Baby-G BA-130SP-7A_1",
+    "price": 130,
+    "oldPrice": 190,
+    "brand": 3,
+    "rating": 6,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": [
+      "products/babyg/ba130sp7a/BA-130SP-7A_1.webp",
+      "products/babyg/ba130sp7a/BA-130SP-7A_band.webp",
+      "products/babyg/ba130sp7a/BA-130SP-7A_01m.webp",
+      "products/babyg/ba130sp7a/BA-130SP_01.webp",
+      "products/babyg/ba130sp7a/BA-130SP_01m.webp"
+    ]
+  },
+  {
+    "id": 32,
+    "cover": "products/babyg/msgb100g1a/MSG-B100G-1A.webp",
+    "title": "Baby-G MSG-B100G-1A",
+    "price": 280,
+    "oldPrice": 390,
+    "brand": 3,
+    "rating": 6,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": [
+      "products/babyg/msgb100g1a/MSG-B100G-1A.webp",
+      "products/babyg/msgb100g1a/MSGB100G-1A_SIDE.webp",
+      "products/babyg/msgb100g1a/MSGB100G-1A_BACK.webp"
+    ]
+  },
+  {
+    "id": 33,
+    "cover": "products/babyg/ba110pl7a2/BA-110PL-7A2.webp",
+    "title": "Baby-G BA-110PL-7A2",
+    "price": 180,
+    "oldPrice": 290,
+    "brand": 3,
+    "rating": 3,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": ["products/babyg/ba110pl7a2/BA-110PL-7A2.webp"]
+  },
+  {
+    "id": 34,
+    "cover": "products/babyg/msgs500g1a/MSG-S500G-1A_Seq1.webp",
+    "title": "Baby-G MSG-S500G-1A",
+    "price": 280,
+    "oldPrice": 390,
+    "brand": 3,
+    "rating": 6,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": [
+      "products/babyg/msgs500g1a/MSG-S500G-1A_Seq1.webp",
+      "products/babyg/msgs500g1a/MSG-S500G-1A_BACK.webp",
+      "products/babyg/msgs500g1a/MSG-S500G-1A_SIDE.webp",
+      "products/babyg/msgs500g1a/MSG-S500G-1A_Seq3.webp",
+      "products/babyg/msgs500g1a/MSG-S500G-1A_Seq2.webp"
+    ]
+  },
+  {
+    "id": 35,
+    "cover": "products/babyg/ba110rg1a/BA-110RG-1A_Seq1.webp",
+    "title": "Baby-G BA-110RG-1A",
+    "price": 140,
+    "oldPrice": 260,
+    "brand": 3,
+    "rating": 5,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": [
+      "products/babyg/ba110rg1a/BA-110RG-1A_Seq1.webp",
+      "products/babyg/ba110rg1a/BA110RG-1A_side.webp",
+      "products/babyg/ba110rg1a/BA110RG-1A_back.webp",
+      "products/babyg/ba110rg1a/BA-110RG-1A_Seq2.webp",
+      "products/babyg/ba110rg1a/BA-110RG-1A_Seq3.webp",
+      "products/babyg/ba110rg1a/BA-110RG-1A_Seq4.webp"
+    ]
+  },
+  {
+    "id": 36,
+    "cover": "products/babyg/ba110rg4a/BA-110RG-4A_Seq1.webp",
+    "title": "Baby-G BA-110RG-4A",
+    "price": 140,
+    "oldPrice": 260,
+    "brand": 3,
+    "rating": 5,
+    "description": "Pastel meets metallic  — Choose a cute & casual, multicolor BABY-G to go with your active life. Pastel-toned color-blocking and gradation give these models a feminine pop, with a wide array of soft hues coming together into a charming design. The hands, index marks, and other dial components feature a metallic finish , adding an exquisite shine and creating a unique pairing with the matte case and band. More than just pretty, these watches also feature great everyday functionality, with shock-resistant construction and water resistance up to 100 meters. Express your mystique with this stunning contrast of tough metal and soft pastels.",
+    "images": [
+      "products/babyg/ba110rg4a/BA-110RG-4A_Seq1.webp",
+      "products/babyg/ba110rg4a/BA110RG-4A_side.webp",
+      "products/babyg/ba110rg4a/BA110RG-4A_back.webp",
+      "products/babyg/ba110rg4a/BA-110RG-4A_Seq6.webp",
+      "products/babyg/ba110rg4a/BA-110RG-4A_Seq7.webp"
+    ]
+  },
+  {
+    "id": 37,
+    "cover": "products/edifice/eqb1100xdb2a/EQB-1100XDB-2A_Seq1.webp",
+    "title": "Edifice EQB-1100XDB-2A",
+    "price": 240,
+    "oldPrice": 350,
+    "brand": 2,
+    "rating": 8,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": [
+      "products/edifice/eqb1100xdb2a/EQB-1100XDB-2A_Seq1.webp",
+      "products/edifice/eqb1100xdb2a/EQB-1100XDB-2A_SIDE.webp",
+      "products/edifice/eqb1100xdb2a/EQB-1100XDB-2A_BACK.webp",
+      "products/edifice/eqb1100xdb2a/EQB-1100XDB-2A_4.webp",
+      "products/edifice/eqb1100xdb2a/EQB-1100XDB-2A_3.webp",
+      "products/edifice/eqb1100xdb2a/EQB-1100XDB-2A_2.webp"
+    ]
+  },
+  {
+    "id": 38,
+    "cover": "products/edifice/eqb1000xd1a/EQB-1000XD-1A_Seq1.webp",
+    "title": "Edifice EQB-1100XD-1A",
+    "price": 240,
+    "oldPrice": 350,
+    "brand": 2,
+    "rating": 5,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": [
+      "products/edifice/eqb1000xd1a/EQB-1000XD-1A_Seq1.webp",
+      "products/edifice/eqb1000xd1a/EQB-1000XD-1A_SIDE.webp",
+      "products/edifice/eqb1000xd1a/EQB-1000XD-1A_BACK.webp"
+    ]
+  },
+  {
+    "id": 39,
+    "cover": "products/edifice/efss570dc1a/EFS-S570DC-1A_Seq1.webp",
+    "title": "Edifice EFS-S570DC-1A",
+    "price": 210,
+    "oldPrice": 270,
+    "brand": 2,
+    "rating": 3,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": [
+      "products/edifice/efss570dc1a/EFS-S570DC-1A_Seq1.webp",
+      "products/edifice/efss570dc1a/EFS-S570DC-1A_SIDE.webp",
+      "products/edifice/efss570dc1a/EFS-S570DC-1A_BACK.webp"
+    ]
+  },
+  {
+    "id": 40,
+    "cover": "products/edifice/efb700d8av/EFB-700D-8AVU.webp",
+    "title": "Edifice EFB-700D-8AVU",
+    "price": 220,
+    "oldPrice": 290,
+    "brand": 2,
+    "rating": 4,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": ["products/edifice/efb700d8av/EFB-700D-8AVU.webp"]
+  },
+  {
+    "id": 41,
+    "cover": "products/edifice/ecb30p1a/ECB-30P-1A.webp",
+    "title": "Edifice ECB-30P-1A",
+    "price": 150,
+    "oldPrice": 200,
+    "brand": 2,
+    "rating": 4,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": [
+      "products/edifice/ecb30p1a/ECB-30P-1A.webp",
+      "products/edifice/ecb30p1a/ECB-30P-1A_SIDE.webp",
+      "products/edifice/ecb30p1a/ECB-30P-1A_BACK.webp",
+      "products/edifice/ecb30p1a/ECB30P-1A_3000x3000.webp"
+    ]
+  },
+  {
+    "id": 42,
+    "cover": "products/edifice/efb680d2bv/EFB-680D-2BV_1.webp",
+    "title": "Edifice EFB-680D-2BV_1",
+    "price": 135,
+    "oldPrice": 180,
+    "brand": 2,
+    "rating": 2,
+    "description": "Take control of speed and intelligence with a solar-powered analog-digital combination EDIFICE. Inspired by formula car suspension, the SOSPENSIONE ECB-2000 is the first EDIFICE with a carbon fiber-reinforced resin case, thanks to a unique case design that arranges the lugs in a four-arm configuration. The lugs too are reinforced with carbon fiber, bringing the true motorsports spirit to both the design and the materials of this timepiece. It’s a snap to sync with your smartphone via Bluetooth®. Tap into the dedicated app to access the to-the-second precision timekeeping that is so important for racing teams, and to effortlessly manage world time and transfer stopwatch data measured to the millisecond to your smartphone. The LED Super Illuminator light makes viewing the analog-digital face a non-issue, and the Tough Solar system keeps you charged and running even high-load functions with just a small amount of light.",
+    "images": [
+      "products/edifice/efb680d2bv/EFB-680D-2BV_1.webp",
+      "products/edifice/efb680d2bv/EFB680_SIDE.webp",
+      "products/edifice/efb680d2bv/EFB680_BACK.webp"
+    ]
+  },
+  {
+    "id": 43,
+    "cover": "products/protrek/prtb70t7/PRT-B70T-7.webp",
+    "title": "Pro Trek PRT-B70T-7",
+    "price": 350,
+    "oldPrice": 470,
+    "brand": 4,
+    "rating": 8,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prtb70t7/PRT-B70T-7.webp",
+      "products/protrek/prtb70t7/PRTB70T-7_BACK.webp",
+      "products/protrek/prtb70t7/PRTB70T-7_SIDE.webp"
+    ]
+  },
+  {
+    "id": 44,
+    "cover": "products/protrek/prg2403/PRG-240-3_Seq1.webp",
+    "title": "Pro Trek PRG-240-3",
+    "price": 310,
+    "oldPrice": 390,
+    "brand": 4,
+    "rating": 2,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prg2403/PRG-240-3_Seq1.webp",
+      "products/protrek/prg2403/PRG-240-3_SIDE.webp",
+      "products/protrek/prg2403/PRG-240-3.webp"
+    ]
+  },
+  {
+    "id": 45,
+    "cover": "products/protrek/prg6001/PRG-600-1_Seq1.webp",
+    "title": "Pro Trek PRG-600-1",
+    "price": 500,
+    "oldPrice": 590,
+    "brand": 4,
+    "rating": 6,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prg6001/PRG-600-1_Seq1.webp",
+      "products/protrek/prg6001/PRG-600-1_Seq3.webp",
+      "products/protrek/prg6001/PRG-600-1_Seq4.webp",
+      "products/protrek/prg6001/PRG-600-1_Seq6.webp",
+      "products/protrek/prg6001/PRG-600-1_Seq2.webp",
+      "products/protrek/prg6001/PRG-600-1_Seq7.webp"
+    ]
+  },
+  {
+    "id": 46,
+    "cover": "products/protrek/prg600yb3/PRG-600YB-3_01.webp",
+    "title": "Pro Trek PRG-600YB-3",
+    "price": 510,
+    "oldPrice": 590,
+    "brand": 4,
+    "rating": 7,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prg600yb3/PRG-600YB-3_01.webp",
+      "products/protrek/prg600yb3/PRG-600YB-3_02.webp",
+      "products/protrek/prg600yb3/PRG-600YB-3_03.webp"
+    ]
+  },
+  {
+    "id": 47,
+    "cover": "products/protrek/prw35001/PRW-3500-1_01.webp",
+    "title": "Pro Trek PRW-3500-1",
+    "price": 420,
+    "oldPrice": 470,
+    "brand": 4,
+    "rating": 3,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prw35001/PRW-3500-1_01.webp",
+      "products/protrek/prw35001/PRW-3500-1_02.webp",
+      "products/protrek/prw35001/PRW-3500-1_03.webp",
+      "products/protrek/prw35001/PRW-3500-1_05.webp"
+    ]
+  },
+  {
+    "id": 48,
+    "cover": "products/protrek/prg2701/PRG-270-1_01.webp",
+    "title": "Pro Trek PRG-270-1",
+    "price": 380,
+    "oldPrice": 450,
+    "brand": 4,
+    "rating": 3,
+    "description": "Get out into the great outdoors with a solar-powered PRO TREK featuring eco-friendly materials that care for the environment.The PRO TREK line of authentic outdoor gear for nature lovers introduces the PRG340, a timepiece that incorporates environmentally friendly biomass plastics* while delivering the same comfortable fit for your wrist. The case and urethane band are crafted from biomass plastics made with castor oil and the band from biomass plastics made with corn. The duplex LCD lays out separate layers for the compass graphics and the clock functions, enabling a larger compass display for better legibility and easier navigation in a design that is both functional and beautiful. The rotating bezel makes it simple to record compass readings, and the Tough Solar charging system keeps the advanced functionality on the go. Get out and explore with a gentler footprint! Biomass plastics are polymers produced using chemical or biological synthesis of materials sourced from plant matter or other renewable organic substances and are widely thought to help reduce environmental impact and promote the shift to a circular economy.",
+    "images": [
+      "products/protrek/prg2701/PRG-270-1_01.webp",
+      "products/protrek/prg2701/PRG-270-1_02.webp",
+      "products/protrek/prg2701/PRG-270-1_03.webp",
+      "products/protrek/prg2701/PRG-270-1_06.webp"
     ]
   }
 ]
