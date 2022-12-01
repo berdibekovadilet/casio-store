@@ -4,42 +4,44 @@ import styles from "./BlogDetailPage.module.scss";
 export const BlogDetailPage3 = () => {
   return (
     <div className={styles.container}>
-      <h2>Red Flare 40th Anniversary Models</h2>
+      <h2>Модели Red Flare к 40-летию G-Shock</h2>
       <img src={require("assets/blog/blog3/hero-pc.webp")} alt="gwg-2040fr" />
       <h3>
-        Special solar flare-inspired designs featured on multicolour
-        carbon-insert bezels
+        Специальные дизайны, вдохновленные солнечными бликами, украшают
+        многоцветные рамки с карбоновыми вставками
       </h3>
       <h4>
-        Introducing new watches to commemorate the 40th anniversary of the 1983
-        debut of G-SHOCK. These first two watches feature a solar flare theme.
-        Designs evoking intensely blazing flares combine with the brand colour
-        of red. This all-new look is achieved by making the bezels of layered
-        carbon and coloured glass fibres, along with a phosphorescent material.
-        The stunningly dynamic multicoloured design and the wondrously
-        innovative glow-in-the-dark property of the material creates an
-        altogether original worldview.
+        Представляем новые часы в ознаменование 40-й годовщины дебюта G-SHOCK в
+        1983 году. Эти первые две модели часов выполнены в тематике солнечных
+        вспышек. Дизайн, вызывающий яркие вспышки, сочетается с фирменным
+        красным цветом. Этот совершенно новый внешний вид достигается за счет
+        изготовления рамок из многослойного углеродного волокна и цветного
+        стекла, а также фосфоресцирующего материала. Потрясающе динамичный
+        многоцветный дизайн и удивительно инновационное свойство материала
+        светиться в темноте создают совершенно оригинальное мировоззрение.
       </h4>
       <h4>
-        As CASIO prepares to celebrate the 40th anniversary of its shockproof
-        G-SHOCK line, the designers continue to surprise brand fans - this time
-        showing off two top-of-the-line new products, the GWG-2040FR-1A and the
-        MTG-B3000FR-1A. We got the hint of the great work done, now we can have
-        a look at the premium cases with unusual solar flare styling.
+        В то время как CASIO готовится отпраздновать 40-летие своей
+        противоударной линейки G-SHOCK, дизайнеры продолжают удивлять
+        поклонников бренда - на этот раз демонстрируя две первоклассные новинки,
+        GWG-2040FR-1A и MTG-B3000FR-1A. Мы получили представление о проделанной
+        большой работе, теперь мы можем взглянуть на чехлы премиум-класса с
+        необычным дизайном solar flare.
       </h4>
       <img
         src={require("assets/blog/blog3/package.png")}
         alt="gwg-2040fr package"
       />
       <h4>
-        Look at how cool the case design is - in the spirit of a piece of stone
-        or even solidified lava. The GWG-2000 is a dirt-resistant case, Carbon
-        Core Guard, carbon bezel, sapphire crystal, radio time synchronization,
-        solar power, triple sensor [barometer/altimeter, thermometer, compass].
-        The MTG-B3000 is a Dual Core Guard case structure [even stronger,
-        thinner and lighter], carbon inner case, sapphire crystal, Triple G
-        Resist protection [drops, vibrations, centrifugal force], solar power,
-        Multiband radio synchronization.
+        Посмотрите, какой классный дизайн корпуса - в духе куска камня или даже
+        застывшей лавы. GWG-2000 - это грязеотталкивающий корпус, карбоновая
+        защита сердечника, карбоновый безель, сапфировое стекло, синхронизация
+        времени по радио, солнечная энергия, тройной датчик [барометр /
+        высотомер, термометр, компас]. MTG-B3000 имеет двухъядерную защитную
+        конструкцию корпуса [еще прочнее, тоньше и легче], карбоновый внутренний
+        корпус, сапфировое стекло, тройную защиту от G Resist [падения,
+        вибрации, центробежная сила], солнечную энергию, многополосную
+        радиосинхронизацию.
       </h4>
       <div className={styles.row}>
         <img
@@ -48,16 +50,20 @@ export const BlogDetailPage3 = () => {
           alt="banner"
         />
         <div className={styles.infoWrapper}>
-          <h3>Multicolor carbon-insert bezels evoke solar flares.</h3>
+          <h3>
+            Многоцветные рамки с карбоновыми вставками напоминают солнечные
+            блики.
+          </h3>
           <p>
-            The G-SHOCK spirit of toughness is conveyed by evoking the dynamic
-            energy and heat intensity of solar flares. Carbon and colored glass
-            fibers are laminated and hewn into bezel forms to produce random
-            patterns. Meanwhile, use of glass fiber sheets containing
-            phosphorescent particles creates stunning designs of wondrous
-            glow-in-the-dark beauty. *Exact bezel patterns and phosphorescent
-            hues will vary from watch to watch due to details of the
-            manufacturing process.
+            Дух жесткости G-SHOCK передается благодаря динамической энергии и
+            высокой интенсивности солнечных вспышек. Углеродные и цветные
+            стеклянные волокна ламинируются и вытесываются в формы безелей для
+            получения случайных узоров. Между тем, использование листов
+            стекловолокна, содержащих фосфоресцирующие частицы, создает
+            потрясающие дизайны удивительной красоты, светящиеся в темноте.
+            Точные узоры безеля и фосфоресцирующие оттенки могут варьироваться
+            от часов к часам в зависимости от деталей производственного
+            процесса.
           </p>
         </div>
       </div>
@@ -68,17 +74,18 @@ export const BlogDetailPage3 = () => {
           alt="banner"
         />
         <div className={styles.infoWrapper}>
-          <h3>Phosphorescent forged carbon bezel parts.</h3>
+          <h3>Фосфоресцирующие кованые карбоновые детали безеля.</h3>
           <p>
-            Forged carbon fiber, a composite material used in aircraft
-            fuselages, is used to make the special pair of components at the 12
-            and 6 o'clock positions. Carbon fiber and phosphorescent epoxy resin
-            undergo high-temperature, high-pressure metallic molding and cutting
-            processess, followed by polishing and painting. While in bright
-            light they retain their black appearance, in the dark they glow with
-            solar flare patterns that match the bezel. *Exact phosphorescent
-            hues will vary from watch to watch due to details if the
-            manufacturing process.
+            Кованое углеродное волокно, композитный материал, используемый в
+            фюзеляжах самолетов, используется для изготовления специальной пары
+            компонентов в положениях 12 и 6 часов. Углеродное волокно и
+            фосфоресцирующая эпоксидная смола подвергаются высокотемпературному
+            металлическому формованию и резке под высоким давлением с
+            последующей полировкой и покраской. В то время как при ярком
+            освещении они сохраняют свой черный вид, в темноте они светятся
+            солнечными бликами, которые соответствуют безелю. * Точные
+            фосфоресцирующие оттенки будут варьироваться от часов к часам из-за
+            деталей производственного процесса.
           </p>
         </div>
       </div>
@@ -89,12 +96,14 @@ export const BlogDetailPage3 = () => {
             alt="banner"
           />
           <div className={styles.infoWrapper}>
-            <h3>Color scheme delivered with IP coatings</h3>
+            <h3>Цветовая гамма поставляется с покрытиями</h3>
             <p>
-              Pink gold IP is used for the bezel ring and rose gold IP for metal
-              parts including the buckle, band loop, buttons, and crown. Black
-              IP is applied to the case back. Different color finishes applied
-              to individual components evoke solar flares.
+              Покрытие из розового золота используется для кольца безеля, а
+              аокрытие из розового золота - для металлических деталей, включая
+              пряжку, петлю для ремешка, пуговицы и заводную головку. Черное
+              покрытие нанесен на заднюю крышку корпуса. Различные цветовые
+              решения, нанесенные на отдельные компоненты, вызывают солнечные
+              блики.
             </p>
           </div>
         </div>
@@ -104,15 +113,12 @@ export const BlogDetailPage3 = () => {
             alt="banner"
           />
           <div className={styles.infoWrapper}>
-            <h3>
-              Special design features to celebrate the 40th anniversary of
-              G-SHOCK
-            </h3>
+            <h3>Особые дизайнерские особенности в честь 40-летия G-SHOCK</h3>
             <p>
-              An Eric Haze-designed logo commemorating the 40th anniversary of
-              G-SHOCK is engraved on the case back, while the stainless-steel
-              band loop is laser-engraved with four stars and the words "SINCE
-              1983".
+              На задней крышке корпуса выгравирован логотип, разработанный
+              Эриком Хейзом в честь 40-летия G-SHOCK, а на петле ремешка из
+              нержавеющей стали выгравированы лазером четыре звезды и слова "С
+              1983 года".
             </p>
           </div>
         </div>
@@ -124,7 +130,7 @@ export const BlogDetailPage3 = () => {
             alt="banner"
           />
           <div className={styles.infoWrapper}>
-            <h3>Smartphone Link for full functionality at your fingertips</h3>
+            <h3>Приложение "Smartphone Link" для полной функциональности</h3>
           </div>
         </div>
         <div className={styles.column}>
@@ -134,8 +140,7 @@ export const BlogDetailPage3 = () => {
           />
           <div className={styles.infoWrapper}>
             <h3>
-              Multi Band 6 & Tough Solar: Radio-controlled solar watch for
-              accurate time keeping
+              Multi Band 6 для точного учета времени
             </h3>
           </div>
         </div>

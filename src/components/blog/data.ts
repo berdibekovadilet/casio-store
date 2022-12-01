@@ -17,14 +17,14 @@ export const data: BlogProps[] = [
   {
     id: 2,
     postData: "17.11.2022",
-    title: "Коллаборация с sailor moon",
+    title: "Коллаборация с СЕЙЛОР МУН",
     img: require("assets/blog/sailorMoon.jpeg"),
     link: "2",
   },
   {
     id: 3,
     postData: "15.10.2022",
-    title: "40-й юбилей G-Shock",
+    title: "40-ЛЕТие G-SHOCK",
     img: require("assets/blog/gwg-2040fr.webp"),
     link: "3",
   },

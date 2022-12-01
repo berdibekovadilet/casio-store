@@ -4,17 +4,18 @@ import styles from "./BlogDetailPage.module.scss";
 export const BlogDetailPage2 = () => {
   return (
     <div className={styles.container}>
-      <h2>Icon straight out of Japan meet the Sailor Moon</h2>
+      <h2>ИКОНА ПРЯМО ИЗ ЯПОНИИ ПОЗНАКОМЬТЕСЬ С СЕЙЛОР МУН</h2>
       <img src={require("assets/blog/blog2/1.jpeg")} alt="hero" />
       <h3>
-        A new model created in collaboration with Pretty Guardian Sailor Moon.
+        Новая модель, созданная в сотрудничестве с симпатичной хранительницей
+        Сейлор Мун.
       </h3>
       <h4>
-        From BABY-G, the casual watch for active women, comes a new model
-        created in collaboration with Pretty Guardian Sailor Moon. The theme of
-        this new model is the romantic transformational capabilities of Sailor
-        Moon. The packaging of this model is specially designed in the Pretty
-        Guardian Sailor Moon spirit.
+        От BABY-G, повседневных часов для активных женщин, появилась новая
+        модель, созданная в сотрудничестве с Pretty Guardian Sailor Moon. Тема
+        этой новой модели - романтические трансформационные способности Сейлор
+        Мун. Упаковка этой модели специально разработана в духе симпатичной
+        хранительницы Сейлор Мун.
       </h4>
 
       <img src={require("assets/blog/blog2/img01.webp")} alt="package" />
@@ -26,12 +27,12 @@ export const BlogDetailPage2 = () => {
             alt="banner"
           />
           <div className={styles.infoWrapper}>
-            <h3>Band</h3>
+            <h3>Ремешок</h3>
             <p>
-              Mario gets back up after every defeat and tackles each adventure
-              to the very end, without ever giving up. This spirit of challenge
-              aligns perfectly with the G-SHOCK brand. The band features a
-              multi-angle pattern print of everybody’s favourite plucky plumber.
+              Сейлор Мун восстанавливается после каждого поражения и борется с
+              каждым приключением до самого конца, никогда не сдаваясь. Этот дух
+              вызова идеально сочетается с брендом Baby-G. Ремешок украшен
+              многоугловым рисунком с изображением всеми любимой защитницей.
             </p>
           </div>
         </div>
@@ -41,12 +42,11 @@ export const BlogDetailPage2 = () => {
             alt="banner"
           />
           <div className={styles.infoWrapper}>
-            <h3>Bezel and dial</h3>
+            <h3>Безель и циферблат</h3>
             <p>
-              The bezel and dial are finished in the key Mario colour red and
-              the background blue of the game’s overworld stages, with gold
-              accents that recall the coins Mario collects. A Koopa Troopa shell
-              is glass printed at the bottom of the dial.
+              Безель и циферблат выполнены в ключевом фиолетовом цвете Сейлор
+              Мун. Корпус Koopa Troopa выполнен из стекла, нанесенного в нижней
+              части циферблата.
             </p>
           </div>
         </div>
@@ -58,25 +58,25 @@ export const BlogDetailPage2 = () => {
             alt="banner"
           />
           <div className={styles.infoWrapper}>
-            <h3>EL backlight</h3>
+            <h3>Фигура Сейлор Мун</h3>
             <p>
-              Activate the light and Mario appears on the LCD, scoring a 1-UP.
-              When combined with the Koopa Troopa shell on the dial, an iconic
-              game move is always there to enjoy.
+              На обратной стороне, на крышечке часов нарисована фигура Сейлор
+              Мун. В сочетании с корпусом Koopa Troopa на циферблате вы всегда
+              сможете насладиться культовым игровым ходом.
             </p>
           </div>
         </div>
         <div className={styles.column}>
           <img
-             src={require("assets/blog/blog2/BA-110XSM-2A_01.webp")}
+            src={require("assets/blog/blog2/BA-110XSM-2A_01.webp")}
             alt="banner"
           />
           <div className={styles.infoWrapper}>
-            <h3>Special packaging</h3>
+            <h3>Подсветка</h3>
             <p>
-              The packaging in vivid red features the game world in an all-over
-              design. One of Mario’s signature phrases, “Here we go!,” is
-              embellished in a pixelated font.
+              Включите подсветку, и на ЖК-дисплее появится котенок, набравший 1
+              балл. В сочетании с корпусом Koopa Troopa на циферблате вы всегда
+              сможете насладиться культовым игровым ходом.
             </p>
           </div>
         </div>
