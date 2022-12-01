@@ -65,20 +65,18 @@ export const Login = () => {
 
   return (
     <div>
-      <h2>Sign in to your profile</h2>
+      <h2>Войти в ваш профиль</h2>
       <form className={styles.container}>
         <div className={styles.row}>
           <p>Email</p>
           {email.isDirty && email.isEmpty && (
-            <p style={{ color: "red" }}>The field cannot be empty</p>
+            <p style={{ color: "red" }}>Поле не может быть пустым</p>
           )}
           {email.isDirty && email.minLengthError && (
-            <p style={{ color: "red" }}>
-              Length must be more than 3 characters
-            </p>
+            <p style={{ color: "red" }}>Длина должна быть более 3 символов</p>
           )}
           {email.isDirty && email.emailError && (
-            <p style={{ color: "red" }}>Invalid email</p>
+            <p style={{ color: "red" }}>Неверный адрес эл. почты</p>
           )}
           <input
             onChange={(e) => email.onChange(e)}
@@ -89,14 +87,12 @@ export const Login = () => {
           />
         </div>
         <div className={styles.row}>
-          <p>Password</p>
+          <p>Пароль</p>
           {password.isDirty && password.isEmpty && (
-            <p style={{ color: "red" }}>The field cannot be empty</p>
+            <p style={{ color: "red" }}>Поле не может быть пустым</p>
           )}
           {password.isDirty && password.minLengthError && (
-            <p style={{ color: "red" }}>
-              Length must be more than 8 characters
-            </p>
+            <p style={{ color: "red" }}>Длина должна быть более 6 символов</p>
           )}
           <input
             onChange={(e) => password.onChange(e)}
@@ -112,7 +108,7 @@ export const Login = () => {
             type="submit"
             appearance="primary"
           >
-            Login
+            Войти
           </Button>
         </Link>
       </form>

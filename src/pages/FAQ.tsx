@@ -4,55 +4,57 @@ import styles from "../styles/pages/FAQ.module.scss";
 export const FAQ: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h2>Frequently Asked Questions</h2>
-      <Accordion title="Several models of watches to choose">
+      <h2>Частые вопросы</h2>
+      <Accordion title="Можно ли привезти на выбор несколько моделей часов?">
         <h4>
-          It is possible, but by additional agreement with the manager and no
-          more than 3 models. This service is free of charge. If you did not
-          like any of the brought watches or did not fit, then you pay only the
-          cost of the service in the amount of $ 8.
+          Можно, но по дополнительной договоренности с менеджером и не более 3
+          моделей. Данная услуга бесплатна и действительна только в Бишкеке.
+          Если же из привезенных часов Вам никакие не понравились или не
+          подошли, то вы оплачиваете только стоимость услуги в размере 500 сом.
         </h4>
       </Accordion>
-      <Accordion title="Payment for delivery if I didn't like the watch">
+      <Accordion title="Нужно ли оплачивать доставку, если часы мне не понравились?">
         <h4>
-          No need. Moreover, the watch can be returned or exchanged even after
-          making a purchase while maintaining the presentation, payment
-          documents.
+          Не нужно. Более того, часы можно вернуть или обменять даже после
+          совершения покупки при сохранении товарного вида, документов об
+          оплате.
         </h4>
       </Accordion>
-      <Accordion title="What is the weight of the watch and how to calculate the cost of delivery?">
+      <Accordion title="Я живу не в Кыргызстане, возможна ли доставка в другую страну?">
         <h4>
-          All small-sized parcels weigh up to 1kg and therefore you do not need
-          to count anything. The cost of delivery corresponds to the above
-          tariffs.
+          К сожалению, нет. Доставка осуществляется только в пределах КР, наш
+          курьер может встретиться с вашим представителем в Бишкеке.
         </h4>
       </Accordion>
-      <Accordion title="Can I refuse delivery or change the day/address/time?">
+      <Accordion title="Могу отказаться от доставки или поменять день/адрес/время?">
         <h4>
-          Of course you can! Just contact us in any convenient way and let us
-          know about changes in the order.
+          Конечно, можете! Просто свяжитесь с нами любым удобным способом и
+          сообщите об изменениях в заказе.
         </h4>
       </Accordion>
-      <Accordion title="I can't track the package. What to do?">
+      <Accordion title="Не могу отследить посылку. Что делать?">
         <h4>
-          If two days after receiving the tracking number from us, the parcel is
-          not tracked on the courier service website, please contact us in any
-          way convenient for you and we will find out the reason.
+          Если спустя два дня после получения от нас номера для отслеживания
+          посылка, посылка не отслеживается на сайте курьерской службы,
+          свяжитесь, пожалуйста, с нами любым удобным для вас способом и мы
+          выясним причину.
         </h4>
       </Accordion>
-      <Accordion title="My order was not delivered. The courier didn't call me back.">
+      <Accordion title="Мне не доставили заказ. Мне не перезвонил курьер.">
         <h4>
-          Please contact us in any way convenient for you and we will find out
-          the reason.
+          Свяжитесь, пожалуйста, с нами любым удобным для вас способом и мы
+          выясним причину.
         </h4>
       </Accordion>
-      <Accordion title="I bought a watch, but it doesn't fit me. Can I return it?">
+      <Accordion title="Сколько денег с меня должен взять курьер?">
+        <h4>Ровно столько, сколько указано в заказе.</h4>
+      </Accordion>
+      <Accordion title="За меня примет заказ другой человек.">
         <h4>
-          Yes, of course you can! Within 14 days from the date of purchase. You
-          can return them by sending them to us at the actual address. You can
-          send it by any courier service. As soon as the watch arrives to us, we
-          will check it and contact you to clarify how you can get your money
-          back.
+          Это не проблема! Достаточно будет сообщить об этом курьеру при его
+          звонке вам. Не распространяется на уже оплаченные заказы банковский
+          перевод, эл. деньги и т.д. В этом случае понадобится доверенность от
+          плательщика на получателя.
         </h4>
       </Accordion>
       <Newsletter />

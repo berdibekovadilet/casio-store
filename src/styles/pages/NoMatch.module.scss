@@ -1,0 +1,13 @@
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 50vh;
+   > * {
+      margin-top: 40px;
+   }
+   .bigTitle {
+      font-size: 60px;
+   }
+}
