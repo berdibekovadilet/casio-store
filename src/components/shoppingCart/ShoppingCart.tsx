@@ -33,7 +33,7 @@ export const ShoppingCart = () => {
   return (
     <div className={styles.container}>
       {!totalPrice ? (
-        <h2>Your cart is empty</h2>
+        <h2>Ваша корзина пуста</h2>
       ) : (
         <>
           {items.map((item) => (
@@ -42,7 +42,7 @@ export const ShoppingCart = () => {
                 <img src={require(`assets/${item.cover}`)} alt="productImage" />
               </div>
               <div className={styles.column}>
-                <h4>Quantity</h4>
+                <h4>Количество</h4>
                 <div className={styles.quantityWrapper}>
                   <button
                     disabled={item.count === 1}
@@ -56,8 +56,8 @@ export const ShoppingCart = () => {
               </div>
 
               <div className={styles.column}>
-                <h4>Total</h4>
-                <h3>{item.price * item.count} $</h3>
+                <h4>Итого</h4>
+                <h3>{item.price * item.count} сом</h3>
               </div>
               <img
                 onClick={() => onClickRemove(item.id)}
@@ -68,9 +68,9 @@ export const ShoppingCart = () => {
           ))}
           <hr />
           <div className={styles.totalWrapper}>
-            <h4>Total:</h4>
-            <h4>{totalCount} pcs.</h4>
-            <h4>{totalPrice} $</h4>
+            <h4>Итого:</h4>
+            <h4>{totalCount} шт.</h4>
+            <h4>{totalPrice} сом</h4>
             <div></div>
           </div>
         </>

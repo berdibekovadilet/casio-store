@@ -4,71 +4,63 @@ import { Newsletter } from "components";
 export const Delivery: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h2>Delivery</h2>
-      <h3>Delivery cost</h3>
+      <h2>Доставка</h2>
+      <h3>Стоимость доставки</h3>
       <ol>
-        <li>No delivery fees for all Click and Collect orders.</li>
         <li>
-          For all orders on Casio Store, CASIO ID Members enjoy:
-          <ol>
-            <li>Free delivery for all orders above $100</li>
-            <li>
-              For orders below $100, there's a home delivery fee of $8.50.
-            </li>
-            <li>For orders below $100, Click and Collect is free of charge.</li>
-          </ol>
+          Полная бесплатная доставка по г. Бишкек, осуществляется в течение 1-2
+          дня.
         </li>
         <li>
-          For all orders on Casio Store, non CASIO ID Members:{" "}
+          Доставка в регионы и другие города
           <ol>
-            <li>Delivery cost $8.50 for all orders, regardless of spend.</li>
+            <li>При заказе от 8 000 сом доставка в другие города бесплатно</li>
+            <li>При заказе до 8 000 сом доставка будет стоить 500 сом</li>
+            <li>Доставка в течение 3-5 рабочих дней</li>
           </ol>
         </li>
       </ol>
-      <h3>Shipping</h3>
+      <h3>Важная информация!</h3>
       <h4>
-        We provide standard delivery to your doorstep via courier within one to
-        three (10 – 30) working days. Your order will be dispatched within 48
-        hours upon payment verification.
+        Товар не доставляется без предварительного телефонного звонка курьера.
+        Если курьер не сможет с вами связаться, доставка заказа будет перенесена
+        на следующий день.
       </h4>
       <h4>
-        *Some shipments may be delayed depending on the overall order status.{" "}
+        Услуга доставки курьером моделей на выбор - не более 3 изделий. Оплата
+        осуществляется на условиях "стандартной доставки", в случае полного
+        отказа от покупки - 500 сом.
       </h4>
-      <h3>What happens if I've missed my delivery?</h3>
+      <h2>ВОЗВРАТ И ОТМЕНА</h2>
+      <h3>Могу ли я вернуть или обменять товар?</h3>
       <h4>
-        If your parcel has not been successfully delivered, our courier partner
-        will contact you to schedule for re-delivery. If you miss the
-        re-delivery once again, your order will be transferred to the CASIO
-        warehouse and do email to sales@casiostore.com on what are the options
-        in regards to your Products.
+        Да, конечно. Главное они должны будут соответствовать всем общим
+        условиям возврата, приведенным ниже.
       </h4>
-      <h2>RETURNS & CANCELLATIONS</h2>
-      <h3>Can I return or exchange a product?</h3>
-      <h4>
-        Returns can only be accepted for products purchased through Casio Store
-        and they will need to fulfil all the general return conditions below.
-      </h4>
-      <h4>General Return Conditions:</h4>
+      <h4>Общие условия возврата:</h4>
       <ul>
         <li>
-          Period: You can return your order within 14 days from the day you
-          received the product.
+          Срок: Вы можете вернуть свой заказ в течение 14 дней со дня получения
+          товара.
         </li>
         <li>
-          Product condition: The product must be in its original state and
-          packaging with the original box and tags. All GWP must be in its
-          original form and packaged in the original box with tags.
+          Состояние товара: Товар должен быть в своем первоначальном состоянии и
+          упаковке с оригинальной коробкой и бирками. Инструкция и гарантийный
+          талон должны быть в оригинальном виде и упакованы в оригинальную
+          коробку.
         </li>
         <li>
-          Product limitations: No return is allowed for the Limited Edition
-          model - details will be indicated in the product page description.
+          Ограничения серия часов: Возврат модели ограниченной серии не
+          допускается - подробности будут указаны в описании страницы продукта.
         </li>
       </ul>
-      <h3>Can I cancel my order? </h3>
+      <h3>Могу ли я отменить свой заказ?</h3>
       <h4>
-        If your order has been delivered, please drop an email to
-        sales@casiostore.com (with proof of purchase) and our staff will assist
-        you on the cancellation process.
+        Если ваш заказ был отдан на доставку, пожалуйста позвоните по номеру
+        <a href="tel:996551377373" target="_blank" rel="noreferrer">
+          +996 (551) 37-73-73
+        </a>
+        , и наши сотрудники помогут вам с процессом отмены заказа.
       </h4>
       <Newsletter />
     </div>

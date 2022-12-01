@@ -8,9 +8,9 @@ export const Cart: React.FC = () => {
   return (
     <>
       <div className={styles.titleWrapper}>
-        <h2>Shopping Cart</h2>
+        <h2>Корзина</h2>
         <Link to="/" onClick={() => navigate(-1)}>
-          Back to shopping
+          Назад к покупкам
         </Link>
       </div>
       <ShoppingCart />

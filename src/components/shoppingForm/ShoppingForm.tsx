@@ -6,60 +6,52 @@ export const ShoppingForm = () => {
   return (
     <>
       <form className={styles.wrapper}>
-        <h4>1. Contact information</h4>
+        <h4>1. Контактные данные</h4>
         <div className={styles.formWrapper}>
           <div className={styles.inputWrapper}>
-            <p>Name *</p>
+            <p>Имя *</p>
             <Input />
           </div>
           <div className={styles.inputWrapper}>
-            <p>Phone *</p>
+            <p>Телефон *</p>
             <Input />
           </div>
           <div className={styles.inputWrapper}>
-            <p>Email</p>
+            <p>Почта</p>
             <Input />
           </div>
         </div>
-        <h4>2. DELIVERY</h4>
+        <h4>2. Доставка</h4>
         <div className={styles.formWrapper}>
           <div className={styles.inputWrapper}>
-            <p>Your city *</p>
+            <p>Город *</p>
             <Input />
           </div>
           <div className={styles.inputWrapper}>
-            <p>Street, house, apartment *</p>
+            <p>Улица, дом, квартира *</p>
             <Input />
           </div>
           <div className={styles.inputWrapper}>
-            <p>Comment</p>
+            <p>Комментарий</p>
             <Input />
           </div>
         </div>
-        <h4>3. Payment</h4>
+        <h4>3. Оплата</h4>
         <div className={styles.checkboxFormWrapper}>
           <div className={styles.checkboxWrapper}>
             <input type="checkbox" />
-            <p>Cash</p>
+            <p>Наличными курьеру</p>
           </div>
           <div className={styles.checkboxWrapper}>
             <input type="checkbox" />
-            <p>By card on the site</p>
+            <p>Переводом через МБанк</p>
           </div>
           <div className={styles.checkboxWrapper}>
             <input type="checkbox" />
-            <p>By card upon receipt</p>
-          </div>
-          <div className={styles.checkboxWrapper}>
-            <input type="checkbox" />
-            <p>Paypal</p>
-          </div>
-          <div className={styles.checkboxWrapper}>
-            <input type="checkbox" />
-            <p>Other</p>
+            <p>Другое</p>
           </div>
         </div>
-        <Button appearance="secondary">Proceed to Checkout</Button>
+        <Button appearance="secondary">Оформить заказ</Button>
       </form>
     </>
   );

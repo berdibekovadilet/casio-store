@@ -4,13 +4,13 @@ import styles from "../styles/pages/Contact.module.scss";
 export const Contact: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h2>Contact Us</h2>
+      <h2>Контакты</h2>
       <div className={styles.wrapper}>
         <div className={styles.column}>
-          <h3>Order or consult</h3>
+          <h3>Заказ или консультация в интернет-магазине</h3>
           <h4>
             <a
-              href="https://wa.me/79309306674"
+              href="mailto:question@casiostore.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -18,45 +18,42 @@ export const Contact: React.FC = () => {
             </a>
           </h4>
           <h4>
-            <a
-              href="https://wa.me/79309306674"
-              target="_blank"
-              rel="noreferrer"
-            >
-              7(930) 930-66-74
+            <a href="tel:996551377373" target="_blank" rel="noreferrer">
+              +996 (551) 37-73-73
             </a>
-            daily from 10.00 to 21.00.
+            <h4>График работы: с 10.00 до 22.00.</h4>
           </h4>
         </div>
         <div className={styles.column}>
-          <h3>Delivery department</h3>
+          <h3>Отдел доставки</h3>
           <h4>
             <a
-              href="https://wa.me/79309306674"
+              href="mailto:delivery@casiostore.com"
               target="_blank"
               rel="noreferrer"
             >
               delivery@casiostore.com
             </a>
           </h4>
+          <h4>
+            <a href="tel:996551387373" target="_blank" rel="noreferrer">
+              +996 (551) 38-73-73
+            </a>
+          </h4>
         </div>
         <div className={styles.column}>
-          <h3>Publicity Department</h3>
+          <h3>Рекламный отдел</h3>
           <h4>
-            <a
-              href="https://wa.me/79309306674"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="mailto:pr@casiostore.com" target="_blank" rel="noreferrer">
               pr@casiostore.com
             </a>
           </h4>
         </div>
         <div className={styles.column}>
-          <h3>Complaints and suggestions</h3>
+          <h3>Жалобы и предложения</h3>
           <h4>
             <a
-              href="https://wa.me/79309306674"
+              href="mailto:offers@casiostore.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -65,19 +62,15 @@ export const Contact: React.FC = () => {
           </h4>
         </div>
         <div className={styles.column}>
-          <h3>Send commercial offers under the name of Adilet B.</h3>
+          <h3>Коммерческие предложения</h3>
           <h4>
-            <a
-              href="https://wa.me/79309306674"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="mailto:pr@casiostore.com" target="_blank" rel="noreferrer">
               pr@casiostore.com
             </a>
           </h4>
           <p>
-            Commercial proposals are accepted only in written form, sent to the
-            above postal address.
+            Внимание! Коммерческие предложения принимаются к рассмотрению только
+            в письменной форме.
           </p>
         </div>
       </div>

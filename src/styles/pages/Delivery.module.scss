@@ -22,4 +22,11 @@
    li {
       margin-top: 8px;
    }
+   a {
+      margin-left: 4px;
+      transition: all 0.2s ease;
+      &:hover {
+         color: var(--blue);
+      }
+   }
 }
