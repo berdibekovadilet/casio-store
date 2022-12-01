@@ -1,78 +1,82 @@
 export const links = [
   [
     {
-      title: "THE COMPANY",
+      title: "О КОМПАНИИ",
     },
     {
-      label: "About Us",
+      label: "О нас",
       href: "/about",
     },
     {
-      label: "Privacy Policy",
+      label: "Политика",
       href: "/policy",
     },
     {
-      label: "Contact",
+      label: "Контакты",
       href: "/contact",
     },
   ],
   [
     {
-      title: "FOR CUSTOMERS",
+      title: "ПОКУПАТЕЛЯМ",
     },
     {
-      label: "Discounts",
+      label: "Скидки",
       href: "/discounts",
     },
     {
-      label: "Blog",
+      label: "Блог",
       href: "/blog",
     },
     {
-      label: "FAQ",
+      label: "Частые вопросы",
       href: "/faq",
     },
   ],
   [
     {
-      title: "HOW WE WORK",
+      title: "КАК МЫ РАБОТАЕМ",
     },
     {
-      label: "Delivery",
+      label: "Доставка",
       href: "/delivery",
     },
     {
-      label: "Warranty",
+      label: "Гарантия",
       href: "/warranty",
     },
     {
-      label: "Refund",
+      label: "Возврат",
       href: "/refund",
     },
     {
-      label: "Vacancy",
+      label: "Вакансии",
       href: "/vacancy",
     },
   ],
   [
     {
-      title: "WE ARE IN TOUCH",
+      title: "СВЯЖИТЕСЬ С НАМИ",
     },
     {
-      label: "+7 (930) 930 6674",
-      href: "tel:+79309306674",
+      label: "+996 (551) 37-73-73",
+      href: "tel:+996551377373",
     },
     {
-      label: "Opening hours: 10:00 - 21:00",
+      label: "Адрес: ТЦ Евразия 2 этаж",
+      href: "/",
+    },
+    {
+      label: "График работы: 10:00 - 22:00",
       href: "/",
     },
     {
       label: "WhatsApp",
-      href: "https://wa.me/79309306674",
+      href: "https://wa.me/996551377373",
     },
     {
       label: "Instagram",
-      href: "https://www.instagram.com/adiletberdibekov/",
+      href: "https://www.instagram.com/casio_kyrgyzstan/",
     },
   ],
 ];

@@ -20,7 +20,7 @@ export const Popular = () => {
   }, [dispatch]);
 
   const products = items
-    .slice(0, 8)
+    .slice(24, 32)
     .map((obj) => <Card key={obj.id} {...obj} />);
   const skeletons = [...new Array(8)].map((_, index) => (
     <CardSkeleton key={index} />
@@ -29,7 +29,7 @@ export const Popular = () => {
   return (
     <div className={styles.container}>
       <div className={styles.titleWrapper}>
-        <SectionTitle title="Popular" />
+        <SectionTitle title="Популярное" />
       </div>
       <div className={styles.cardWrapper}>
         {status === "loading" ? skeletons : products}

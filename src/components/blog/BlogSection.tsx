@@ -6,7 +6,7 @@ export const BlogSection = () => {
   return (
     <div className={styles.container}>
       <div className={styles.titleWrapper}>
-        <h2>BLOG</h2>
+        <h2>БЛОГ</h2>
       </div>
       <div className={styles.cardWrapper}>
         <BlogCard data={data} />

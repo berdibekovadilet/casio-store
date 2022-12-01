@@ -1,18 +1,14 @@
 export const links = [
   {
-    label: "Contact",
+    label: "Контакты",
     href: "/contact",
   },
   {
-    label: "Warranty",
+    label: "Гарантия",
     href: "/warranty",
   },
   {
-    label: "Delivery",
+    label: "Доставка",
     href: "/delivery",
-  },
-  {
-    label: "Login",
-    href: "/login",
   },
 ];

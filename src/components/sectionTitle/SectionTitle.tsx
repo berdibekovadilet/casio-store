@@ -12,7 +12,7 @@ export const SectionTitle: React.FC<Props> = ({ title }) => {
       <h2 className={styles.title}>{title}</h2>
       <Link to="shop">
         <Button appearance="primary" icon="right">
-          See All
+          Смотреть все
         </Button>
       </Link>
     </div>

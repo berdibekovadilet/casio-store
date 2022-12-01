@@ -1,33 +1,28 @@
 import styles from "./About.module.scss";
-import casioImage from "assets/images/casioOffice.webp";
+import casioImage from "assets/images/storelocation.jpg";
 
 export const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgWrapper}>
-        <img src={casioImage} alt="casioImage" />
+        <img src={casioImage} alt="storelocation" />
       </div>
       <div className={styles.infoWrapper}>
-        <h2>Casio Philosophy</h2>
-        <h3>Creativity and Contribution</h3>
+        <h2>Наш Магазин</h2>
+        <h3>Мы находимся в ТЦ Евразия, 2 этаж</h3>
         <h4>
-          Casio's corporate creed is "creativity and contribution." It expresses
-          the company's commitment to contributing to society by offering the
-          kind of original, useful products that only Casio can.
+          Приходите в наш магазин и делайте покупки с комфортом: наши
+          консультанты – настоящие эксперты в своем деле и всегда помогут
+          определиться с выбором.
         </h4>
         <h4>
-          Products with innovative functions assist people in their daily lives
-          and keep society moving forward. They also bring joy to people and
-          help to create new culture. When even a single new product is widely
-          adopted, whole new markets develop, and this in turn fosters growth in
-          related industries. This is the story of Casio's contribution to
-          society-innovative products enhancing people's lives.
+          Или закажите сразу несколько понравившихся моделей на сайте – с
+          финальным выбором вы сможете определиться на месте - и наша курьерская
+          служба доставит их бесплатно в удобное для вас время.
         </h4>
         <h4>
-          The Charter of Creativity for Casio is a statement of the company's
-          commitment to the world and an internal guideline designed to ensure
-          that every member of the Casio Group practices Casio's corporate creed
-          of "creativity and contribution."
+          Какой бы способ покупки вы не выбрали, мы гарантируем только
+          оригинальные товары, самые низкие цены и премиальный сервис.
         </h4>
       </div>
     </div>

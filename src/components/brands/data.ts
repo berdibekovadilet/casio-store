@@ -1,6 +1,6 @@
 export const brands = [
   {
-    label: "All Watches",
+    label: "Все часы",
     href: "/shop",
   },
   {

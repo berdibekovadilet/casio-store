@@ -31,7 +31,7 @@ const BottomNavbar = () => {
         <Brands />
         <div className={styles.cart_container}>
           <Link to="cart" className={styles.cart_link}>
-            <span>{totalPrice} $</span>
+            <span>{totalPrice} сом</span>
             <div className={styles.separator}></div>
             <img
               src={ShoppingCart}

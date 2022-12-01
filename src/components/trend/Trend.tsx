@@ -20,7 +20,7 @@ export const Trend = () => {
   }, [dispatch]);
 
   const products = items
-    .slice(0, 8)
+    .slice(16, 24)
     .map((obj) => <Card key={obj.id} {...obj} />);
   const skeletons = [...new Array(8)].map((_, index) => (
     <CardSkeleton key={index} />
@@ -29,7 +29,7 @@ export const Trend = () => {
   return (
     <div className={styles.container}>
       <div className={styles.titleWrapper}>
-        <SectionTitle title="You May Also Like" />
+        <SectionTitle title="Вам может понравиться" />
       </div>
       <div className={styles.cardWrapper}>
         {status === "loading" ? skeletons : products}

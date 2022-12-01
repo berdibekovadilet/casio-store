@@ -37,7 +37,7 @@ export const Card: React.FC<CardProps> = ({
     };
 
     dispatch(addItem(item));
-    toast.success("Added to cart! 🤩", {
+    toast.success("Добавлено в корзину! 🤩", {
       position: toast.POSITION.TOP_RIGHT,
     });
   };
@@ -53,11 +53,11 @@ export const Card: React.FC<CardProps> = ({
           <h4 className={styles.title}>{title}</h4>
         </Link>
         <div className={styles.priceWrapper}>
-          <h3 className={styles.price}>{price} $</h3>
-          <p className={styles.oldPrice}>{oldPrice} $</p>
+          <h3 className={styles.price}>{price} сом</h3>
+          <p className={styles.oldPrice}>{oldPrice} сом</p>
         </div>
         <Button appearance="primary" onClick={onClickAdd}>
-          Add to cart
+          Добавить в корзину
         </Button>
         <ToastContainer />
       </div>

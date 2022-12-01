@@ -12,25 +12,26 @@ export const Newsletter = () => {
   return (
     <>
       <div className={styles.container}>
-        <h3>Receive notices of discounts and new arrivals</h3>
+        <h3>ПОДПИШИТЕСЬ НА НАШУ РАССЫЛКУ</h3>
         <div className={styles.wrapper}>
           <Input />
           <Button appearance="secondary" onClick={handler}>
-            Sumbit
+            Подписаться
           </Button>
         </div>
         <p>
-          By clicking "Submit" you agree to the personal data processing policy.
+          Нажимая «Подписаться» вы соглашаетесь с политикой обработки
+          персональных данных.
         </p>
       </div>
       <Modal active={modalActive} setActive={setModalActive}>
-        <h2>Thank you for signing up!</h2>
+        <h2>Спасибо за подписку!</h2>
         <h4>
-          Your newsletter will be delivered shortly to the email address
-          provided.
+          Рассылка с акциями будет отправлена вам в ближайшее время на эл.
+          почту.
         </h4>
         <Button appearance="secondary" onClick={() => setModalActive(false)}>
-          Back to page
+          Вернуться назад
         </Button>
       </Modal>
     </>
