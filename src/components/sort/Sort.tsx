@@ -7,18 +7,18 @@ import styles from "./Sort.module.scss";
 import { PopupClick, SortItem } from "./types";
 
 export const sortList: SortItem[] = [
-  { name: "More Popular", sortProperty: SortPropertyEnum.RATING_DESC },
-  { name: "Less Popular", sortProperty: SortPropertyEnum.RATING_ASC },
+  { name: "Более популярный", sortProperty: SortPropertyEnum.RATING_DESC },
+  { name: "Менее популярный", sortProperty: SortPropertyEnum.RATING_ASC },
   {
-    name: "Price: low to high",
+    name: "Сначала дешевые",
     sortProperty: SortPropertyEnum.PRICE_ASC,
   },
   {
-    name: "Price: high to low",
+    name: "Сначала дорогие",
     sortProperty: SortPropertyEnum.PRICE_DESC,
   },
-  { name: "Alphabetical (A-Z)", sortProperty: SortPropertyEnum.TITLE_ASC },
-  { name: "Alphabetical (Z-A)", sortProperty: SortPropertyEnum.TITLE_DESC },
+  { name: "По названию (А-Я)", sortProperty: SortPropertyEnum.TITLE_ASC },
+  { name: "По названию (Я-А)", sortProperty: SortPropertyEnum.TITLE_DESC },
 ];
 
 export const Sort = () => {
@@ -47,7 +47,7 @@ export const Sort = () => {
   return (
     <div className={styles.container} ref={sortRef}>
       <div className={styles.label}>
-        <b>Sort by:</b>
+        <b>Сортировать по:</b>
         <span onClick={() => setModal(!modal)}>{sort.name}</span>
       </div>
       {modal && (

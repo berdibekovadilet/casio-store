@@ -4,63 +4,67 @@ import styles from "../styles/pages/Vacancy.module.scss";
 export const Vacancy: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h2>Vacancy</h2>
+      <h2>Вакансии</h2>
       <h4>
-        Below you can see a list of current vacancies. Join our team and
-        let's build a better online watch store together.
+        Ниже вы можете ознакомиться со списком текущих вакансий. <br />
+        Присоединяйтесь к нашей команде, и давайте вместе создадим лучший
+        магазин часов.
       </h4>
-      <Accordion title="Sales manager">
+      <Accordion title="менеджером по продажам">
         <h3>
-          Online store Casio Store invites you to work as a sales manager.
+          Интернет-магазин Casio Store приглашает вас на работу менеджером по
+          продажам.
         </h3>
-        <h4>Duties:</h4>
+        <h4>Обязанности:</h4>
         <ul>
-          <li> - Providing a high level of personal service and service;</li>
-          <li> - Creating an atmosphere of hospitality and friendliness;</li>
-          <li> - Advising clients on the range of watches and jewelry;</li>
           <li>
-            - Increasing sales by being able to demonstrate their stylistic
-            taste and knowledge of watches;
+            - Обеспечение высокого уровня персонального обслуживания и сервиса;
           </li>
-          <li> - Working at the cash register and on the sales floor;</li>
+          <li> - Создание атмосферы гостеприимства и дружелюбия;</li>
+          <li> - Консультирование клиентов по ассортименту часов;</li>
           <li>
-            - Maintaining standards of visual presentation of brands, window
-            dressing;
+            - Увеличение продаж за счет умения продемонстрировать свой
+            стилистический вкус и знания в области часов;
           </li>
-          <li>- Work with orders of customers of the online store.</li>
+          <li> - Работа на кассе и в торговом зале;</li>
+          <li>
+            - Поддержание стандартов визуальной презентации брендов, оформление
+            витрин;
+          </li>
+          <li>- Работа с заказами покупателей Интернет-магазина.</li>
         </ul>
         <h4>
-          Send your resume to e-mail:
-          <a href="https://wa.me/79309306674" target="_blank" rel="noreferrer">
+          Отправьте ваше резюме на электронную почту:
+          <a href="mailto:work@casiostore.com" target="_blank" rel="noreferrer">
             work@casiostore.com
           </a>
         </h4>
       </Accordion>
-      <Accordion title="Content manager">
+      <Accordion title="Контент-менеджер">
         <h3>
-          Online store Casio Store invites you to work as a content manager.
+          Интернет-магазин Casio Store приглашает вас на работу
+          контент-менеджером.
         </h3>
-        <h4>Duties:</h4>
+        <h4>Обязанности:</h4>
         <ul>
           <li>
-            - Management of freelancers, set tasks and monitor their
-            implementation;
+            - Управление фрилансерами, постановка задач и контроль за их
+            выполнением;
           </li>
           <li>
-            - Selection of necessary information for the site or its independent
-            creation;
+            - Подбор необходимой информации для сайта или его самостоятельное
+            создание;
           </li>
-          <li> - Entering new product cards on the site;</li>
-          <li>- Processing photos to fit the format of the site;</li>
+          <li> - Ввод новых карточек товаров на сайте;</li>
+          <li> - Обработка фотографий в соответствии с форматом сайта;</li>
           <li>
-            {" "}
-            - Control over the relevance of the site and the accuracy of the
-            information posted on it;
+            - Контроль за актуальностью сайта и точностью размещенной на нем
+            информации;
           </li>
         </ul>
         <h4>
-          Send your resume to e-mail:
-          <a href="https://wa.me/79309306674" target="_blank" rel="noreferrer">
+          Отправьте ваше резюме на электронную почту:
+          <a href="mailto:work@casiostore.com" target="_blank" rel="noreferrer">
             work@casiostore.com
           </a>
         </h4>

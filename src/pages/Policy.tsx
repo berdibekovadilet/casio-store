@@ -4,161 +4,131 @@ import styles from "../styles/pages/Policy.module.scss";
 export const Policy: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h2>Privacy Policy</h2>
-      <h3>Our Commitment To Privacy</h3>
+      <h2>Политика конфиденциальности</h2>
+      <h3>1. Общая информация о сборе персональных данных.</h3>
       <h4>
-        Your privacy is important to us. To better protect your privacy, Casio
-        Store, Inc. (collectively, “Casio”, “our”, “we”, or “us”) provides this
-        privacy statement notice (“Privacy Statement”) explaining our online
-        information practices and the choices you can make about the way your
-        information is collected and used. To make this notice easy to find, we
-        make it available on our homepage and at every point where personally
-        identifiable information may be requested (“Site”). Please note that our
-        parent and affiliated entities have their own privacy policies governing
-        the collection and use of personal information by such entities.
+        Компания «Бишкек Стар Компани» (далее «Casio Store») очень серьезно
+        относится к защите Ваших персональных данных. Настоящая политика
+        конфиденциальности данных описывает, как компания Casio Store (далее
+        «мы», «нас» и «наш») использует и защищает данные, собранные через сайт
+        (далее «веб-сайт»).
       </h4>
       <h4>
-        This website may contain links to other organizations’ websites,
-        including potential links to sites for individual Casio dealers,
-        distributors, or suppliers. Casio is not responsible for the privacy
-        policy or practices of those organizations or the content of such
-        websites.
+        Личными данными являются все данные, которые могут иметь отношение к Вам
+        лично, например, ваше имя, ваш адрес, адрес электронной почты, номер
+        телефона, банковские реквизиты, номера кредитной карты, IP-адрес и т.д.
       </h4>
       <h4>
-        By making purchases through or otherwise visiting this website you
-        accept the policies and practices described in this Privacy Statement.
-        Casio reserves the right to make changes to this notice by posting such
-        changes on this website. Changes are effective immediately upon posting
-        unless a different effective date is stated. This notice applies to all
-        information collected or submitted on the Casio website.
-      </h4>
-      <h3>The Information We Collect and How We Use It</h3>
-      <h4>
-        We may collect personal information directly from you (from forms you
-        completed, information you submitted, products you purchased, or
-        services you requested) and indirectly from you (through automated
-        collection of your web browsing activities). This information is
-        collected for a number of purposes, as described in more detail below,
-        and is provided to us and shared with our Casio parent and affiliate
-        entities under the conditions established under this Privacy Statement.
+        Ваши персональные данные собираются и обрабатываются нами только в
+        соответствии с положениями Положения о защите данных Кыргызской
+        Республики и другими положениями действующего национального
+        законодательства о защите данных.
       </h4>
       <h4>
-        <b>Required Information.</b> There are pages on this site where we
-        request specific information about you, in order to register your Casio
-        product, create an account, process your orders, fulfill your requests
-        for information such as when you download products, provide customer
-        service, communicate with you about past orders, and keep your knowledge
-        about our products and services current (“Personal Data”). We may also
-        collect information you provide us if you enter a contest or promotion,
-        or sign-up to receive newsletters or related services.
+        Сбор и обработка персональных данных осуществляется на регулярной основе
+        только с Вашего согласия или если обработка таких данных разрешена
+        положениями законодательства. Следующие положения предоставляют Вам
+        информацию о характере, объеме и цели сбора и обработки Ваших
+        персональных данных.
       </h4>
       <h4>
-        <b>Registering for an Account.</b> During the checkout process and on
-        various pages on our Site, you are able to create an account with us.
-        Creating an account allows you to track your purchases, and receive a
-        more personalized shopping experience. When you register to our Site,
-        you are registering with Casio America’s parent company located in
-        Japan, Casio Computer Co. Ltd., and in addition to this Privacy
-        Statement, this privacy statement will also apply.
+        Если для выполнения отдельных функций нашего предложения и/или наших
+        услуг мы обращаемся к уполномоченным поставщикам услуг или используем
+        ваши данные в рекламных или аналитических целях, то ниже мы
+        дополнительно предоставляем вам подробную информацию о соответствующих
+        процедурах. На этом этапе мы также информируем Вас об определенных
+        критериях и сроках хранения. Кроме того, мы информируем Вас о Ваших
+        правах в отношении каждого случая обработки данных.
       </h4>
       <h4>
-        <b>Orders.</b> In the process of placing an order on the Site, you
-        provide information required to complete your transaction, validate your
-        identity, confirm compliance with regulations related to the purchase,
-        and to complete the transaction. We do not share this information with
-        outside parties except as reasonably necessary to complete an order. We
-        use the information you provide about someone else when placing an order
-        only to ship the product and to confirm delivery.
+        Настоящая Политика конфиденциальности относится исключительно к нашему
+        сайту. В случае, если вы переходите по ссылкам с нашего сайта на сайты
+        третьих лиц, пожалуйста, обратитесь к этим сайтам за информацией о том,
+        как они обращаются с вашими данными.
+      </h4>
+      <h3>2. Контакты</h3>
+      <h4>
+        Если у Вас возникли вопросы, предложения или критика в отношении защиты
+        данных нашего веб-сайта, пожалуйста, свяжитесь с нами:
       </h4>
       <h4>
-        <b>Automatic Collection of Information.</b> Like many websites, our site
-        may periodically utilize a technology called “cookies.” A cookie is a
-        small data file that a web server can deliver to your browser, which is
-        then stored on your computer’s hard drive. Cookies are designed to
-        permit us to provide better or more personalized service when you are
-        visiting our site and can also identify websites visited between visits
-        to our site. You can set your browser to notify you when you receive a
-        cookie, providing you with as much control as you wish as to the
-        decision to accept/reject the cookie, and deletion of the cookie upon
-        leaving our website. Refer to your browser’s Help information for
-        details on setting cookie notification services.
+        <p>ОсОО «Бишкек Стар Компани»</p>
+        <p>Адрес: Бизнес-центр «Премиум»</p>
+        <p>ул. Токтогула 110</p>
+        <p>Бишкек, Кыргызстан</p>
       </h4>
-      <h3>Information from Third Parties</h3>
+      <h3>3. Ваши права</h3>
       <h4>
-        <b>Social Media.</b> We may also receive certain information about you
-        from third parties, such as through your use of a social network
-        authentication to sign-in to the Site, your use of an authenticated
-        payment method, or through other online data sources, according to the
-        rules of the use and processing of such information established by the
-        respective source. If any Personal Data are freely available or
-        accessible in the public domain, we will not have any obligations to you
-        regarding the same.
+        Как субъект данных, Вы можете иметь следующие права в отношении компании
+        Casio Store. Для осуществления Ваших прав, пожалуйста, свяжитесь с нами,
+        как указано в Разделе 2.
       </h4>
       <h4>
-        <b>Third-Party Cookies and Other Similar Technologies.</b> Web
-        technologies may also be placed on the Site by third party providers.
-        Also, we or third-party providers may place web technologies on behalf
-        of the supplier whose branding appears on the Site or its service
-        providers. In this way, our supplier would be allowed to use the data
-        collected. This information is used to enhance your experience with the
-        Site, for marketing analysis, for targeted and display advertising, and
-        for quality improvement. We may collect your IP address through web
-        technologies.
+        <b>1. Право доступа в отношении обработки.</b>
+        <br />
+        Вы можете в рамках закона запросить у нас информацию о том,
+        обрабатываются ли нами личные данные. В этом случае вы имеете право
+        запросить информацию о степени обработки данных. Информация о доступе
+        включает в себя, в частности, цели обработки, категории соответствующих
+        персональных данных, а также получателей или категории получателей,
+        которым были или будут переданы персональные данные. Вы можете иметь
+        право на получение копии персональных данных, подвергающихся обработке.
+        Однако это не является абсолютным правом, и интересы других лиц могут
+        ограничить ваше право на получение такой копии.
       </h4>
-      <h3>Choice</h3>
       <h4>
-        By providing personal and business information, accepting any cookies
-        provided by Casio, and/or purchasing a product from the Site, you
-        consent to our collection and use of information in accordance with this
-        Privacy Statement. If you do not agree to the provisions of this Privacy
-        Statement, you can refuse to register, refuse to accept cookies, refuse
-        to purchase, or refuse to volunteer optional information.
+        <b>2. Право на исправление («Право быть забытым»).</b>
+        <br />
+        Вы можете иметь право на исправление Ваших данных Компанией Casio Store,
+        если обработанные персональные данные, касающиеся Вас, являются
+        неверными. В зависимости от целей обработки вы можете иметь право на
+        заполнение неполных личных данных, в том числе путем предоставления
+        дополнительного заявления.
       </h4>
-      <h3>Our Commitment To Data Security</h3>
       <h4>
-        We have implemented reasonable physical, technical, and organizational
-        safeguards designed to help protect your personal information from
-        unauthorized access, acquisition, or disclosure, alteration, or
-        destruction. Although we strive to keep your personal information
-        secure, no safeguards can be guaranteed to be completely secure, so you
-        should exercise caution when transferring personal and other sensitive
-        information over the Internet. Please advise us immediately at the
-        contact information listed below of any incident involving the loss of
-        or unauthorized access to or disclosure of personal information that is
-        in our custody or control.
+        <b>3. Право на ограничение обработки.</b>
+        <br />
+        Если для этого существуют предпосылки, Вы можете запросить ограничение
+        на обработку Ваших персональных данных. В этом случае соответствующие
+        данные будут помечены и могут быть обработаны нами только для
+        определенных целей.
       </h4>
-      <h3>Third-Party Sites</h3>
       <h4>
-        The Site may contain links to other websites. Please note that when you
-        click on one of these links, you will leave the Site and will be subject
-        to the policies and privacy practices of the other site, which may be
-        very different from our practices. You should review the policies of
-        other sites you visit. We are not responsible for the content,
-        technology, security, or practices of linked sites operated by others,
-        or for your use of linked sites.
+        <b>4. Право на удаление.</b>
+        <br />
+        При определенных обстоятельствах вы можете иметь право на получение от
+        нас разрешения на стирание личных данных, касающихся вас, и мы можем
+        быть обязаны удалить такие личные данные. Такое право на стирание, не
+        применяется, если в случае неавтоматизированной обработки стирание было
+        бы невозможно или потребовало бы несоразмерных усилий в связи с
+        конкретным режимом хранения и если Ваш интерес к стиранию можно считать
+        минимальным. В таком случае вы можете иметь право на ограничение
+        обработки.
       </h4>
-      <h3>Children’s Privacy</h3>
       <h4>
-        Our services and the Site are not aimed at or intended for children. We
-        do not knowingly collect information from children under the age of
-        thirteen. If we obtain actual knowledge that we have inadvertently
-        collected personal information relating to a child under the age of
-        thirteen, we will delete that information from our records. If you
-        believe we might have any information from or about a child under the
-        age of thirteen, please contact us at compliance@casio.com.
+        <b>5. Право на портативность данных.</b>
+        <br />
+        При определенных обстоятельствах вы можете иметь право на получение
+        касающихся вас персональных данных, которые вы предоставили компании BS,
+        в структурированном, обычно используемом и машиночитаемом формате. Кроме
+        того, вы имеете право беспрепятственно передавать эти данные другому
+        контролеру от компании BS при условии наличия предварительных условий
+        для этого.
       </h4>
-      <h3>Do Not Track</h3>
       <h4>
-        “Do Not Track” is a privacy setting that you may set in your web
-        browser. If turned on, this setting requests that websites not track
-        information about users. At this time, we do not respond to “Do Not
-        Track” browser settings or signals.
-      </h4>
-      <h3>How to Contact Us</h3>
-      <h4>
-        Should you have other questions or concerns about these privacy
-        policies, please call us at 1-800-706-2534 and select option 4 or email
-        us at compliance@casio.com.
+        <b>5. Право на возражение.</b>
+        <br />
+        Вы имеете право в любое время по причинам, вытекающим из Вашей
+        конкретной ситуации, подать протест против обработки касающихся Вас
+        персональных данных. Следствием Вашего возражения является то, что
+        компания BS больше не будет обрабатывать Ваши персональные данные, если
+        она не сможет доказать веские причины, заслуживающие защиты при
+        обработке, которые преобладают над Вашими интересами, правами и
+        свободами, или если обработка служит для предъявления, осуществления или
+        защиты юридических претензий. В случае, если мы осуществляем маркетинг в
+        отношении Вас, Вы имеете право в любое время подать протест против
+        обработки Ваших персональных данных в таких рекламных целях. Вы можете
+        сообщить нам о своем возражении, используя следующие контактные данные:
       </h4>
       <Newsletter />
     </div>

@@ -35,7 +35,7 @@ const ProductDetailPage: React.FC = () => {
     };
 
     dispatch(addItem(item));
-    toast.success("Added to cart! 🤩", {
+    toast.success("Добавлено в корзину! 🤩", {
       position: toast.POSITION.TOP_RIGHT,
     });
   };
@@ -53,23 +53,23 @@ const ProductDetailPage: React.FC = () => {
                   <SwipeImages item={item} />
                   <div className={styles.titleWrapper}>
                     <h2>{item.title}</h2>
-                    <h2>{item.price} $</h2>
+                    <h2>{item.price} сом</h2>
                     <Button appearance="primary" onClick={onClickAdd}>
-                      Add to cart
+                      Добавить в корзину
                     </Button>
                     <ToastContainer />
                     <p>
-                      Tell about the publication and we will refund 2$ from your
-                      purchase
+                      Расскажите о публикации, и мы вернем 200 сом с вашей
+                      покупки
                     </p>
                   </div>
                 </div>
                 <div className={styles.descriptionWrapper}>
-                  <h2>Description</h2>
+                  <h2>Описание</h2>
                   <p>{item.description}</p>
                 </div>
                 <div className={styles.advantagesWrapper}>
-                  <h2>Advantages</h2>
+                  <h2>Преимущества</h2>
                   <Advantages />
                 </div>
               </div>

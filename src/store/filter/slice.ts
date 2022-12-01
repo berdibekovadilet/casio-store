@@ -6,7 +6,7 @@ const initialState: FilterState = {
   brandId: 0,
   currentPage: 1,
   sort: {
-    name: "More Popular",
+    name: "По популярности",
     sortProperty: SortPropertyEnum.RATING_DESC,
   },
 };

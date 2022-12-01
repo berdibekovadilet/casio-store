@@ -5,83 +5,83 @@ import { Newsletter } from "components";
 export const Warranty: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h2>Warranty</h2>
+      <h2>Гарантия</h2>
       <h3>
-        All products on the site casio store are genuine, are original
-        equipment, and are provided with an official guarantee from the
-        manufacturers.
+        Все товары на сайте Casio Store являются подлинными, имеют оригинальную
+        комплектацию, и обеспечиваются официальной гарантией от производителей.
       </h3>
       <img src={HeroImg} alt="warranty" />
       <h4>
-        All products are covered by the warranty of the corresponding service
-        centers specified in the warranty card (service booklet) - from 1 year
-        and over.
+        На все товары распространяется гарантия соответствующих сервисных
+        центров, указанных в гарантийных талонах (сервисных книжках) - от 2 лет
+        и более.
       </h4>
       <h4>
-        In case of breakage or detection of any defects in the operation of the
-        goods purchased in our stores, contact the service centers listed in
-        your warranty card.
+        В случае поломки или обнаружения каких-либо дефектов в работе товаров,
+        приобретенных в наших магазинах, обратитесь в сервисные центры,
+        указанные в вашем гарантийном талоне.
       </h4>
       <h4>
         После покупки обязательно сохраняйте чеки и бирки приобретенных
         ювелирных изделий – они понадобятся для гарантийного ремонта в случае
         обнаружения дефекта.
       </h4>
-      <h3>
-        If there is no service center in your city specified in the ticket
-      </h3>
+      <h3>Если в вашем городе нет указанного в талоне сервисного центра</h3>
       <h4>
-        That, in the event of a breakdown of purchased goods from us, Casio
-        Store company bears the cost of shipping and delivering it to the
-        service center.
+        То, в случае поломки приобретенного у нас товара, наша компания берет на
+        себя стоимость пересылки в Бишкек и доставку его в сервисный центр.
       </h4>
-      <h3>Please note that warranty service is not covered</h3>
+      <h3>
+        Обратите внимание, что гарантийное обслуживание не распространяется
+      </h3>
       <hr />
-      <h4>On products that show signs of abuse:</h4>
+      <h4>На изделия, имеющие следы нарушения правил эксплуатации:</h4>
       <ul>
         <li>
-          traces of shock and mechanical damage (dents, nicks, rebound hands,
-          risks, numerals, deformation of the dial, missing or deformed crown,
-          watch buttons, etc.);
+          следы ударов и механических повреждений (вмятины, зазубрины,
+          отскочившие стрелки, риски, цифры, деформация циферблата, отсутствие
+          или деформация заводной головки, кнопок часов и т.п.);
         </li>
         <li>
-          traces of unauthorized opening outside the warranty service center
-          (scratches on the case at the junction with the back cover, damaged
-          screw slots, fingerprints inside the mechanism, non-standard battery,
-          incorrectly installed cover seal, etc.);
+          следы несанкционированного вскрытия вне гарантийного сервисного центра
+          (царапины на корпусе в месте стыка с задней крышкой, поврежденные
+          шлицы винтов, отпечатки пальцев внутри механизма, нестандартный
+          элемент питания, неправильно установленный уплотнитель крышки и т.п.);
         </li>
         <li>
-          traces of high (more than +50°C) or low (less than -20°C) temperatures
-          affecting the product;
+          следы воздействия на изделие высоких (более +50°С) или низких (менее
+          -20°С) температур;
         </li>
         <li>
-          damage (internal and external) caused by any external mechanical
-          impact, shock or vibration loads, application of external force to
-          parts of the product (broken or dropped out glass, cracks, scratches,
-          scrapes, chips, deformation of materials and parts, breaking, bending
-          of the translation head axis, warping of the wheel and balance axes,
-          deformation of plates, breaking or stretching of parts, tearing of the
-          bracelet mounting case lugs, etc.)
+          повреждения (внутренние и внешние), вызванные любым внешним
+          механическим воздействием, ударными или вибрационными нагрузками,
+          применением внешней силы к частям изделия (разбитое или выпавшее
+          стекло, трещины, царапины, задиры, сколы, деформация материалов и
+          деталей, слом, выгибание оси переводной головки, искривление осей
+          колес и баланса, деформации пластин, разрыв или растяжение деталей,
+          отрыв ушек корпуса для крепления браслета и т.п.);
         </li>
         <li>
-          damage resulting from exposure to moisture and associated with
-          improper operation;
+          повреждения, полученные в результате воздействия влаги и связанные с
+          нарушением правил эксплуатации;
         </li>
         <li>
-          damage caused by contact with caustic chemicals or solvents (alkalis,
-          acids, mercury and its vapors, plastic solvents, etc.);
+          повреждения, вызванные попаданием на изделие едких химических веществ
+          или растворителей (щелочи, кислоты, ртуть и ее пары, растворители
+          пластиков и т.п.);
         </li>
         <li>
-          damage caused by ingestion of foreign objects, substances, insects;
+          повреждения, вызванные попаданием внутрь инородных предметов, веществ,
+          насекомых;
         </li>
         <li>
-          The calendar mechanism has been damaged by moving the hands from their
-          position between 23:00 and 04:00 (when the automatic date change
-          mechanism is engaged);
+          повреждение механизма календаря из-за перевода стрелок с их положения
+          между 23:00 и 04:00 часами (когда задействован механизм
+          автоматического изменения даты);
         </li>
         <li>
-          other damage caused by the intentional or negligent actions of the
-          purchaser or a breach of operating rules.
+          прочие повреждения, вызванные умышленными или неосторожными действиями
+          покупателя или нарушением правил эксплуатации.
         </li>
       </ul>
       <Newsletter />

@@ -4,22 +4,22 @@ const specs = [
   {
     id: 1,
     img: require("assets/specs/shock_resistant.webp"),
-    title: "Shock resistant",
+    title: "Ударопрочный",
   },
   {
     id: 2,
     img: require("assets/specs/20bar.webp"),
-    title: "20 bar water resistant",
+    title: "Водонепроницаемость 200м",
   },
   {
     id: 3,
     img: require("assets/specs/dark.webp"),
-    title: "Easy to see in darkness",
+    title: "Легко разглядеть в темноте",
   },
   {
     id: 4,
     img: require("assets/specs/changingBand.avif"),
-    title: "Enjoy changing bands",
+    title: "Наслаждайтесь сменой ремешков",
   },
 ];
 

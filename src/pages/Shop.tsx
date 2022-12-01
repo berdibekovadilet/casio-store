@@ -49,9 +49,10 @@ export const Shop: React.FC = () => {
       <>
         {status === "error" ? (
           <div>
-            <h2>An error has occurred 😕</h2>
+            <h2>Произошла ошибка 😕</h2>
             <p>
-              Unfortunately, the data could not be retrieved. Try again later.
+              К сожалению, данные не удалось загрузить. Попробуйте еще раз
+              позже.
             </p>
           </div>
         ) : (
