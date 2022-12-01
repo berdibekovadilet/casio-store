@@ -9,7 +9,7 @@ export const bigBannersData1: IBanner[] = [
   {
     id: 1,
     title: "ЭЛЕГАНТНЫЕ G-SHOCK MSG-W200RL",
-    href: "shop/32",
+    href: "shop/49",
     img: require("assets/banners/msg-w200.webp"),
   },
   {
@@ -35,15 +35,15 @@ export const bigBannersData2: IBanner[] = [
   },
   {
     id: 2,
-    title: "Стильные Baby-G MSG-W350",
-    href: "shop/33",
-    img: require("assets/banners/msg-w350.webp"),
+    title: "Экологичный PRO TREK PRW-61-1A",
+    href: "shop/24",
+    img: require("assets/banners/PRW-61-1A_LS02.webp"),
   },
   {
     id: 3,
-    title: "Яркие Baby-G BGA-310",
-    href: "shop/31",
-    img: require("assets/banners/bga-310.webp"),
+    title: "Прозрачные GMA-S2100SK-1A",
+    href: "shop/9",
+    img: require("assets/banners/GMA-S2100SK-1A_GMA.webp"),
   },
 ];
 
@@ -51,13 +51,13 @@ export const smallBannersData1: IBanner[] = [
   {
     id: 1,
     title: "Стильные G-SHOCK GM-b2100",
-    href: "shop/28",
+    href: "shop/19",
     img: require("assets/banners/gmb2100.webp"),
   },
   {
     id: 2,
     title: "Модные BABY-G GMA-S2100",
-    href: "shop/15",
+    href: "shop/50",
     img: require("assets/banners/gma-s2100ba.webp"),
   },
 ];
@@ -65,9 +65,9 @@ export const smallBannersData1: IBanner[] = [
 export const smallBannersData2: IBanner[] = [
   {
     id: 1,
-    title: "Спортивные Baby-g BGA-310",
-    href: "shop/23",
-    img: require("assets/banners/bga-311.webp"),
+    title: "Сила луны с BA-110XSM-2A",
+    href: "shop/11",
+    img: require("assets/banners/sailormoon.png"),
   },
   {
     id: 2,
