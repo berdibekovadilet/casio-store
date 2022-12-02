@@ -1,19 +1,28 @@
 import { Button } from "components/common/button/Button";
 import { Input } from "components/common/input/Input";
 import { Modal } from "components/common/modal/Modal";
-import { FocusEvent, FormEvent, useRef, useState } from "react";
+import { FocusEvent, FormEvent, useEffect, useRef, useState } from "react";
 import styles from "./Newsletter.module.scss";
 
 export const Newsletter = () => {
   const [email, setEmail] = useState("");
   const [emailDirty, setEmailDirty] = useState(false);
   const [emailError, setEmailError] = useState("Поле не должно быть пустым");
+  const [formValidation, setFormValidation] = useState(false);
   const [modalActive, setModalActive] = useState(false);
   const inputEl = useRef<HTMLInputElement | null>(null);
 
+  useEffect(() => {
+    if (emailError) {
+      setFormValidation(false);
+    } else {
+      setFormValidation(true);
+    }
+  }, [emailError]);
+
   const handler = (e: any) => {
     e.preventDefault();
-    if (emailDirty) {
+    if (formValidation) {
       setModalActive(true);
     } else {
       if (inputEl.current != null) {
@@ -42,7 +51,7 @@ export const Newsletter = () => {
     <>
       <div className={styles.container}>
         <h3>ПОДПИШИТЕСЬ НА НАШУ РАССЫЛКУ</h3>
-        {(emailDirty && emailError) && <h4>{emailError}</h4>}
+        {emailDirty && emailError && <h4>{emailError}</h4>}
         <form className={styles.wrapper} onSubmit={handler}>
           <Input
             onChange={(e) => emailHandler(e)}
