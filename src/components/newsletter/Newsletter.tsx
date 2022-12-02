@@ -31,6 +31,11 @@ export const Newsletter = () => {
     }
   };
 
+  const closeModal = () => {
+    setModalActive(false);
+    setEmail("");
+  };
+
   const emailHandler = (e: FormEvent<HTMLInputElement>) => {
     setEmail((e.target as HTMLInputElement).value);
     const re =
@@ -72,10 +77,10 @@ export const Newsletter = () => {
       <Modal active={modalActive} setActive={setModalActive}>
         <h2>Спасибо за подписку!</h2>
         <h4>
-          Рассылка с акциями будет отправлена вам в ближайшее время на эл.
-          почту.
+          Рассылка с акциями будет отправлена вам в ближайшее время на эл. почту{" "}
+          <b>{email}</b>.
         </h4>
-        <Button appearance="secondary" onClick={() => setModalActive(false)}>
+        <Button appearance="secondary" onClick={closeModal}>
           Вернуться назад
         </Button>
       </Modal>
