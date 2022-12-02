@@ -42,8 +42,8 @@ export const Newsletter = () => {
     <>
       <div className={styles.container}>
         <h3>ПОДПИШИТЕСЬ НА НАШУ РАССЫЛКУ</h3>
-        {emailDirty && emailError && <h4>{emailError}</h4>}
-        <form className={styles.wrapper} onClick={handler}>
+        {(emailDirty && emailError) && <h4>{emailError}</h4>}
+        <form className={styles.wrapper} onSubmit={handler}>
           <Input
             onChange={(e) => emailHandler(e)}
             onBlur={(e) => blurHandler(e)}
