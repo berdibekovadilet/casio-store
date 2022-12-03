@@ -4,6 +4,8 @@ import { Input } from "components/common/input/Input";
 import styles from "./ShoppingForm.module.scss";
 import { Modal } from "components/common/modal/Modal";
 import { useState } from "react";
+import { useSelector } from "react-redux";
+import { selectCart } from "store/cart/selectors";
 
 interface Values {
   name: string;
@@ -15,6 +17,7 @@ interface Values {
 }
 
 export const ShoppingForm = () => {
+  const { items, totalPrice } = useSelector(selectCart);
   const [modalActive, setModalActive] = useState(false);
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -191,6 +194,27 @@ export const ShoppingForm = () => {
       </Formik>
       <Modal active={modalActive} setActive={setModalActive}>
         <h2>Ваша заявка принята!</h2>
+        <>
+          {items.map((item) => (
+            <div className={styles.row} key={item.id}>
+              <div className={styles.imgWrapper}>
+                <img src={require(`assets/${item.cover}`)} alt="productImage" />
+              </div>
+              <div className={styles.column}>
+                <h4>Количество</h4>
+                <div className={styles.quantityWrapper}>
+                  <p>{item.count}</p>
+                </div>
+              </div>
+
+              <div className={styles.column}>
+                <h4>Сумма</h4>
+                <h3>{item.price * item.count} сом</h3>
+              </div>
+            </div>
+          ))}
+        </>
+        <hr />
         <h4>
           Спасибо за заказ <b>{name}</b>, скоро наш менеджер свяжется с вами по
           указанному телефону <b>{phone}</b>.
