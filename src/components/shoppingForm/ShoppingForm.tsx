@@ -17,7 +17,7 @@ interface Values {
 }
 
 export const ShoppingForm = () => {
-  const { items, totalPrice } = useSelector(selectCart);
+  const { items } = useSelector(selectCart);
   const [modalActive, setModalActive] = useState(false);
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
