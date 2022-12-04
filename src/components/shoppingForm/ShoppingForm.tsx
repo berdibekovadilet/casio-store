@@ -1,4 +1,4 @@
-import { Formik, Form, FormikHelpers } from "formik";
+import { Formik, Form, FormikHelpers, Field } from "formik";
 import { Button } from "components/common/button/Button";
 import { Input } from "components/common/input/Input";
 import styles from "./ShoppingForm.module.scss";
@@ -14,6 +14,7 @@ interface Values {
   city: string;
   address: string;
   comment: string;
+  payment: string;
 }
 
 export const ShoppingForm = () => {
@@ -30,6 +31,7 @@ export const ShoppingForm = () => {
           email: "",
           city: "",
           address: "",
+          payment: "cash",
           comment: "",
         }}
         validate={(values) => {
@@ -168,24 +170,15 @@ export const ShoppingForm = () => {
               </div>
             </div>
             <h4>3. Оплата</h4>
-            <div
-              className={styles.checkboxFormWrapper}
-              role="group"
-              aria-labelledby="checkbox-group"
+            <Field
+              as="select"
+              name="payment"
+              className={styles.selectFormWrapper}
             >
-              <div className={styles.checkboxWrapper}>
-                <input type="checkbox" name="checked" value="cash" />
-                <p>Наличными курьеру</p>
-              </div>
-              <div className={styles.checkboxWrapper}>
-                <input type="checkbox" name="checked" value="mbank" />
-                <p>Переводом через МБанк</p>
-              </div>
-              <div className={styles.checkboxWrapper}>
-                <input type="checkbox" name="checked" value="other" />
-                <p>Другое</p>
-              </div>
-            </div>
+              <option value="cash">Наличными курьеру</option>
+              <option value="bank">Переводом через МБанк</option>
+              <option value="other">Другое</option>
+            </Field>
             <Button appearance="secondary" type="submit">
               Оформить заказ
             </Button>
