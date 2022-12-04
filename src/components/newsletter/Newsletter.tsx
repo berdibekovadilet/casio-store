@@ -1,7 +1,8 @@
+import { FocusEvent, FormEvent, useEffect, useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import { Button } from "components/common/button/Button";
 import { Input } from "components/common/input/Input";
 import { Modal } from "components/common/modal/Modal";
-import { FocusEvent, FormEvent, useEffect, useRef, useState } from "react";
 import styles from "./Newsletter.module.scss";
 
 export const Newsletter = () => {
@@ -11,6 +12,7 @@ export const Newsletter = () => {
   const [formValidation, setFormValidation] = useState(false);
   const [modalActive, setModalActive] = useState(false);
   const inputEl = useRef<HTMLInputElement | null>(null);
+  const form = useRef<any>();
 
   useEffect(() => {
     if (emailError) {
@@ -20,10 +22,26 @@ export const Newsletter = () => {
     }
   }, [emailError]);
 
-  const handler = (e: any) => {
+  const sendEmail = (e: any) => {
     e.preventDefault();
     if (formValidation) {
+      emailjs
+        .sendForm(
+          "service_9ngv2qg",
+          "newsletter_dpqgr67",
+          form.current,
+          "qKbMefsa-wGu4oWCN"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
       setModalActive(true);
+      e.target.reset();
     } else {
       if (inputEl.current != null) {
         inputEl.current.focus();
@@ -57,7 +75,7 @@ export const Newsletter = () => {
       <div className={styles.container}>
         <h3>ПОДПИШИТЕСЬ НА НАШУ РАССЫЛКУ</h3>
         {emailDirty && emailError && <h4>{emailError}</h4>}
-        <form className={styles.wrapper} onSubmit={handler}>
+        <form className={styles.wrapper} ref={form} onSubmit={sendEmail}>
           <Input
             onChange={(e) => emailHandler(e)}
             onBlur={(e) => blurHandler(e)}
