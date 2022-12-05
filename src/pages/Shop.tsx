@@ -42,8 +42,8 @@ export const Shop: React.FC = () => {
   }, [brandId, sort.sortProperty, searchValue, currentPage, dispatch]);
 
   const products = items.map((obj: any) => (
-    <Suspense fallback={<CardSkeleton />}>
-      <Card key={obj.id} {...obj} />
+    <Suspense key={obj.id} fallback={<CardSkeleton />}>
+      <Card {...obj} />
     </Suspense>
   ));
   const skeletons = [...new Array(8)].map((_, index) => (
