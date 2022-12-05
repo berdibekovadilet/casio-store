@@ -1,13 +1,14 @@
 import { Formik, Form, FormikHelpers, Field } from "formik";
+import emailjs from "@emailjs/browser";
 import { Button } from "components/common/button/Button";
 import { Input } from "components/common/input/Input";
 import styles from "./ShoppingForm.module.scss";
 import { Modal } from "components/common/modal/Modal";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useSelector } from "react-redux";
 import { selectCart } from "store/cart/selectors";
 
-interface Values {
+type Values = {
   name: string;
   phone: string;
   email: string;
@@ -15,13 +16,16 @@ interface Values {
   address: string;
   comment: string;
   payment: string;
-}
+  productName: string;
+};
 
 export const ShoppingForm = () => {
   const { items } = useSelector(selectCart);
   const [modalActive, setModalActive] = useState(false);
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const form = useRef<any>();
+
   return (
     <>
       <Formik
@@ -33,6 +37,7 @@ export const ShoppingForm = () => {
           address: "",
           payment: "cash",
           comment: "",
+          productName: "",
         }}
         validate={(values) => {
           const errors: Partial<Values> = {};
@@ -66,10 +71,27 @@ export const ShoppingForm = () => {
           setName(values.name);
           setPhone(values.phone);
           setModalActive(true);
-          setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            setSubmitting(false);
-          }, 400);
+
+          emailjs
+            .sendForm(
+              "service_9ngv2qg",
+              "cartorder_ys9j03i",
+              form.current,
+              "qKbMefsa-wGu4oWCN"
+            )
+            .then(
+              (result) => {
+                console.log(result.text);
+              },
+              (error) => {
+                console.log(error.text);
+              }
+            );
+          setSubmitting(false);
+          // setTimeout(() => {
+          //   alert(JSON.stringify(values, null, 2));
+          //   setSubmitting(false);
+          // }, 0);
         }}
       >
         {({
@@ -81,8 +103,18 @@ export const ShoppingForm = () => {
           handleSubmit,
           isSubmitting,
         }) => (
-          <Form className={styles.wrapper} onSubmit={handleSubmit}>
+          <Form className={styles.wrapper} onSubmit={handleSubmit} ref={form}>
             <h4>1. Контактные данные</h4>
+            {items.map((item) => (
+              <div style={{ display: "none" }} key={item.id}>
+                <Input
+                  type="text"
+                  id="productName"
+                  name="productName"
+                  value={item.title}
+                />
+              </div>
+            ))}
             <div className={styles.formWrapper}>
               <div className={styles.inputWrapper}>
                 <p>Имя</p>
