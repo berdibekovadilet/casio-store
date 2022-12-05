@@ -102,6 +102,7 @@ const SwipeImages = ({ item }: any) => {
             <img
               src={require(`assets/${image}`)}
               alt="banner"
+              loading="lazy"
               className={styles.swiperImg}
               draggable={false}
             />

@@ -39,7 +39,11 @@ export const ShoppingCart = () => {
           {items.map((item) => (
             <div className={styles.row} key={item.id}>
               <div className={styles.imgWrapper}>
-                <img src={require(`assets/${item.cover}`)} alt="productImage" />
+                <img
+                  src={require(`assets/${item.cover}`)}
+                  alt="productImage"
+                  loading="lazy"
+                />
               </div>
               <div className={styles.column}>
                 <h4>Количество</h4>

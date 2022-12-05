@@ -6,9 +6,9 @@ import { useAppDispatch } from "store/store";
 import { fetchOneProduct } from "store/product/asyncActions";
 import { selectProductData } from "store/product/selectors";
 import { ToastContainer, toast } from "react-toastify";
-import styles from "styles/pages/ProductDetailPage.module.scss";
 import { addItem } from "store/cart/slice";
 import SwipeImages from "components/swipeImages/SwipeImages";
+import styles from "styles/pages/ProductDetailPage.module.scss";
 
 const ProductDetailPage: React.FC = () => {
   const { id } = useParams();
