@@ -67,7 +67,7 @@ export const smallBannersData2: IBanner[] = [
     id: 1,
     title: "Сила луны с BA-110XSM-2A",
     href: "shop/11",
-    img: require("assets/banners/sailormoon.png"),
+    img: require("assets/banners/sailormoon.webp"),
   },
   {
     id: 2,

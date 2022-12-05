@@ -1,5 +1,5 @@
 import styles from "./About.module.scss";
-import casioImage from "assets/images/storelocation.jpg";
+import casioImage from "assets/images/storelocation.webp";
 
 export const About = () => {
   return (
