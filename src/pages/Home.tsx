@@ -2,7 +2,6 @@ import React, { Suspense } from "react";
 import {
   About,
   BannerGroup,
-  BlogSection,
   CardSkeleton,
   Newsletter,
   WhyWe,
@@ -24,6 +23,11 @@ const Trend = React.lazy(() =>
     (m) => ({ default: m.Trend })
   )
 );
+const BlogSection = React.lazy(() =>
+  import(/* webpackChunkName: "Blog" */ "../components/blog/BlogSection").then(
+    (m) => ({ default: m.BlogSection })
+  )
+);
 
 export const Home: React.FC = () => {
   return (
@@ -38,7 +42,9 @@ export const Home: React.FC = () => {
         <Trend />
       </Suspense>
       <About />
-      <BlogSection />
+      <Suspense fallback={<CardSkeleton />}>
+        <BlogSection />
+      </Suspense>
       <Newsletter />
     </>
   );

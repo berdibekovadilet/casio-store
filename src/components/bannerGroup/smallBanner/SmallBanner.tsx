@@ -8,7 +8,7 @@ const SmallBanner: React.FC<BannerSm> = ({ smBanners }) => {
         <div className={styles.wrapper} key={item.id}>
           <a href={item.href}>
             <h3>{item.title}</h3>
-            <img src={item.img} alt="banner" />
+            <img src={item.img} alt="banner" loading="lazy" />
           </a>
         </div>
       ))}

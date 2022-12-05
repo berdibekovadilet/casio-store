@@ -21,7 +21,7 @@ export const BlogCard: React.FC<BlogCardProps> = ({ data }) => {
             <div className={styles.container}>
               <p>{item.postData}</p>
               <h2>{item.title}</h2>
-              <img src={item.img} alt="blogImage" />
+              <img src={item.img} alt="blogImage" loading="lazy" />
             </div>
           </Link>
         )

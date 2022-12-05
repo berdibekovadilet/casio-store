@@ -106,6 +106,7 @@ const SwipeBanner: React.FC<BannerBig> = ({ banners }) => {
             </h3>
             <img
               src={item.img}
+              loading="lazy"
               alt="banner"
               className={styles.swiperImg}
               draggable={false}
