@@ -45,7 +45,7 @@ export const Card: React.FC<CardProps> = ({
     <div className={styles.container}>
       <Link to={`/shop/${id}`}>
         <div className={styles.imgWrapper}>
-          <img src={require(`assets/${cover}`)} alt="product" loading="lazy" />
+          <img src={require(`assets/${cover}`)} alt={title} loading="lazy" />
         </div>
       </Link>
       <div className={styles.infoWrapper}>
