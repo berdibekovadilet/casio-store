@@ -1,3 +1,10 @@
+# Casio Store
+# Live https://casio-store.vercel.app/
+
+![Screen Banner](cover/1.png)
+![Screen Banner](cover/2.png)
+![Screen Banner](cover/3.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
